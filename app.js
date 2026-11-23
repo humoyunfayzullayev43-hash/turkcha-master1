@@ -36,12 +36,15 @@ $('#theme').onclick = async () => {
   applyTheme(t); await DB.setMeta({ id: 'theme', v: t });
 };
 
-function updSound() { $('#sound').textContent = soundOn ? '🔊' : '🔇'; }
-$('#sound').onclick = async () => {
-  soundOn = !soundOn; updSound();
-  await DB.setMeta({ id: 'sound', v: soundOn });
-  toast(soundOn ? 'Avto ovoz yoqildi' : 'Avto ovoz o‘chirildi');
-};
+function updSound() {
+  document.querySelectorAll('#sound, [data-act="sound-toggle"]').forEach(b => {
+    b.textContent = b.dataset.act === 'sound-toggle'
+      ? (soundOn ? '🔊 Avto ovoz: yoqiq' : '🔇 Avto ovoz: o‘chiq')
+      : (soundOn ? '🔊' : '🔇');
+  });
+}
+async function setSound(v) { soundOn = v; updSound(); await DB.setMeta({ id: 'sound', v }); }
+$('#sound').onclick = async () => { await setSound(!soundOn); toast(soundOn ? 'Avto ovoz yoqildi' : 'Avto ovoz o‘chirildi'); };
 
 // ---------- Parsing ----------
 const SEP = [/\s+[—–-]\s+/, /\s*:\s*/, /\s*;\s*/, /\s*\|\s*/, /\t/, /\s*,\s*/];
@@ -172,7 +175,7 @@ async function renderStudy(id) {
       <div class="front"><small>O‘ZBEKCHA</small><h2>${esc(w.uz)}</h2><span class="muted">Turkchasini eslang...</span></div>
       <div class="back"><small>TURKCHA</small><h2>${esc(w.tr)}</h2></div>
     </div>
-    <div class="row center" style="justify-content:center"><button class="ghost" data-act="flip">JAVOBNI KO‘RISH</button><button class="ghost" data-act="speak">🔊</button><button class="ghost" id="bnext" data-act="next" disabled>Keyingi →</button></div>
+    <div class="row center" style="justify-content:center"><button class="ghost" data-act="flip">JAVOBNI KO‘RISH</button><button class="ghost" data-act="speak">🔊</button><button class="ghost" data-act="sound-toggle">${soundOn ? '🔊 Avto ovoz: yoqiq' : '🔇 Avto ovoz: o‘chiq'}</button><button class="ghost" id="bnext" data-act="next" disabled>Keyingi →</button></div>
     <div class="answers" style="margin-top:18px"><button class="ok" id="bok" data-act="right" disabled>✓ TO‘G‘RI</button><button class="bad" id="bbad" data-act="wrong" disabled>✕ NOTO‘G‘RI</button></div>
     <p class="muted small center">Klaviatura: Space — javob, 1 — to‘g‘ri, 2 — noto‘g‘ri · <a href="#/">To‘xtatish</a> (progress saqlanadi)</p>
   </section>`;
@@ -283,6 +286,7 @@ function speak(t) {
     speechSynthesis.speak(u);
   };
   speechSynthesis.cancel();
+  speechSynthesis.resume();
   setTimeout(go, 150);
 }
 
@@ -364,6 +368,7 @@ app.addEventListener('click', async e => {
     if (a === 'wrong') return answer(false);
     if (a === 'speak') return speak(curTr);
     if (a === 'next') return postpone();
+    if (a === 'sound-toggle') { await setSound(!soundOn); toast(soundOn ? 'Avto ovoz yoqildi' : 'Avto ovoz o‘chirildi'); return; }
     if (a === 'start') return startSession(el.dataset.mode);
     if (a === 'reset') return resetDeck();
     if (a === 'next-round') return nextRound();
