@@ -7,7 +7,7 @@ const shuffle = a => { a = [...a]; for (let i = a.length - 1; i > 0; i--) { cons
 const toast = m => { const t = $('#toast'); t.textContent = m; t.classList.add('show'); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove('show'), 2600); };
 const stat = (l, v) => `<div class="stat"><span>${l}</span><b>${v}</b></div>`;
 const toWord = r => ({ id: uid(), tr: r.tr, uz: r.uz, right: 0, wrong: 0, ok: false, last: 0 });
-let curId = null, curTr = '', revealed = false;
+let curId = null, curTr = '', revealed = false, soundOn = true;
 
 // ---------- Dexie (IndexedDB) ----------
 const dx = new Dexie('turkcha');
@@ -34,6 +34,13 @@ async function initTheme() {
 $('#theme').onclick = async () => {
   const t = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
   applyTheme(t); await DB.setMeta({ id: 'theme', v: t });
+};
+
+function updSound() { $('#sound').textContent = soundOn ? '🔊' : '🔇'; }
+$('#sound').onclick = async () => {
+  soundOn = !soundOn; updSound();
+  await DB.setMeta({ id: 'sound', v: soundOn });
+  toast(soundOn ? 'Avto ovoz yoqildi' : 'Avto ovoz o‘chirildi');
 };
 
 // ---------- Parsing ----------
@@ -262,8 +269,22 @@ function renderBackup() {
 }
 
 // ---------- Actions ----------
-function flip() { if (revealed) return; revealed = true; $('#card')?.classList.add('flipped'); $('#bok').disabled = false; $('#bbad').disabled = false; $('#bnext').disabled = false; }
-function speak(t) { if (!('speechSynthesis' in window)) return toast('Ovoz qo‘llab-quvvatlanmaydi'); speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance(t); u.lang = 'tr-TR'; speechSynthesis.speak(u); }
+function flip() { if (revealed) return; revealed = true; $('#card')?.classList.add('flipped'); if (soundOn) speak(curTr); $('#bok').disabled = false; $('#bbad').disabled = false; $('#bnext').disabled = false; }
+let utter = null, warnedVoice = false;
+function speak(t) {
+  if (!('speechSynthesis' in window) || !t) return toast('Ovoz qo‘llab-quvvatlanmaydi');
+  const go = () => {
+    const vs = speechSynthesis.getVoices();
+    const v = vs.find(x => /^tr/i.test(x.lang));
+    if (!v && !warnedVoice && vs.length) { warnedVoice = true; toast('Turkcha ovoz topilmadi. Telefon/kompyuter sozlamasidan Turkcha ovoz yuklang'); }
+    const u = new SpeechSynthesisUtterance(t);
+    u.lang = 'tr-TR'; u.rate = 0.9; if (v) u.voice = v;
+    utter = u;
+    speechSynthesis.speak(u);
+  };
+  speechSynthesis.cancel();
+  setTimeout(go, 150);
+}
 
 async function answer(ok) {
   const d = await DB.deck(curId); const s = d?.session; if (!s || !s.queue.length) return route();
@@ -410,4 +431,6 @@ document.addEventListener('keydown', e => {
 });
 
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
-initTheme().then(route);
+initTheme().then(async () => {
+  const snd = await DB.meta('sound'); soundOn = snd ? snd.v : true; updSound(); route();
+});
