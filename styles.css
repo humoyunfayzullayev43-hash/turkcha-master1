@@ -67,3 +67,5 @@ tr.err td{color:var(--bad)}tr.warn td{color:#d97706}
 #toast.show{transform:translate(-50%,0)}
 @media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.charts{grid-template-columns:1fr}.card{height:250px}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.hbtns{display:flex;gap:8px}
+.hbtns button{padding:8px 12px}
