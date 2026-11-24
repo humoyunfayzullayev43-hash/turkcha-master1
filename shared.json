@@ -1,14 +1,10606 @@
 {
-  "decks": [
+ "levels": [
+  {
+   "name": "A1",
+   "units": [
     {
-      "key": "namuna-1",
-      "name": "Namuna lug‘at",
-      "words": [
-        { "tr": "Öğrenmek", "uz": "O‘rganmoq" },
-        { "tr": "Yazmak", "uz": "Yozmoq" },
-        { "tr": "Okumak", "uz": "O‘qimoq" },
-        { "tr": "Ay", "uz": "Oy" }
-      ]
+     "name": "1-unit",
+     "words": [
+      {
+       "tr": "ad (isim)",
+       "uz": "ism,ot,nom"
+      },
+      {
+       "tr": "ağaç",
+       "uz": "daraxt"
+      },
+      {
+       "tr": "alkol",
+       "uz": "alkagol"
+      },
+      {
+       "tr": "Almanya",
+       "uz": "Germanya"
+      },
+      {
+       "tr": "anneler günü",
+       "uz": "onalar kuni"
+      },
+      {
+       "tr": "araba",
+       "uz": "mashina (avtomobil)"
+      },
+      {
+       "tr": "arkadaş",
+       "uz": "örtoq, döst (oshna)"
+      },
+      {
+       "tr": "avukat",
+       "uz": "advokat"
+      },
+      {
+       "tr": "Avusturya",
+       "uz": "Avstriya"
+      },
+      {
+       "tr": "Az",
+       "uz": "oz, kam"
+      },
+      {
+       "tr": "Baba",
+       "uz": "ota"
+      },
+      {
+       "tr": "Bahçe",
+       "uz": "boğ"
+      },
+      {
+       "tr": "Balık",
+       "uz": "baliq"
+      },
+      {
+       "tr": "Banka",
+       "uz": "bank"
+      },
+      {
+       "tr": "Bardak",
+       "uz": "stakan"
+      },
+      {
+       "tr": "Bay",
+       "uz": "janob"
+      },
+      {
+       "tr": "Bayan",
+       "uz": "xonim"
+      },
+      {
+       "tr": "Bayram",
+       "uz": "bayram"
+      },
+      {
+       "tr": "Bebek",
+       "uz": "chaqaloq"
+      },
+      {
+       "tr": "Bey",
+       "uz": "yigit"
+      },
+      {
+       "tr": "Bilet",
+       "uz": "bilet, chipta"
+      },
+      {
+       "tr": "Bilgisayar",
+       "uz": "kompyuter"
+      },
+      {
+       "tr": "Bulaşık",
+       "uz": "yuvilmagan idish tovoq"
+      },
+      {
+       "tr": "Büro",
+       "uz": "ofis, buyro"
+      },
+      {
+       "tr": "Büyük",
+       "uz": "katta"
+      },
+      {
+       "tr": "Cami",
+       "uz": "masjid"
+      },
+      {
+       "tr": "Cetvel",
+       "uz": "chizğich"
+      },
+      {
+       "tr": "Ceviz",
+       "uz": "yonğoq"
+      },
+      {
+       "tr": "Çamaşır",
+       "uz": "yuvilgan"
+      },
+      {
+       "tr": "Çanta",
+       "uz": "sumka"
+      },
+      {
+       "tr": "Çarşı",
+       "uz": "mahalla markazı, guzargoh"
+      },
+      {
+       "tr": "Çay",
+       "uz": "choy"
+      },
+      {
+       "tr": "Çiçek",
+       "uz": "gül"
+      },
+      {
+       "tr": "Çin",
+       "uz": "Xitoy"
+      },
+      {
+       "tr": "Çocuk",
+       "uz": "bola"
+      },
+      {
+       "tr": "Çok",
+       "uz": "köp"
+      },
+      {
+       "tr": "Defter",
+       "uz": "daftar"
+      },
+      {
+       "tr": "Deniz",
+       "uz": "dengiz"
+      },
+      {
+       "tr": "Ders",
+       "uz": "dars"
+      },
+      {
+       "tr": "doğum günü",
+       "uz": "tuğilgan kun"
+      },
+      {
+       "tr": "doktor",
+       "uz": "shifokor"
+      },
+      {
+       "tr": "dolap",
+       "uz": "shkaf"
+      },
+      {
+       "tr": "düğün",
+       "uz": "töy"
+      },
+      {
+       "tr": "eczane",
+       "uz": "dorixona"
+      },
+      {
+       "tr": "ekmek",
+       "uz": "non"
+      },
+      {
+       "tr": "elbise",
+       "uz": "köylak (ayyollar köylagi)"
+      },
+      {
+       "tr": "elma",
+       "uz": "olma"
+      },
+      {
+       "tr": "erkek",
+       "uz": "erkak (öğil bola)"
+      },
+      {
+       "tr": "ev",
+       "uz": "uy"
+      },
+      {
+       "tr": "fare",
+       "uz": "sichqon"
+      },
+      {
+       "tr": "fındık",
+       "uz": "findiq yonğoği"
+      },
+      {
+       "tr": "fırça",
+       "uz": "chötka"
+      },
+      {
+       "tr": "film",
+       "uz": "film"
+      },
+      {
+       "tr": "Fransa",
+       "uz": "Fransiya"
+      },
+      {
+       "tr": "Futbolcu",
+       "uz": "fudbolchi"
+      },
+      {
+       "tr": "Garson",
+       "uz": "ofitsant"
+      },
+      {
+       "tr": "Göz",
+       "uz": "köz"
+      },
+      {
+       "tr": "Gül",
+       "uz": "atir gul"
+      },
+      {
+       "tr": "Güzel",
+       "uz": "chiroyli."
+      },
+      {
+       "tr": "Hâl",
+       "uz": "hol-ahvol"
+      },
+      {
+       "tr": "Halı",
+       "uz": "gilam"
+      },
+      {
+       "tr": "Hanım",
+       "uz": "xonim (ayolim)"
+      },
+      {
+       "tr": "Hastalık",
+       "uz": "kasallik"
+      },
+      {
+       "tr": "Havuç",
+       "uz": "sabzi"
+      },
+      {
+       "tr": "Hayal",
+       "uz": "hayol, röyo"
+      },
+      {
+       "tr": "Hemşire",
+       "uz": "hamshira"
+      },
+      {
+       "tr": "Hiç",
+       "uz": "hech"
+      },
+      {
+       "tr": "Ispanak",
+       "uz": "ismaloq"
+      },
+      {
+       "tr": "Izgara",
+       "uz": "qör"
+      },
+      {
+       "tr": "İdeal",
+       "uz": "ideal, mukammal ma’nosida"
+      },
+      {
+       "tr": "İnek",
+       "uz": "sigir"
+      },
+      {
+       "tr": "İngiltere",
+       "uz": "Angliya"
+      },
+      {
+       "tr": "İnsan",
+       "uz": "inson"
+      },
+      {
+       "tr": "İspanya",
+       "uz": "Ispanya"
+      },
+      {
+       "tr": "İş",
+       "uz": "ish, yumush"
+      },
+      {
+       "tr": "İtalya",
+       "uz": "Italya"
+      },
+      {
+       "tr": "Japonya",
+       "uz": "Yaponya"
+      },
+      {
+       "tr": "Jeton",
+       "uz": "jeton"
+      },
+      {
+       "tr": "Jilet",
+       "uz": "britva"
+      },
+      {
+       "tr": "Kadın",
+       "uz": "ayol, xotin"
+      },
+      {
+       "tr": "Kafe",
+       "uz": "kafe"
+      },
+      {
+       "tr": "Kahve",
+       "uz": "qahva"
+      },
+      {
+       "tr": "Kalabalık",
+       "uz": "gavjum, tiqilinch"
+      },
+      {
+       "tr": "Kalem",
+       "uz": "ruchka"
+      },
+      {
+       "tr": "Kurşun kalem",
+       "uz": "qalam"
+      },
+      {
+       "tr": "Kalp",
+       "uz": "yurak, qalb"
+      },
+      {
+       "tr": "Kapı",
+       "uz": "eshik"
+      },
+      {
+       "tr": "Kedi",
+       "uz": "mushuk"
+      },
+      {
+       "tr": "Kız",
+       "uz": "qiz"
+      },
+      {
+       "tr": "Kira",
+       "uz": "ijara"
+      },
+      {
+       "tr": "Kişi",
+       "uz": "kishi"
+      },
+      {
+       "tr": "Kitap",
+       "uz": "kitob"
+      },
+      {
+       "tr": "Koltuk",
+       "uz": "orom kursi, (skameka)"
+      },
+      {
+       "tr": "Kore",
+       "uz": "Koreya"
+      },
+      {
+       "tr": "Köpek",
+       "uz": "it"
+      },
+      {
+       "tr": "Köy",
+       "uz": "qishloq"
+      },
+      {
+       "tr": "Kuş",
+       "uz": "qush"
+      },
+      {
+       "tr": "Kutu",
+       "uz": "quttiq"
+      },
+      {
+       "tr": "Kütüphane",
+       "uz": "kutubxona"
+      },
+      {
+       "tr": "Lale",
+       "uz": "lola"
+      },
+      {
+       "tr": "Limon",
+       "uz": "limon"
+      },
+      {
+       "tr": "Lokanta",
+       "uz": "oshxona"
+      },
+      {
+       "tr": "Lütfen",
+       "uz": "iltimos"
+      },
+      {
+       "tr": "Mağaza",
+       "uz": "(butik dikon)"
+      },
+      {
+       "tr": "Makas",
+       "uz": "qaychi"
+      },
+      {
+       "tr": "Masa",
+       "uz": "stol"
+      },
+      {
+       "tr": "Merdiven",
+       "uz": "zina"
+      },
+      {
+       "tr": "Meşgul",
+       "uz": "band"
+      },
+      {
+       "tr": "Metro",
+       "uz": "metro"
+      },
+      {
+       "tr": "Millet",
+       "uz": "millat"
+      },
+      {
+       "tr": "Misal",
+       "uz": "misol, örnak"
+      },
+      {
+       "tr": "Mühendis",
+       "uz": "muhandis (injiner)"
+      },
+      {
+       "tr": "Nar",
+       "uz": "anor"
+      },
+      {
+       "tr": "Nijerya",
+       "uz": "Nigerya"
+      },
+      {
+       "tr": "Numara",
+       "uz": "raqam"
+      },
+      {
+       "tr": "Oda",
+       "uz": "xona"
+      },
+      {
+       "tr": "Orman",
+       "uz": "ormon"
+      },
+      {
+       "tr": "Otel",
+       "uz": "mehmonxona"
+      },
+      {
+       "tr": "Otobüs",
+       "uz": "avtobus"
+      },
+      {
+       "tr": "Öğrenci",
+       "uz": "talaba, öquvchi"
+      },
+      {
+       "tr": "Öğretmen",
+       "uz": "öqituvchi"
+      },
+      {
+       "tr": "Ördek",
+       "uz": "örnak, misol (masalan)"
+      },
+      {
+       "tr": "Paket",
+       "uz": "paket"
+      },
+      {
+       "tr": "Para",
+       "uz": "pul"
+      },
+      {
+       "tr": "Pardösü",
+       "uz": "palto"
+      },
+      {
+       "tr": "Park",
+       "uz": "park"
+      },
+      {
+       "tr": "Patates",
+       "uz": "kartoshka"
+      },
+      {
+       "tr": "Pencere",
+       "uz": "deraza"
+      },
+      {
+       "tr": "Petrol",
+       "uz": "benzin"
+      },
+      {
+       "tr": "Piyano",
+       "uz": "fortepiano"
+      },
+      {
+       "tr": "Polis",
+       "uz": "palitsiya"
+      },
+      {
+       "tr": "Portakal",
+       "uz": "apelsin"
+      },
+      {
+       "tr": "Postacı",
+       "uz": "pochtachi"
+      },
+      {
+       "tr": "Radyo",
+       "uz": "radio"
+      },
+      {
+       "tr": "Resim",
+       "uz": "rasm"
+      },
+      {
+       "tr": "Rol",
+       "uz": "röl (aktiyorlar uchun ishlatiladi)"
+      },
+      {
+       "tr": "Roman",
+       "uz": "Rimlik"
+      },
+      {
+       "tr": "Rusya",
+       "uz": "Rossiya"
+      },
+      {
+       "tr": "Saat",
+       "uz": "soat"
+      },
+      {
+       "tr": "Saç",
+       "uz": "soch"
+      },
+      {
+       "tr": "Salon",
+       "uz": "zal, salon"
+      },
+      {
+       "tr": "Sandalye",
+       "uz": "stul"
+      },
+      {
+       "tr": "Sembol",
+       "uz": "ramz, belgi"
+      },
+      {
+       "tr": "Seyahat",
+       "uz": "sayohat"
+      },
+      {
+       "tr": "Sıra",
+       "uz": "navbat, parta qatorlari"
+      },
+      {
+       "tr": "Silgi",
+       "uz": "öchirğich"
+      },
+      {
+       "tr": "Sokak",
+       "uz": "köcha"
+      },
+      {
+       "tr": "Soru",
+       "uz": "savol"
+      },
+      {
+       "tr": "Sorun",
+       "uz": "mammo"
+      },
+      {
+       "tr": "Sözlük",
+       "uz": "luğat"
+      },
+      {
+       "tr": "Suriye",
+       "uz": "Surya"
+      },
+      {
+       "tr": "Şarkıcı",
+       "uz": "qöshiqchi"
+      },
+      {
+       "tr": "Şemsiye",
+       "uz": "soyabon (zontik)"
+      },
+      {
+       "tr": "Şişe",
+       "uz": "shisha, (baklashkaga nisbatan"
+      },
+      {
+       "tr": "Tahta",
+       "uz": "doska, taxta"
+      },
+      {
+       "tr": "Tavuk",
+       "uz": "tovuq"
+      },
+      {
+       "tr": "Telefon",
+       "uz": "telefon"
+      },
+      {
+       "tr": "Temiz",
+       "uz": "toza"
+      },
+      {
+       "tr": "Top",
+       "uz": "koptok (top mingtalik…)"
+      },
+      {
+       "tr": "Turist",
+       "uz": "turist"
+      },
+      {
+       "tr": "Türkiye",
+       "uz": "Turkiya"
+      },
+      {
+       "tr": "Uçak",
+       "uz": "samaliyot"
+      },
+      {
+       "tr": "Uçurtma",
+       "uz": "varrak"
+      },
+      {
+       "tr": "Üzüm",
+       "uz": "uzum"
+      },
+      {
+       "tr": "Vagon",
+       "uz": "vagon"
+      },
+      {
+       "tr": "Vazo",
+       "uz": "vaza"
+      },
+      {
+       "tr": "Yabancı",
+       "uz": "begona, chet-ellik"
+      },
+      {
+       "tr": "Yemek",
+       "uz": "yemak, ovqat"
+      },
+      {
+       "tr": "yeni yıl",
+       "uz": "yangi yil"
+      },
+      {
+       "tr": "yıldız",
+       "uz": "yuldiz"
+      },
+      {
+       "tr": "yüzük",
+       "uz": "uzuk"
+      },
+      {
+       "tr": "zeytin",
+       "uz": "zaytun"
+      },
+      {
+       "tr": "zürafa",
+       "uz": "jirafa"
+      },
+      {
+       "tr": "Affedersiniz",
+       "uz": "kechirasiz (excuse me)"
+      },
+      {
+       "tr": "Afiyet olsun",
+       "uz": "yoqimli ishtaha, osh"
+      },
+      {
+       "tr": "Bol şanslar",
+       "uz": "omad yor bölsin"
+      },
+      {
+       "tr": "Çok yaşa",
+       "uz": "soğ böl, köp yasha"
+      },
+      {
+       "tr": "Geçmiş olsun",
+       "uz": "ötgani rost bölsin"
+      },
+      {
+       "tr": "Güle güle",
+       "uz": "xayr (bye)"
+      },
+      {
+       "tr": "Günaydın",
+       "uz": "xayrli tong"
+      },
+      {
+       "tr": "Hoş bulduk",
+       "uz": "xush kördik"
+      },
+      {
+       "tr": "Hoş geldin",
+       "uz": "xush kelibsiz"
+      },
+      {
+       "tr": "Hoşça kal",
+       "uz": "yaxshi qol"
+      },
+      {
+       "tr": "Merhaba",
+       "uz": "salom (Hello)"
+      },
+      {
+       "tr": "dilerim",
+       "uz": "kechiring"
+      },
+      {
+       "tr": "Rica ederim",
+       "uz": "arzimaydi"
+      },
+      {
+       "tr": "Tamam",
+       "uz": "böldi, xöp, tamom"
+      },
+      {
+       "tr": "Tebrikler",
+       "uz": "tabriklamoq"
+      },
+      {
+       "tr": "Üzgünüm",
+       "uz": "xafaman (xafa bölmoq)"
+      },
+      {
+       "tr": "Etmek",
+       "uz": "…etmoq"
+      },
+      {
+       "tr": "Gelmek",
+       "uz": "kelmoq"
+      },
+      {
+       "tr": "Görüşmek",
+       "uz": "körishmoq"
+      },
+      {
+       "tr": "Olmak",
+       "uz": "bölmoq"
+      }
+     ]
+    },
+    {
+     "name": "2-unit",
+     "words": [
+      {
+       "tr": "Aç",
+       "uz": "ochmoq, (och=qornim och(sifat))"
+      },
+      {
+       "tr": "Açık",
+       "uz": "ochiq"
+      },
+      {
+       "tr": "Adres",
+       "uz": "manzil (adres)"
+      },
+      {
+       "tr": "Akşam",
+       "uz": "oqshom"
+      },
+      {
+       "tr": "Alışveriş",
+       "uz": "bozor qilish, xarid qilmoq"
+      },
+      {
+       "tr": "alışveriş merkezi",
+       "uz": "savdo markazi"
+      },
+      {
+       "tr": "alt",
+       "uz": "tag, ost"
+      },
+      {
+       "tr": "anahtar",
+       "uz": "kalit"
+      },
+      {
+       "tr": "artı",
+       "uz": "qöshuv ishorati (+)"
+      },
+      {
+       "tr": "ay",
+       "uz": "oy"
+      },
+      {
+       "tr": "banka",
+       "uz": "bank"
+      },
+      {
+       "tr": "başarılı",
+       "uz": "muvafaqqiyatli"
+      },
+      {
+       "tr": "bekâr",
+       "uz": "böydoq, turmush qurmagan"
+      },
+      {
+       "tr": "bina",
+       "uz": "bino"
+      },
+      {
+       "tr": "birçok",
+       "uz": "birqancha"
+      },
+      {
+       "tr": "boş",
+       "uz": "bösh"
+      },
+      {
+       "tr": "bölü",
+       "uz": "bölish ishorati, (:)"
+      },
+      {
+       "tr": "bugün",
+       "uz": "bugun"
+      },
+      {
+       "tr": "burada",
+       "uz": "bu yerda"
+      },
+      {
+       "tr": "bütün",
+       "uz": "butun"
+      },
+      {
+       "tr": "cesur",
+       "uz": "jasur"
+      },
+      {
+       "tr": "ciddi",
+       "uz": "jiddiy"
+      },
+      {
+       "tr": "çalışkan",
+       "uz": "mehnatkash"
+      },
+      {
+       "tr": "çarpı",
+       "uz": "köpatirish ishorati (X)"
+      },
+      {
+       "tr": "çirkin",
+       "uz": "xunik"
+      },
+      {
+       "tr": "çöp kutusu",
+       "uz": "axlat idishi"
+      },
+      {
+       "tr": "çünkü",
+       "uz": "chunki"
+      },
+      {
+       "tr": "dağınık",
+       "uz": "tözğigan, tartibsiz."
+      },
+      {
+       "tr": "Dar",
+       "uz": "tor"
+      },
+      {
+       "tr": "Dergi",
+       "uz": "jurnal"
+      },
+      {
+       "tr": "Dikkatli",
+       "uz": "diqqatli"
+      },
+      {
+       "tr": "Dikkatsiz",
+       "uz": "diqqatsiz, beparvo"
+      },
+      {
+       "tr": "doğum tarihi",
+       "uz": "tuğilgan sanasi"
+      },
+      {
+       "tr": "dolu",
+       "uz": "töla"
+      },
+      {
+       "tr": "domates",
+       "uz": "pamidor"
+      },
+      {
+       "tr": "dosya",
+       "uz": "hujjat, fayl"
+      },
+      {
+       "tr": "durak",
+       "uz": "bekat"
+      },
+      {
+       "tr": "duvar",
+       "uz": "devor"
+      },
+      {
+       "tr": "düzenli",
+       "uz": "tartibli"
+      },
+      {
+       "tr": "eczacı",
+       "uz": "dorixonachi"
+      },
+      {
+       "tr": "eğlenceli",
+       "uz": "qiziqarli"
+      },
+      {
+       "tr": "eksi",
+       "uz": "ayiruv ishorati (-)"
+      },
+      {
+       "tr": "evli",
+       "uz": "turmush qurgan, oilali"
+      },
+      {
+       "tr": "fakir",
+       "uz": "faqir, kambağal"
+      },
+      {
+       "tr": "fark",
+       "uz": "farq"
+      },
+      {
+       "tr": "fırın",
+       "uz": "qandolat va non pishiriladigan"
+      },
+      {
+       "tr": "gazete",
+       "uz": "gazeta"
+      },
+      {
+       "tr": "genç",
+       "uz": "yosh (yosh qiz-genç kız)"
+      },
+      {
+       "tr": "genellikle",
+       "uz": "odatda, umuman"
+      },
+      {
+       "tr": "geniş",
+       "uz": "keng"
+      },
+      {
+       "tr": "güçlü",
+       "uz": "kuchli"
+      },
+      {
+       "tr": "güçsüz",
+       "uz": "kuchsiz"
+      },
+      {
+       "tr": "gün",
+       "uz": "kun (gap ma’nosida ham"
+      },
+      {
+       "tr": "gündüz",
+       "uz": "kunduz"
+      },
+      {
+       "tr": "hafta sonu",
+       "uz": "dam olish kunlari"
+      },
+      {
+       "tr": "(shanba",
+       "uz": "yakshanba)"
+      },
+      {
+       "tr": "hasta",
+       "uz": "kasal"
+      },
+      {
+       "tr": "hastane",
+       "uz": "kasalxona"
+      },
+      {
+       "tr": "her",
+       "uz": "har"
+      },
+      {
+       "tr": "her zaman",
+       "uz": "har vaqt"
+      },
+      {
+       "tr": "hızlı",
+       "uz": "tez"
+      },
+      {
+       "tr": "içecek",
+       "uz": "ichiladigan narsalar (suv"
+      },
+      {
+       "tr": "istasyon",
+       "uz": "bekat, stansiya (tren"
+      },
+      {
+       "tr": "istasyonu",
+       "uz": "poyezd bekati)"
+      },
+      {
+       "tr": "iyi",
+       "uz": "yaxshi"
+      },
+      {
+       "tr": "kaç",
+       "uz": "nechi, qancha"
+      },
+      {
+       "tr": "kaçıncı",
+       "uz": "nechinchi"
+      },
+      {
+       "tr": "kantin",
+       "uz": "kantin (universitet, litsey"
+      },
+      {
+       "tr": "kapalı",
+       "uz": "yopiq (kapalı kız- örangan"
+      },
+      {
+       "tr": "kasap",
+       "uz": "qassob"
+      },
+      {
+       "tr": "kasiyer",
+       "uz": "kasiyer"
+      },
+      {
+       "tr": "kat",
+       "uz": "qavat"
+      },
+      {
+       "tr": "kırmızı",
+       "uz": "qizil"
+      },
+      {
+       "tr": "kıskanç",
+       "uz": "qizğanchiq, rashkchi"
+      },
+      {
+       "tr": "kibar",
+       "uz": "kibor, xushmuomala"
+      },
+      {
+       "tr": "kilo",
+       "uz": "kilo"
+      },
+      {
+       "tr": "kitaplık",
+       "uz": "kitob taxlanadigan jovon"
+      },
+      {
+       "tr": "kolay",
+       "uz": "qulay,oson"
+      },
+      {
+       "tr": "komik",
+       "uz": "komik, kulgili"
+      },
+      {
+       "tr": "konuşkan",
+       "uz": "köp gapiradiga (sergap"
+      },
+      {
+       "tr": "koridor",
+       "uz": "zal, qator (koridor)"
+      },
+      {
+       "tr": "kötü",
+       "uz": "yomon"
+      },
+      {
+       "tr": "kuaför",
+       "uz": "sartarosh (salonchi)"
+      },
+      {
+       "tr": "kuyumcu",
+       "uz": "zargar"
+      },
+      {
+       "tr": "lamba",
+       "uz": "lampa, chiroq"
+      },
+      {
+       "tr": "mahalle",
+       "uz": "mahalla"
+      },
+      {
+       "tr": "manav",
+       "uz": "yetishtirilgan mahsulotlar"
+      },
+      {
+       "tr": "market",
+       "uz": "market"
+      },
+      {
+       "tr": "mutfak",
+       "uz": "oshxona (evimizde iki"
+      },
+      {
+       "tr": "mutlu",
+       "uz": "xursand, baxtli"
+      },
+      {
+       "tr": "mutsuz",
+       "uz": "xafa, baxtsiz"
+      },
+      {
+       "tr": "nerede",
+       "uz": "qayerda"
+      },
+      {
+       "tr": "nesne",
+       "uz": "jonsiz narsa"
+      },
+      {
+       "tr": "niçin",
+       "uz": "nima uchun"
+      },
+      {
+       "tr": "ocak",
+       "uz": "gaz plitasi (yanvar oyi"
+      },
+      {
+       "tr": "söndür",
+       "uz": "gazni öchir, ocak ayında"
+      },
+      {
+       "tr": "havalar çok sovuk oluyor",
+       "uz": "yanvar"
+      },
+      {
+       "tr": "ofis",
+       "uz": "ofis"
+      },
+      {
+       "tr": "orada",
+       "uz": "u yerda"
+      },
+      {
+       "tr": "öğleden sonra",
+       "uz": "tushdan keyin"
+      },
+      {
+       "tr": "önemli",
+       "uz": "muhim, ahamiyati"
+      },
+      {
+       "tr": "önemsiz",
+       "uz": "muhim emas, ahamiyatsiz"
+      },
+      {
+       "tr": "pahalı",
+       "uz": "qimmat"
+      },
+      {
+       "tr": "pastane",
+       "uz": "qandolat, tort va"
+      },
+      {
+       "tr": "pembe",
+       "uz": "pushti"
+      },
+      {
+       "tr": "postane",
+       "uz": "pochtaxona"
+      },
+      {
+       "tr": "projektör",
+       "uz": "projektor (kuchli"
+      },
+      {
+       "tr": "psikolog",
+       "uz": "psixolog"
+      },
+      {
+       "tr": "resepsiyonist",
+       "uz": "mehmonxonalarda"
+      },
+      {
+       "tr": "sabah",
+       "uz": "tong, saboh"
+      },
+      {
+       "tr": "sakin",
+       "uz": "sokin"
+      },
+      {
+       "tr": "sayı",
+       "uz": "raqam, sanoq"
+      },
+      {
+       "tr": "sehpa",
+       "uz": "uyda qahva ichiladigan stol"
+      },
+      {
+       "tr": "sekreter",
+       "uz": "kotiba"
+      },
+      {
+       "tr": "semt",
+       "uz": "turar joy dahasi, guzargoh"
+      },
+      {
+       "tr": "sessiz",
+       "uz": "ovozsiz, tinch"
+      },
+      {
+       "tr": "sıcak",
+       "uz": "issiq"
+      },
+      {
+       "tr": "sıfat",
+       "uz": "sifat"
+      },
+      {
+       "tr": "sinirli",
+       "uz": "asabiy"
+      },
+      {
+       "tr": "sosyal",
+       "uz": "ijtimoiy (sotsiyal)"
+      },
+      {
+       "tr": "soyadı",
+       "uz": "familya"
+      },
+      {
+       "tr": "şehir",
+       "uz": "shahar"
+      },
+      {
+       "tr": "şimdi",
+       "uz": "hozir"
+      },
+      {
+       "tr": "şişman",
+       "uz": "semiz, maqaloq"
+      },
+      {
+       "tr": "tabak",
+       "uz": "tarelka (osh tovoq, lagan)"
+      },
+      {
+       "tr": "tarih",
+       "uz": "tarix, sana"
+      },
+      {
+       "tr": "tatil",
+       "uz": "tatil, dam olish"
+      },
+      {
+       "tr": "tehlikeli",
+       "uz": "tahlikali, xavfli"
+      },
+      {
+       "tr": "tembel",
+       "uz": "ishyoqmas, tanbal"
+      },
+      {
+       "tr": "tezgâhtar",
+       "uz": "sotuvchi, (savdo"
+      },
+      {
+       "tr": "tuzlu",
+       "uz": "shör, tuzli"
+      },
+      {
+       "tr": "ucuz",
+       "uz": "arzon"
+      },
+      {
+       "tr": "uzak",
+       "uz": "uzoq"
+      },
+      {
+       "tr": "üst",
+       "uz": "ust"
+      },
+      {
+       "tr": "var",
+       "uz": "bor"
+      },
+      {
+       "tr": "yakın",
+       "uz": "yaqin"
+      },
+      {
+       "tr": "yastık",
+       "uz": "yostiq"
+      },
+      {
+       "tr": "yaş",
+       "uz": "yosh (yaşın kaç?-yoshing"
+      },
+      {
+       "tr": "yaşlı",
+       "uz": "qari"
+      },
+      {
+       "tr": "yavaş",
+       "uz": "sekin, asta"
+      },
+      {
+       "tr": "yazı tahtası",
+       "uz": "doska"
+      },
+      {
+       "tr": "yer",
+       "uz": "yer"
+      },
+      {
+       "tr": "yıl",
+       "uz": "yil"
+      },
+      {
+       "tr": "yiyecek",
+       "uz": "yegulik (chaynab"
+      },
+      {
+       "tr": "yoğun",
+       "uz": "jadal, (yoğun çalışıyorumqölim qölimga tegmay"
+      },
+      {
+       "tr": "yok",
+       "uz": "yöq"
+      },
+      {
+       "tr": "yorgun",
+       "uz": "charchoq, charchagan"
+      },
+      {
+       "tr": "(yorgunum",
+       "uz": "charchaganman)"
+      },
+      {
+       "tr": "zamir",
+       "uz": "asosi, tag (olmosh söz"
+      },
+      {
+       "tr": "zayıf",
+       "uz": "ozğin, oriq"
+      },
+      {
+       "tr": "zengin",
+       "uz": "boy"
+      },
+      {
+       "tr": "aramak",
+       "uz": "qidirmoq, telefon qilmoq"
+      },
+      {
+       "tr": "(anahtarımnı arıyorum",
+       "uz": "kalitimni"
+      },
+      {
+       "tr": "qidiryapman, beni ara",
+       "uz": "benga"
+      }
+     ]
+    },
+    {
+     "name": "3-unit",
+     "words": [
+      {
+       "tr": "açık büfe",
+       "uz": "ochiq bufet"
+      },
+      {
+       "tr": "anne",
+       "uz": "ona"
+      },
+      {
+       "tr": "aynı",
+       "uz": "ayni, bir xil"
+      },
+      {
+       "tr": "bale",
+       "uz": "balet"
+      },
+      {
+       "tr": "bavul",
+       "uz": "chamadon"
+      },
+      {
+       "tr": "beraber",
+       "uz": "sartarosh"
+      },
+      {
+       "tr": "biletçi",
+       "uz": "chiptachi"
+      },
+      {
+       "tr": "bilgisayar oyunu",
+       "uz": "kompyuter öyini"
+      },
+      {
+       "tr": "borç",
+       "uz": "qarz"
+      },
+      {
+       "tr": "boş zaman",
+       "uz": "bosh vaqt"
+      },
+      {
+       "tr": "büfe",
+       "uz": "bufet"
+      },
+      {
+       "tr": "cevap",
+       "uz": "javob"
+      },
+      {
+       "tr": "dans",
+       "uz": "raqs"
+      },
+      {
+       "tr": "değişik",
+       "uz": "özgacha, ğalati"
+      },
+      {
+       "tr": "dışarı",
+       "uz": "tashqari"
+      },
+      {
+       "tr": "dizi",
+       "uz": "serial"
+      },
+      {
+       "tr": "ekonomi",
+       "uz": "iqtisodiyot"
+      },
+      {
+       "tr": "erken",
+       "uz": "erta (erken dönmüşsün- erta"
+      },
+      {
+       "tr": "eski",
+       "uz": "eski"
+      },
+      {
+       "tr": "eş",
+       "uz": "turmush örtoq (ayol va erkak"
+      },
+      {
+       "tr": "ev hanımı",
+       "uz": "uy bekasi"
+      },
+      {
+       "tr": "fabrika",
+       "uz": "fabrika"
+      },
+      {
+       "tr": "farklı",
+       "uz": "farqli"
+      },
+      {
+       "tr": "fikir",
+       "uz": "fikr"
+      },
+      {
+       "tr": "film",
+       "uz": "film"
+      },
+      {
+       "tr": "futbol",
+       "uz": "futbol"
+      },
+      {
+       "tr": "futbol maçı",
+       "uz": "futbol öyini"
+      },
+      {
+       "tr": "geç",
+       "uz": "kech (geç oldu-kech böldi)"
+      },
+      {
+       "tr": "gezi",
+       "uz": "sayr,sayohat"
+      },
+      {
+       "tr": "gitar",
+       "uz": "gitara"
+      },
+      {
+       "tr": "gösteri",
+       "uz": "tomosha"
+      },
+      {
+       "tr": "hafta içi",
+       "uz": "hafta ichi (dushanbajuma)"
+      },
+      {
+       "tr": "hava",
+       "uz": "havo"
+      },
+      {
+       "tr": "hayat",
+       "uz": "hayot"
+      },
+      {
+       "tr": "hazır",
+       "uz": "tayyor"
+      },
+      {
+       "tr": "hediye",
+       "uz": "sovğa"
+      },
+      {
+       "tr": "heyecanlı",
+       "uz": "hayajonli"
+      },
+      {
+       "tr": "hiçbir zaman",
+       "uz": "hech qachon"
+      },
+      {
+       "tr": "hukuk",
+       "uz": "huquq"
+      },
+      {
+       "tr": "içeri",
+       "uz": "ichkari"
+      },
+      {
+       "tr": "iş yeri",
+       "uz": "ish joyi"
+      },
+      {
+       "tr": "işadamı",
+       "uz": "tadbirkor (biznesmen)"
+      },
+      {
+       "tr": "işçi",
+       "uz": "ishchi"
+      },
+      {
+       "tr": "kampus",
+       "uz": "lager"
+      },
+      {
+       "tr": "kampusu",
+       "uz": "Marmara universiteti"
+      },
+      {
+       "tr": "kanepe",
+       "uz": "divan"
+      },
+      {
+       "tr": "kebap",
+       "uz": "kabob"
+      },
+      {
+       "tr": "kızgın",
+       "uz": "jahldor, badjahl"
+      },
+      {
+       "tr": "konser",
+       "uz": "konsert"
+      },
+      {
+       "tr": "kulüp",
+       "uz": "klub"
+      },
+      {
+       "tr": "litre",
+       "uz": "litr"
+      },
+      {
+       "tr": "maç",
+       "uz": "öyin (fudbol öyiniga nisabat"
+      },
+      {
+       "tr": "maç var",
+       "uz": "bugun öyin bor)"
+      },
+      {
+       "tr": "memur",
+       "uz": "ofitser"
+      },
+      {
+       "tr": "müsait",
+       "uz": "bösh, (mavjud)"
+      },
+      {
+       "tr": "müşteri",
+       "uz": "mijoz"
+      },
+      {
+       "tr": "nefes",
+       "uz": "nafas"
+      },
+      {
+       "tr": "normal",
+       "uz": "ortacha (normal)"
+      },
+      {
+       "tr": "opera",
+       "uz": "opera"
+      },
+      {
+       "tr": "öğlen",
+       "uz": "tush vaqti (abet)"
+      },
+      {
+       "tr": "öğrenci işleri",
+       "uz": "talaba ishlariş bilan"
+      },
+      {
+       "tr": "pijama",
+       "uz": "pijamalar"
+      },
+      {
+       "tr": "restoran",
+       "uz": "restorant"
+      },
+      {
+       "tr": "sabahları",
+       "uz": "ertalablari"
+      },
+      {
+       "tr": "sağlıklı",
+       "uz": "soğlom"
+      },
+      {
+       "tr": "sefer",
+       "uz": "safar"
+      },
+      {
+       "tr": "sergi",
+       "uz": "körgazma"
+      },
+      {
+       "tr": "site",
+       "uz": "sayt"
+      },
+      {
+       "tr": "şarkı",
+       "uz": "qöshiq"
+      },
+      {
+       "tr": "şiir",
+       "uz": "she’r"
+      },
+      {
+       "tr": "terlik",
+       "uz": "shippak"
+      },
+      {
+       "tr": "tiyatro",
+       "uz": "teatr"
+      },
+      {
+       "tr": "tur",
+       "uz": "sayohat (yarın Konya turu"
+      },
+      {
+       "tr": "başlıcak",
+       "uz": "ertaga Konya sayohat turi"
+      },
+      {
+       "tr": "tür",
+       "uz": "xil, nav"
+      },
+      {
+       "tr": "uygun",
+       "uz": "uyğun, muvofiq"
+      },
+      {
+       "tr": "vapur",
+       "uz": "kema (yilovchi tashiydigan"
+      },
+      {
+       "tr": "yalan",
+       "uz": "yolğon"
+      },
+      {
+       "tr": "yanlış",
+       "uz": "yanglish, xato"
+      },
+      {
+       "tr": "yemekhane",
+       "uz": "oshxona"
+      },
+      {
+       "tr": "yeni",
+       "uz": "yangi"
+      },
+      {
+       "tr": "yolcu",
+       "uz": "yölovchi"
+      },
+      {
+       "tr": "yorum",
+       "uz": "tarif, sharh"
+      },
+      {
+       "tr": "yurt",
+       "uz": "talabalar turar joyi"
+      },
+      {
+       "tr": "zaman",
+       "uz": "vaqt"
+      },
+      {
+       "tr": "bol bol",
+       "uz": "möl-möl (köp-köp)"
+      },
+      {
+       "tr": "inşallah",
+       "uz": "xudo xohlasa (inshaalloh)"
+      },
+      {
+       "tr": "açmak",
+       "uz": "ochmoq"
+      },
+      {
+       "tr": "anlamak",
+       "uz": "tushunmoq, anglamoq"
+      },
+      {
+       "tr": "bakmak",
+       "uz": "qaramoq"
+      },
+      {
+       "tr": "banyo yapmak",
+       "uz": "dush qabul qilmoq"
+      },
+      {
+       "tr": "başlamak",
+       "uz": "boshlamoq"
+      },
+      {
+       "tr": "bayılmak",
+       "uz": "hushidan ketmoq (biror"
+      },
+      {
+       "tr": "beslenmek",
+       "uz": "boqilmoq, oziqlanmoq"
+      },
+      {
+       "tr": "bilmek",
+       "uz": "bilmoq"
+      },
+      {
+       "tr": "binmek",
+       "uz": "minmoq"
+      },
+      {
+       "tr": "biriktirmek",
+       "uz": "biriktirmoq"
+      },
+      {
+       "tr": "biriktirmer",
+       "uz": "pul"
+      },
+      {
+       "tr": "bitmek",
+       "uz": "bitmoq, tugamoq"
+      },
+      {
+       "tr": "buluşmak",
+       "uz": "uchrashmoq"
+      },
+      {
+       "tr": "çalışmak",
+       "uz": "ishlamoq"
+      },
+      {
+       "tr": "çıkmak",
+       "uz": "chiqmoq"
+      },
+      {
+       "tr": "demek",
+       "uz": "demoq, söylamoq"
+      },
+      {
+       "tr": "dinlemek",
+       "uz": "tinglamoq"
+      },
+      {
+       "tr": "dinlenmek",
+       "uz": "dam olmoq"
+      },
+      {
+       "tr": "dolaşmak",
+       "uz": "aylanib yurmoq"
+      },
+      {
+       "tr": "dönmek",
+       "uz": "qaytib kelmoq, qaytmoq"
+      },
+      {
+       "tr": "durmak",
+       "uz": "turmoq"
+      },
+      {
+       "tr": "duş almak",
+       "uz": "dush olmoq"
+      },
+      {
+       "tr": "fotoğraf çekmek",
+       "uz": "rasm tushurmoq"
+      },
+      {
+       "tr": "geçmek",
+       "uz": "ötmoq"
+      },
+      {
+       "tr": "gezmek",
+       "uz": "kezmoq"
+      },
+      {
+       "tr": "girmek",
+       "uz": "kirmoq"
+      },
+      {
+       "tr": "gitmek",
+       "uz": "ketmoq"
+      },
+      {
+       "tr": "hazırlamak",
+       "uz": "tayyorlamoq"
+      },
+      {
+       "tr": "hazırlanmak",
+       "uz": "tayyorlanmoq"
+      },
+      {
+       "tr": "hoşlanmak",
+       "uz": "zavqlanmoq"
+      },
+      {
+       "tr": "internete girmek",
+       "uz": "internetga kirmoq"
+      },
+      {
+       "tr": "izlemek",
+       "uz": "körmoq (dizi izlemek-serial"
+      },
+      {
+       "tr": "kahvaltı etmek",
+       "uz": "nonushta qilmoq"
+      },
+      {
+       "tr": "kalkmak",
+       "uz": "turmoq"
+      },
+      {
+       "tr": "kalmak",
+       "uz": "qolmoq"
+      },
+      {
+       "tr": "kapatmak",
+       "uz": "yopmoq"
+      },
+      {
+       "tr": "kontrol etmek",
+       "uz": "tekshirmoq, kontrol"
+      },
+      {
+       "tr": "konuşmak",
+       "uz": "gapirmoq, gaplashmoq"
+      },
+      {
+       "tr": "korkmak",
+       "uz": "qörqmoq"
+      },
+      {
+       "tr": "koşmak",
+       "uz": "yugurmoq"
+      },
+      {
+       "tr": "koymak",
+       "uz": "qöymoq"
+      },
+      {
+       "tr": "kullanmak",
+       "uz": "qöllanmoq"
+      },
+      {
+       "tr": "kullanmak",
+       "uz": "telefon"
+      },
+      {
+       "tr": "nefret etmek",
+       "uz": "naftarlanmoq"
+      },
+      {
+       "tr": "okumak",
+       "uz": "öqimoq"
+      },
+      {
+       "tr": "oturmak",
+       "uz": "ötirmoq"
+      },
+      {
+       "tr": "oynamak",
+       "uz": "öynamoq"
+      },
+      {
+       "tr": "öğrenmek",
+       "uz": "örganmoq"
+      },
+      {
+       "tr": "özlemek",
+       "uz": "soğinmoq"
+      },
+      {
+       "tr": "para çekmek",
+       "uz": "pul yechib olmoq"
+      },
+      {
+       "tr": "(karttan para çektim",
+       "uz": "kartdan pul"
+      },
+      {
+       "tr": "pişirmek",
+       "uz": "pishirmoq"
+      },
+      {
+       "tr": "sanmak",
+       "uz": "taxmin qilmoq"
+      },
+      {
+       "tr": "sevmek",
+       "uz": "sevmoq"
+      },
+      {
+       "tr": "sıkılmak",
+       "uz": "siqilmoq, zerikmoq"
+      },
+      {
+       "tr": "sohbet etmek",
+       "uz": "suhbat qilmoq"
+      },
+      {
+       "tr": "sormak",
+       "uz": "söramoq"
+      },
+      {
+       "tr": "söylemek",
+       "uz": "aytmoq, demoq"
+      },
+      {
+       "tr": "yapmak",
+       "uz": "sport"
+      },
+      {
+       "tr": "stres atmak",
+       "uz": "stress otmoq, stress"
+      },
+      {
+       "tr": "tanımak",
+       "uz": "tanımoq"
+      },
+      {
+       "tr": "tanışmak",
+       "uz": "tanishmoq"
+      },
+      {
+       "tr": "etmek",
+       "uz": "takror"
+      },
+      {
+       "tr": "tırmanmak",
+       "uz": "tirmashmoq"
+      },
+      {
+       "tr": "uyumak",
+       "uz": "uxlamoq"
+      },
+      {
+       "tr": "uzanmak",
+       "uz": "oyoq uzatib yotish"
+      },
+      {
+       "tr": "varmak",
+       "uz": "bormoq"
+      },
+      {
+       "tr": "vermek",
+       "uz": "bermoq"
+      },
+      {
+       "tr": "yapmak",
+       "uz": "qilmoq"
+      },
+      {
+       "tr": "yardım etmek",
+       "uz": "yordam qilmoq"
+      },
+      {
+       "tr": "yardım istemek",
+       "uz": "yordam söramoq"
+      },
+      {
+       "tr": "yaşamak",
+       "uz": "yashamoq"
+      },
+      {
+       "tr": "yatmak",
+       "uz": "yotmoq"
+      },
+      {
+       "tr": "yazmak",
+       "uz": "yozmoq"
+      },
+      {
+       "tr": "yemek",
+       "uz": "yemmoq"
+      },
+      {
+       "tr": "yorulmak",
+       "uz": "charchamoq"
+      },
+      {
+       "tr": "yürümek",
+       "uz": "sayr qilmoq"
+      },
+      {
+       "tr": "yüzmek",
+       "uz": "suzmo"
+      }
+     ]
+    },
+    {
+     "name": "4-unit",
+     "words": [
+      {
+       "tr": "Abla",
+       "uz": "opa"
+      },
+      {
+       "tr": "Ağabey",
+       "uz": "aka"
+      },
+      {
+       "tr": "Ağız",
+       "uz": "oğiz"
+      },
+      {
+       "tr": "Aile",
+       "uz": "oila"
+      },
+      {
+       "tr": "Amca",
+       "uz": "amaki"
+      },
+      {
+       "tr": "Anadil",
+       "uz": "ona tili"
+      },
+      {
+       "tr": "Anahtar",
+       "uz": "kalit"
+      },
+      {
+       "tr": "Anaokulu",
+       "uz": "bolalar bohchasi"
+      },
+      {
+       "tr": "Anneanne",
+       "uz": "buvi, momo (ona"
+      },
+      {
+       "tr": "Babaanne",
+       "uz": "buvi, momo )ota"
+      },
+      {
+       "tr": "Boyun",
+       "uz": "böyin"
+      },
+      {
+       "tr": "Burun",
+       "uz": "burun"
+      },
+      {
+       "tr": "Dayı",
+       "uz": "toğa"
+      },
+      {
+       "tr": "Dede",
+       "uz": "bobo"
+      },
+      {
+       "tr": "Diş",
+       "uz": "tish (tashqi, tashqari manosida"
+      },
+      {
+       "tr": "erkek kardeş",
+       "uz": "uka"
+      },
+      {
+       "tr": "hala",
+       "uz": "amma"
+      },
+      {
+       "tr": "havuz",
+       "uz": "hovuz, baseyn"
+      },
+      {
+       "tr": "ilkokul",
+       "uz": "boshlanğich ta’lim"
+      },
+      {
+       "tr": "karı",
+       "uz": "xotin (bir karıyı gördüm-bir"
+      },
+      {
+       "tr": "nerede",
+       "uz": "bening xotinim qayerda)"
+      },
+      {
+       "tr": "kız kardeş",
+       "uz": "singil"
+      },
+      {
+       "tr": "koca",
+       "uz": "er"
+      },
+      {
+       "tr": "kol",
+       "uz": "qöl"
+      },
+      {
+       "tr": "lise",
+       "uz": "litsey"
+      },
+      {
+       "tr": "manto",
+       "uz": "palto"
+      },
+      {
+       "tr": "mektup",
+       "uz": "xat, maktub"
+      },
+      {
+       "tr": "omuz",
+       "uz": "yekla"
+      },
+      {
+       "tr": "ortaokul",
+       "uz": "örta-maxusu ta’lim"
+      },
+      {
+       "tr": "satranç",
+       "uz": "shaxmat"
+      },
+      {
+       "tr": "şirket",
+       "uz": "shirkar, kompaniya"
+      },
+      {
+       "tr": "teneffüs",
+       "uz": "tanafus"
+      },
+      {
+       "tr": "teyze",
+       "uz": "xola"
+      },
+      {
+       "tr": "üniversite",
+       "uz": "universitet"
+      },
+      {
+       "tr": "ütü",
+       "uz": "dazmol"
+      },
+      {
+       "tr": "yabancı dil",
+       "uz": "begon til, chet tili"
+      },
+      {
+       "tr": "yaramaz",
+       "uz": "bezori, shayton, (ishga"
+      },
+      {
+       "tr": "almak",
+       "uz": "olmoq"
+      },
+      {
+       "tr": "dans etmek",
+       "uz": "raqsga tushmoq"
+      },
+      {
+       "tr": "çalmak",
+       "uz": "chalmoq, jiringlamoq"
+      },
+      {
+       "tr": "telefonu çalındı",
+       "uz": "telefoni öğirlandi)"
+      },
+      {
+       "tr": "hissetmek",
+       "uz": "his qilmoq"
+      },
+      {
+       "tr": "yazmak",
+       "uz": "yozmoq"
+      },
+      {
+       "tr": "göndermek",
+       "uz": "jönatmoq, yubormoq"
+      },
+      {
+       "tr": "oynamak",
+       "uz": "öynamoq"
+      },
+      {
+       "tr": "öğretmek",
+       "uz": "örganmoq"
+      },
+      {
+       "tr": "telefon etmek",
+       "uz": "telefon qilmoq"
+      }
+     ]
+    },
+    {
+     "name": "5-unit",
+     "words": [
+      {
+       "tr": "Ağustos",
+       "uz": "avgust"
+      },
+      {
+       "tr": "Ajanda",
+       "uz": "agentlik"
+      },
+      {
+       "tr": "Akıl",
+       "uz": "aql"
+      },
+      {
+       "tr": "Anma",
+       "uz": "eslamoq, xotirlamoq"
+      },
+      {
+       "tr": "Aralık",
+       "uz": "dekabr"
+      },
+      {
+       "tr": "Ateş",
+       "uz": "olov, otash"
+      },
+      {
+       "tr": "Balayı",
+       "uz": "asal oyi"
+      },
+      {
+       "tr": "Biricik",
+       "uz": "birdonagina"
+      },
+      {
+       "tr": "Birlikte",
+       "uz": "birgalikda"
+      },
+      {
+       "tr": "Birliktelik",
+       "uz": "barobarlik, birlik"
+      },
+      {
+       "tr": "Boya",
+       "uz": "böyoq"
+      },
+      {
+       "tr": "Buçuk",
+       "uz": "yarım"
+      },
+      {
+       "tr": "Cimri",
+       "uz": "ziqna"
+      },
+      {
+       "tr": "Cuma",
+       "uz": "juma"
+      },
+      {
+       "tr": "Cumartesi",
+       "uz": "shanba"
+      },
+      {
+       "tr": "Çarşamba",
+       "uz": "chorshanba"
+      },
+      {
+       "tr": "Çeşitli",
+       "uz": "turli xil"
+      },
+      {
+       "tr": "Çeyrek",
+       "uz": "chorak"
+      },
+      {
+       "tr": "Çorba",
+       "uz": "shörva"
+      },
+      {
+       "tr": "Çoşku",
+       "uz": "jöshqinlik"
+      },
+      {
+       "tr": "Dakika",
+       "uz": "daqiqa"
+      },
+      {
+       "tr": "Dilek",
+       "uz": "tilak"
+      },
+      {
+       "tr": "Dini",
+       "uz": "diniy"
+      },
+      {
+       "tr": "Dişçi",
+       "uz": "tishchi, tish shifokori"
+      },
+      {
+       "tr": "Dolunay",
+       "uz": "tölinoy, oyning oxori"
+      },
+      {
+       "tr": "Düğüm",
+       "uz": "tuğriq"
+      },
+      {
+       "tr": "Egemenlik",
+       "uz": "humukdorlik"
+      },
+      {
+       "tr": "Ekim",
+       "uz": "oktabr"
+      },
+      {
+       "tr": "Evlilik",
+       "uz": "turmush, oilalik, rözğor"
+      },
+      {
+       "tr": "Eylül",
+       "uz": "sentabr"
+      },
+      {
+       "tr": "Galeri",
+       "uz": "galeriya"
+      },
+      {
+       "tr": "Gelecek",
+       "uz": "kelajak"
+      },
+      {
+       "tr": "Gençlik",
+       "uz": "yoshlik"
+      },
+      {
+       "tr": "Geveze",
+       "uz": "köp gapiradigan, sergap"
+      },
+      {
+       "tr": "Harf",
+       "uz": "harf"
+      },
+      {
+       "tr": "Hazırlık",
+       "uz": "tayyorgarlik, hozirlik"
+      },
+      {
+       "tr": "Haziran",
+       "uz": "iyun"
+      },
+      {
+       "tr": "Hece",
+       "uz": "böğin"
+      },
+      {
+       "tr": "Heyecan",
+       "uz": "hayajon"
+      },
+      {
+       "tr": "İlkbahar",
+       "uz": "bahor"
+      },
+      {
+       "tr": "Kasım",
+       "uz": "noyabr"
+      },
+      {
+       "tr": "Kaza",
+       "uz": "qazo, falokat (avarya)"
+      },
+      {
+       "tr": "Kış",
+       "uz": "qish"
+      },
+      {
+       "tr": "Kurum",
+       "uz": "tashkilot"
+      },
+      {
+       "tr": "Kutlama",
+       "uz": "nishonlash"
+      },
+      {
+       "tr": "Kültür",
+       "uz": "madaniyat"
+      },
+      {
+       "tr": "Marş",
+       "uz": "madhiya"
+      },
+      {
+       "tr": "Mart",
+       "uz": "mart oyi"
+      },
+      {
+       "tr": "Mavi",
+       "uz": "moviy rang"
+      },
+      {
+       "tr": "Mayıs",
+       "uz": "may oyi"
+      },
+      {
+       "tr": "Mevsim",
+       "uz": "fasl, mavsum"
+      },
+      {
+       "tr": "Mezuniyet",
+       "uz": "bitiruv, bitiruv oqshomi"
+      },
+      {
+       "tr": "Milli",
+       "uz": "milliy"
+      },
+      {
+       "tr": "Mola",
+       "uz": "tanafuz (pyat minut perikur)"
+      },
+      {
+       "tr": "Mor",
+       "uz": "binafsha rang"
+      },
+      {
+       "tr": "Nice",
+       "uz": "necha (yaxshi)"
+      },
+      {
+       "tr": "Nikah",
+       "uz": "nikoh"
+      },
+      {
+       "tr": "Nisan",
+       "uz": "aprel"
+      },
+      {
+       "tr": "Odun",
+       "uz": "ötin"
+      },
+      {
+       "tr": "Ömür",
+       "uz": "umr"
+      },
+      {
+       "tr": "Palto",
+       "uz": "palto"
+      },
+      {
+       "tr": "Pazar",
+       "uz": "yakshanba"
+      },
+      {
+       "tr": "Pazartesi",
+       "uz": "dushanba"
+      },
+      {
+       "tr": "Perşembe",
+       "uz": "payshanba"
+      },
+      {
+       "tr": "Program",
+       "uz": "dastur, program"
+      },
+      {
+       "tr": "Randevu",
+       "uz": "uchrashuv (kelishilgan"
+      },
+      {
+       "tr": "Resmi",
+       "uz": "rasmiy"
+      },
+      {
+       "tr": "Rezervasyon",
+       "uz": "band qilish, bron"
+      },
+      {
+       "tr": "Salı",
+       "uz": "seshanba"
+      },
+      {
+       "tr": "Saniye",
+       "uz": "soniya (sekunt)"
+      },
+      {
+       "tr": "Sarı",
+       "uz": "sariq"
+      },
+      {
+       "tr": "Saygıdeğer",
+       "uz": "muhtaram, hurmatli"
+      },
+      {
+       "tr": "Sevgili",
+       "uz": "sevgili, sevgan inson"
+      },
+      {
+       "tr": "Sonbahar",
+       "uz": "kuz"
+      },
+      {
+       "tr": "Sürpriz",
+       "uz": "surpiriz, kutilmagan…"
+      },
+      {
+       "tr": "Şubat",
+       "uz": "fevral"
+      },
+      {
+       "tr": "Temmuz",
+       "uz": "iyul"
+      },
+      {
+       "tr": "Toplantı",
+       "uz": "yiğilish, majlis"
+      },
+      {
+       "tr": "Ulusal",
+       "uz": "milliy"
+      },
+      {
+       "tr": "Vakit",
+       "uz": "vaqt"
+      },
+      {
+       "tr": "Yaz",
+       "uz": "yoz"
+      },
+      {
+       "tr": "Yeşil",
+       "uz": "yashil"
+      },
+      {
+       "tr": "Yılbaşı",
+       "uz": "yangi yil"
+      },
+      {
+       "tr": "Yıldönümü",
+       "uz": "yil oxiri"
+      },
+      {
+       "tr": "Zafer",
+       "uz": "ğalaba"
+      },
+      {
+       "tr": "Zorluk",
+       "uz": "qiyinchilik"
+      },
+      {
+       "tr": "Yaşlanmak",
+       "uz": "qarimoq"
+      },
+      {
+       "tr": "Yenmek",
+       "uz": "yengmoq"
+      },
+      {
+       "tr": "Yıkamak",
+       "uz": "yuvmoq"
+      },
+      {
+       "tr": "ziyaret etmek",
+       "uz": "ziyorat qilmoq"
+      },
+      {
+       "tr": "asmak",
+       "uz": "osmoq"
+      },
+      {
+       "tr": "atlamak",
+       "uz": "tashlab ketmoq, sakramoq"
+      },
+      {
+       "tr": "atmak",
+       "uz": "otmoq"
+      },
+      {
+       "tr": "beklemek",
+       "uz": "kutmoq"
+      },
+      {
+       "tr": "benzemek",
+       "uz": "öxshamoq"
+      },
+      {
+       "tr": "devam etmek",
+       "uz": "davom etmoq"
+      },
+      {
+       "tr": "dilemek",
+       "uz": "tilamoq"
+      },
+      {
+       "tr": "doğmak",
+       "uz": "tuğilmoq"
+      },
+      {
+       "tr": "evlenmek",
+       "uz": "turmush qurmoq"
+      },
+      {
+       "tr": "gecikmek",
+       "uz": "kechikmoq"
+      },
+      {
+       "tr": "heyecanlanmak",
+       "uz": "hayajonlanmoq"
+      },
+      {
+       "tr": "kapanmak",
+       "uz": "yopilmoq"
+      },
+      {
+       "tr": "karşılamak",
+       "uz": "qarshilamoq, kutib"
+      },
+      {
+       "tr": "katılmak",
+       "uz": "qöshilmoq"
+      },
+      {
+       "tr": "korumak",
+       "uz": "qöriqlamoq"
+      },
+      {
+       "tr": "kutlamak",
+       "uz": "nishonlamoq"
+      },
+      {
+       "tr": "kutlu olmak",
+       "uz": "qutluğ bölmoq, baxtli"
+      },
+      {
+       "tr": "öpmek",
+       "uz": "öpmoq"
+      },
+      {
+       "tr": "satın almak",
+       "uz": "sotib olmoq"
+      },
+      {
+       "tr": "sürmek",
+       "uz": "haydamoq, mashina"
+      },
+      {
+       "tr": "toplamak",
+       "uz": "töplamoq, yiğmoq"
+      },
+      {
+       "tr": "vedalaşmak",
+       "uz": "xayrlashmoq"
+      },
+      {
+       "tr": "yakmak",
+       "uz": "yoqmoq, öt qöymoq"
+      }
+     ]
+    },
+    {
+     "name": "6-unit",
+     "words": [
+      {
+       "tr": "Akıllı",
+       "uz": "aqlli"
+      },
+      {
+       "tr": "Akraba",
+       "uz": "qarindosh"
+      },
+      {
+       "tr": "Alan",
+       "uz": "soha"
+      },
+      {
+       "tr": "Alt",
+       "uz": "ust, tag"
+      },
+      {
+       "tr": "Arka",
+       "uz": "orqa"
+      },
+      {
+       "tr": "Aşağı",
+       "uz": "pastlik, pastki joy, past"
+      },
+      {
+       "tr": "Boyun",
+       "uz": "böyin"
+      },
+      {
+       "tr": "Cadde",
+       "uz": "asosiy yöl (trassa)"
+      },
+      {
+       "tr": "Cesur",
+       "uz": "jasur"
+      },
+      {
+       "tr": "Çene",
+       "uz": "jağ, iyak"
+      },
+      {
+       "tr": "Çevre",
+       "uz": "atrof"
+      },
+      {
+       "tr": "Çiftçi",
+       "uz": "dehqon"
+      },
+      {
+       "tr": "Dış",
+       "uz": "tashqari, tashqi"
+      },
+      {
+       "tr": "Düğün",
+       "uz": "töy"
+      },
+      {
+       "tr": "Emekli",
+       "uz": "nafaqaxör"
+      },
+      {
+       "tr": "Enişte",
+       "uz": "pochcha (jezza)"
+      },
+      {
+       "tr": "Göl",
+       "uz": "köl"
+      },
+      {
+       "tr": "Grip",
+       "uz": "grip"
+      },
+      {
+       "tr": "Güler yüzlü",
+       "uz": "kulib turadigan yuz"
+      },
+      {
+       "tr": "Halsiz",
+       "uz": "holsiz"
+      },
+      {
+       "tr": "İç",
+       "uz": "ich"
+      },
+      {
+       "tr": "İskele",
+       "uz": "kema, vapurlarni töxtash"
+      },
+      {
+       "tr": "Kalabalık",
+       "uz": "gavjum"
+      },
+      {
+       "tr": "Karşı",
+       "uz": "qarshi"
+      },
+      {
+       "tr": "Kibar",
+       "uz": "jentelmen, odobli"
+      },
+      {
+       "tr": "Köprü",
+       "uz": "köprik"
+      },
+      {
+       "tr": "Köşe",
+       "uz": "burchak"
+      },
+      {
+       "tr": "Kulak",
+       "uz": "quloq"
+      },
+      {
+       "tr": "Kuzen",
+       "uz": "bölavachcha, amakivachcha"
+      },
+      {
+       "tr": "Kütüphane",
+       "uz": "kutubxona"
+      },
+      {
+       "tr": "Lezzetli",
+       "uz": "lazzzatli"
+      },
+      {
+       "tr": "Mahalle",
+       "uz": "mahalla"
+      },
+      {
+       "tr": "Manzara",
+       "uz": "manzara, körinish"
+      },
+      {
+       "tr": "Marka",
+       "uz": "marka, brent"
+      },
+      {
+       "tr": "çorbası",
+       "uz": "marjumak"
+      },
+      {
+       "tr": "Meydan",
+       "uz": "maydon (meydan okumakduelga chaqirmoq)"
+      },
+      {
+       "tr": "Nehir",
+       "uz": "daryo"
+      },
+      {
+       "tr": "Orta",
+       "uz": "örta"
+      },
+      {
+       "tr": "Ön",
+       "uz": "old qism, old"
+      },
+      {
+       "tr": "Parmak",
+       "uz": "barmoq"
+      },
+      {
+       "tr": "Patlıcan",
+       "uz": "baqalajon"
+      },
+      {
+       "tr": "Plan",
+       "uz": "reja, plan"
+      },
+      {
+       "tr": "Rapor",
+       "uz": "hisobot"
+      },
+      {
+       "tr": "Reçete",
+       "uz": "retsept (shifokor yozgan"
+      },
+      {
+       "tr": "Renk",
+       "uz": "rang"
+      },
+      {
+       "tr": "Sağ",
+       "uz": "soğ, soğlom"
+      },
+      {
+       "tr": "Salıncak",
+       "uz": "arğimchoq"
+      },
+      {
+       "tr": "Sol",
+       "uz": "chap"
+      },
+      {
+       "tr": "Sözlük",
+       "uz": "luğat"
+      },
+      {
+       "tr": "Şeker",
+       "uz": "shakar, qand"
+      },
+      {
+       "tr": "Tahmin",
+       "uz": "tahmin"
+      },
+      {
+       "tr": "Tarihi",
+       "uz": "tarixiy"
+      },
+      {
+       "tr": "Ten",
+       "uz": "tana, teri"
+      },
+      {
+       "tr": "Terzi",
+       "uz": "tikuvchi"
+      },
+      {
+       "tr": "Teyze",
+       "uz": "xola"
+      },
+      {
+       "tr": "Üst",
+       "uz": "ust, ust taraf"
+      },
+      {
+       "tr": "Vücut",
+       "uz": "vujud, tana"
+      },
+      {
+       "tr": "Yaramaz",
+       "uz": "töpolonchi"
+      },
+      {
+       "tr": "Yenge",
+       "uz": "yanga"
+      },
+      {
+       "tr": "Yukarı",
+       "uz": "yuqori"
+      },
+      {
+       "tr": "Ağrımak",
+       "uz": "oğrimoq"
+      },
+      {
+       "tr": "Anlaşmak",
+       "uz": "kelishmoq, anglashmoq"
+      },
+      {
+       "tr": "Bayılmak",
+       "uz": "hushidan ketmoq"
+      },
+      {
+       "tr": "Beğenmek",
+       "uz": "yoqtirmoq"
+      },
+      {
+       "tr": "Danışmak",
+       "uz": "maslahat qilmoq, fikr"
+      },
+      {
+       "tr": "Değiştirmek",
+       "uz": "özgartirmoq"
+      },
+      {
+       "tr": "Dinlemek",
+       "uz": "tinglamoq"
+      },
+      {
+       "tr": "Gezmek",
+       "uz": "kezmoq"
+      },
+      {
+       "tr": "Görüşmek",
+       "uz": "körishmoq"
+      },
+      {
+       "tr": "Hissetmek",
+       "uz": "his qilmoq"
+      },
+      {
+       "tr": "İlgilenmek",
+       "uz": "qiziqmoq"
+      },
+      {
+       "tr": "Kalkmak",
+       "uz": "turmoq"
+      },
+      {
+       "tr": "Kaşınmak",
+       "uz": "qoshinmoq"
+      },
+      {
+       "tr": "Katılmak",
+       "uz": "qöshilmoq"
+      },
+      {
+       "tr": "Kızarmak",
+       "uz": "qizarmoq"
+      },
+      {
+       "tr": "Sallanmak",
+       "uz": "tebranmoq"
+      },
+      {
+       "tr": "Tanımak",
+       "uz": "tanimoq"
+      },
+      {
+       "tr": "Tansiyon ölçtürmek",
+       "uz": "qon bosimini"
+      },
+      {
+       "tr": "Tartılmak",
+       "uz": "tortilmoq"
+      },
+      {
+       "tr": "Tedavi olmak",
+       "uz": "davolanmoq"
+      },
+      {
+       "tr": "Öksürmek",
+       "uz": "yötalmoq"
+      },
+      {
+       "tr": "Ziyarete gelmek",
+       "uz": "ziyoratga kelmoq"
+      }
+     ]
     }
-  ]
+   ]
+  },
+  {
+   "name": "A2",
+   "units": [
+    {
+     "name": "1-unit",
+     "words": [
+      {
+       "tr": "Ada",
+       "uz": "orol"
+      },
+      {
+       "tr": "Akıllı",
+       "uz": "aqlli"
+      },
+      {
+       "tr": "Altın",
+       "uz": "oltin"
+      },
+      {
+       "tr": "ana yemek",
+       "uz": "asosiy ovqat, taom"
+      },
+      {
+       "tr": "apartman",
+       "uz": "padyez"
+      },
+      {
+       "tr": "aptal",
+       "uz": "ahmoq"
+      },
+      {
+       "tr": "âşık",
+       "uz": "oshiq, sevib qolgan"
+      },
+      {
+       "tr": "aşk",
+       "uz": "ishq, sevgi"
+      },
+      {
+       "tr": "avuç",
+       "uz": "hovuch"
+      },
+      {
+       "tr": "baklava",
+       "uz": "baqlava, paxlava"
+      },
+      {
+       "tr": "beyaz",
+       "uz": "oq"
+      },
+      {
+       "tr": "bez",
+       "uz": "latta (toz bezi-chang artadigan"
+      },
+      {
+       "tr": "bıyık",
+       "uz": "möylov"
+      },
+      {
+       "tr": "biber",
+       "uz": "bulğor qalampiri, qalampir"
+      },
+      {
+       "tr": "bol",
+       "uz": "möl, köp"
+      },
+      {
+       "tr": "börek",
+       "uz": "börak, barak"
+      },
+      {
+       "tr": "bulut",
+       "uz": "bulut"
+      },
+      {
+       "tr": "büfe",
+       "uz": "bufet"
+      },
+      {
+       "tr": "cadde",
+       "uz": "asosiy qatnov yöl, trassa"
+      },
+      {
+       "tr": "çikolata",
+       "uz": "shokalat"
+      },
+      {
+       "tr": "çim",
+       "uz": "öt"
+      },
+      {
+       "tr": "çizgi",
+       "uz": "chiziq, multifilm, rasm"
+      },
+      {
+       "tr": "çöp",
+       "uz": "axlat"
+      },
+      {
+       "tr": "dalgalı",
+       "uz": "tölqinli"
+      },
+      {
+       "tr": "damar",
+       "uz": "tomir"
+      },
+      {
+       "tr": "demet",
+       "uz": "dona, boğ, dasta"
+      },
+      {
+       "tr": "dengesiz",
+       "uz": "muvozanatsiz"
+      },
+      {
+       "tr": "dilim",
+       "uz": "tilim"
+      },
+      {
+       "tr": "dosdoğru",
+       "uz": "töppa-töğri"
+      },
+      {
+       "tr": "dürüst",
+       "uz": "durust"
+      },
+      {
+       "tr": "düşünceli",
+       "uz": "mulohazali, tushungan"
+      },
+      {
+       "tr": "düzenli",
+       "uz": "tratibli"
+      },
+      {
+       "tr": "ecza dolabı",
+       "uz": "dori qutisi, aptechka"
+      },
+      {
+       "tr": "ela",
+       "uz": "hazıl, fındiq"
+      },
+      {
+       "tr": "emir",
+       "uz": "amr"
+      },
+      {
+       "tr": "enerjik",
+       "uz": "energiyaga boy, energetik"
+      },
+      {
+       "tr": "esprili",
+       "uz": "hazilkash, askiyachi"
+      },
+      {
+       "tr": "et",
+       "uz": "gösht"
+      },
+      {
+       "tr": "faydalı",
+       "uz": "foydali"
+      },
+      {
+       "tr": "gece",
+       "uz": "kecha"
+      },
+      {
+       "tr": "gerekli",
+       "uz": "kerakli"
+      },
+      {
+       "tr": "gökyüzü",
+       "uz": "osmon"
+      },
+      {
+       "tr": "gözlük",
+       "uz": "közoynak"
+      },
+      {
+       "tr": "güler yüzlü",
+       "uz": "ochiq chexrali, kular"
+      },
+      {
+       "tr": "güvenilir",
+       "uz": "ishoniladigan, ishonchli"
+      },
+      {
+       "tr": "harika",
+       "uz": "super, öta darajada zörni"
+      },
+      {
+       "tr": "hayvan",
+       "uz": "hayvon"
+      },
+      {
+       "tr": "huzurlu",
+       "uz": "rohat, huzurli"
+      },
+      {
+       "tr": "ihtiyaç",
+       "uz": "ehtiyoj"
+      },
+      {
+       "tr": "ilaç",
+       "uz": "dori"
+      },
+      {
+       "tr": "inatçı",
+       "uz": "qaysar"
+      },
+      {
+       "tr": "istek",
+       "uz": "istak, xohish"
+      },
+      {
+       "tr": "kadayıf",
+       "uz": "kadayıf"
+      },
+      {
+       "tr": "kadeh",
+       "uz": "qadax"
+      },
+      {
+       "tr": "kap",
+       "uz": "idish"
+      },
+      {
+       "tr": "kapıcı",
+       "uz": "darvozabon"
+      },
+      {
+       "tr": "karabiber",
+       "uz": "murch"
+      },
+      {
+       "tr": "karınca",
+       "uz": "chumoli"
+      },
+      {
+       "tr": "karizmatik",
+       "uz": "xarizmatik"
+      },
+      {
+       "tr": "karpuz",
+       "uz": "tarvuz"
+      },
+      {
+       "tr": "kâse",
+       "uz": "kosa"
+      },
+      {
+       "tr": "kekik",
+       "uz": "kekik, timyan (rözmarin)"
+      },
+      {
+       "tr": "kemer",
+       "uz": "kamar"
+      },
+      {
+       "tr": "kenar(ı)",
+       "uz": "cheti, chekkasi"
+      },
+      {
+       "tr": "kısım",
+       "uz": "qism"
+      },
+      {
+       "tr": "kıyma",
+       "uz": "qiyma"
+      },
+      {
+       "tr": "kızıl",
+       "uz": "qizil"
+      },
+      {
+       "tr": "kilogram",
+       "uz": "kg"
+      },
+      {
+       "tr": "klinik",
+       "uz": "klinika"
+      },
+      {
+       "tr": "konu",
+       "uz": "mazvu, tema, ünit"
+      },
+      {
+       "tr": "korkak",
+       "uz": "qörqoq"
+      },
+      {
+       "tr": "köfte",
+       "uz": "katlet, köfta"
+      },
+      {
+       "tr": "kurabiye",
+       "uz": "qurobiya pecheniysi"
+      },
+      {
+       "tr": "kuşbaşı",
+       "uz": "bosh barmoq kattaligida"
+      },
+      {
+       "tr": "kutsal",
+       "uz": "qutluq, muqaddas"
+      },
+      {
+       "tr": "küp",
+       "uz": "kub"
+      },
+      {
+       "tr": "lahmacun",
+       "uz": "lahmajun"
+      },
+      {
+       "tr": "levha",
+       "uz": "lavha, plastinka"
+      },
+      {
+       "tr": "lezzetli",
+       "uz": "lazzatli, mazali"
+      },
+      {
+       "tr": "lokum",
+       "uz": "lokum"
+      },
+      {
+       "tr": "makarna",
+       "uz": "makron"
+      },
+      {
+       "tr": "malzeme",
+       "uz": "mahsulot, xom ashyo"
+      },
+      {
+       "tr": "maydanoz",
+       "uz": "petrushka"
+      },
+      {
+       "tr": "menü",
+       "uz": "menu"
+      },
+      {
+       "tr": "meraklı",
+       "uz": "qiziquvchan"
+      },
+      {
+       "tr": "meslek",
+       "uz": "kasb"
+      },
+      {
+       "tr": "mesut",
+       "uz": "baxt (saodat)"
+      },
+      {
+       "tr": "miktar",
+       "uz": "miqdor"
+      },
+      {
+       "tr": "mutlaka",
+       "uz": "mutlaqo"
+      },
+      {
+       "tr": "müşteri",
+       "uz": "mijoz"
+      },
+      {
+       "tr": "müze",
+       "uz": "muzey"
+      },
+      {
+       "tr": "naz",
+       "uz": "noz"
+      },
+      {
+       "tr": "neşeli",
+       "uz": "nashali, baxtiyor"
+      },
+      {
+       "tr": "otopark",
+       "uz": "avtoturargoh"
+      },
+      {
+       "tr": "öneri",
+       "uz": "maslahat, taklif"
+      },
+      {
+       "tr": "patlıcan",
+       "uz": "baqalajon"
+      },
+      {
+       "tr": "perde",
+       "uz": "parda"
+      },
+      {
+       "tr": "peynir",
+       "uz": "brinza (pishloq)"
+      },
+      {
+       "tr": "pizza",
+       "uz": "pitsa"
+      },
+      {
+       "tr": "porsiyon",
+       "uz": "porsiyon"
+      },
+      {
+       "tr": "profil",
+       "uz": "profil, shaxsiy sahifa"
+      },
+      {
+       "tr": "prospektüs",
+       "uz": "prospekt"
+      },
+      {
+       "tr": "rüya",
+       "uz": "tush"
+      },
+      {
+       "tr": "rüzgâr",
+       "uz": "shamol"
+      },
+      {
+       "tr": "sabır",
+       "uz": "sabr"
+      },
+      {
+       "tr": "sakal",
+       "uz": "soqol"
+      },
+      {
+       "tr": "salata",
+       "uz": "salat"
+      },
+      {
+       "tr": "salyangoz",
+       "uz": "salyangoz"
+      },
+      {
+       "tr": "saman",
+       "uz": "somon"
+      },
+      {
+       "tr": "saygı",
+       "uz": "hurmat"
+      },
+      {
+       "tr": "sevgi",
+       "uz": "sevgi"
+      },
+      {
+       "tr": "sevimli",
+       "uz": "sevimli, sevsa arzigulik"
+      },
+      {
+       "tr": "sıvı",
+       "uz": "suyuq, suyuqlik"
+      },
+      {
+       "tr": "sifon",
+       "uz": "sifon"
+      },
+      {
+       "tr": "sigara",
+       "uz": "sigaret"
+      },
+      {
+       "tr": "sipariş",
+       "uz": "buyurtma, zakaz"
+      },
+      {
+       "tr": "site",
+       "uz": "sayt"
+      },
+      {
+       "tr": "soğan",
+       "uz": "piyoz"
+      },
+      {
+       "tr": "soğuk",
+       "uz": "sovuq"
+      },
+      {
+       "tr": "sosyal paylaşım",
+       "uz": "ijtimoiy baham"
+      },
+      {
+       "tr": "su",
+       "uz": "suv"
+      },
+      {
+       "tr": "şarap",
+       "uz": "sharop, may"
+      },
+      {
+       "tr": "şeker",
+       "uz": "shakar, qand"
+      },
+      {
+       "tr": "şirin",
+       "uz": "yoqimtoy"
+      },
+      {
+       "tr": "şiş",
+       "uz": "six"
+      },
+      {
+       "tr": "tane",
+       "uz": "dona"
+      },
+      {
+       "tr": "tarif",
+       "uz": "tarif"
+      },
+      {
+       "tr": "tatlı",
+       "uz": "shirinlik"
+      },
+      {
+       "tr": "tava",
+       "uz": "tava"
+      },
+      {
+       "tr": "tavsiye",
+       "uz": "tavsiya"
+      },
+      {
+       "tr": "tecrübe",
+       "uz": "tajriba"
+      },
+      {
+       "tr": "tek",
+       "uz": "yagona, bitta, yolğiz"
+      },
+      {
+       "tr": "ten",
+       "uz": "tana, vujud"
+      },
+      {
+       "tr": "tramvay",
+       "uz": "tranvay"
+      },
+      {
+       "tr": "tuvalet",
+       "uz": "xojatxona"
+      },
+      {
+       "tr": "tuz",
+       "uz": "tuz"
+      },
+      {
+       "tr": "uyarı",
+       "uz": "ogohlantirish"
+      },
+      {
+       "tr": "veteriner",
+       "uz": "veterinar, mol doxtiri"
+      },
+      {
+       "tr": "yağ",
+       "uz": "yoğ"
+      },
+      {
+       "tr": "yağmur",
+       "uz": "yomğir"
+      },
+      {
+       "tr": "yarar",
+       "uz": "foyda olish, olingan foyda"
+      },
+      {
+       "tr": "yarışma",
+       "uz": "musobaqa"
+      },
+      {
+       "tr": "yaşam",
+       "uz": "yashash"
+      },
+      {
+       "tr": "yeterince",
+       "uz": "yetarlicha"
+      },
+      {
+       "tr": "yorgan",
+       "uz": "körpa"
+      },
+      {
+       "tr": "yumurta",
+       "uz": "tuxum"
+      },
+      {
+       "tr": "yüksek",
+       "uz": "yuksak, baland"
+      },
+      {
+       "tr": "zarar",
+       "uz": "zarar"
+      },
+      {
+       "tr": "acele etmek",
+       "uz": "shoshilmoq"
+      },
+      {
+       "tr": "anlatmak",
+       "uz": "anglatmoq"
+      },
+      {
+       "tr": "bağlamak",
+       "uz": "boğlamoq"
+      },
+      {
+       "tr": "basmak",
+       "uz": "bosmoq"
+      },
+      {
+       "tr": "beğenmek",
+       "uz": "yoqtirmoq"
+      },
+      {
+       "tr": "bıkmak",
+       "uz": "biqmoq, biror kishi yoki"
+      },
+      {
+       "tr": "çağırmak",
+       "uz": "chaqirmoq"
+      },
+      {
+       "tr": "çekmek",
+       "uz": "tushirmoq"
+      },
+      {
+       "tr": "çekmek",
+       "uz": "rasm tushirmoq, tortmoq"
+      },
+      {
+       "tr": "(elini çek",
+       "uz": "qölingni tort"
+      },
+      {
+       "tr": "çırpmak",
+       "uz": "qarsak, aylantirmoq"
+      },
+      {
+       "tr": "dizmek",
+       "uz": "tizmoq"
+      },
+      {
+       "tr": "doğramak",
+       "uz": "töğramoq"
+      },
+      {
+       "tr": "doldurmak",
+       "uz": "töldirmoq"
+      },
+      {
+       "tr": "dökmek",
+       "uz": "tökmoq"
+      },
+      {
+       "tr": "duymak",
+       "uz": "eshitmoq"
+      },
+      {
+       "tr": "düşünmek",
+       "uz": "öylamoq"
+      },
+      {
+       "tr": "düzenlemek",
+       "uz": "tuzatmoq"
+      },
+      {
+       "tr": "eklemek",
+       "uz": "qöshmoq"
+      },
+      {
+       "tr": "geç kalmak",
+       "uz": "kech qolmoq"
+      },
+      {
+       "tr": "göndermek",
+       "uz": "yubormoq, jönatmoq."
+      },
+      {
+       "tr": "Hapşırmak",
+       "uz": "aksi urmoq"
+      },
+      {
+       "tr": "Haşlamak",
+       "uz": "qaynatmoq"
+      },
+      {
+       "tr": "Hatırlamak",
+       "uz": "xotirlamoq"
+      },
+      {
+       "tr": "Ismarlamak",
+       "uz": "(erimoq)erimoq"
+      },
+      {
+       "tr": "ihmal etmek",
+       "uz": "e’tiborsizlik qilmoq"
+      },
+      {
+       "tr": "ilave etmek",
+       "uz": "qöshimcha qilmoq"
+      },
+      {
+       "tr": "ilerlemek",
+       "uz": "oldınlamoq"
+      },
+      {
+       "tr": "isyan etmek",
+       "uz": "isyon qilmoq"
+      },
+      {
+       "tr": "işaretlemek",
+       "uz": "ishoratlamoq"
+      },
+      {
+       "tr": "kavga etmek",
+       "uz": "janjallashmoq"
+      },
+      {
+       "tr": "kaynatmak",
+       "uz": "qaynatmoq"
+      },
+      {
+       "tr": "kızartmak",
+       "uz": "qovurmoq"
+      },
+      {
+       "tr": "kızmak",
+       "uz": "jahli chiqmoq"
+      },
+      {
+       "tr": "kopmak",
+       "uz": "uzulmoq, köchib ketishi"
+      },
+      {
+       "tr": "oluşturmak",
+       "uz": "yaratmoq"
+      },
+      {
+       "tr": "önermek",
+       "uz": "taklif qilmoq"
+      },
+      {
+       "tr": "özen göstermek",
+       "uz": "qayğurmoq, özini"
+      },
+      {
+       "tr": "park etmek",
+       "uz": "parkofka"
+      },
+      {
+       "tr": "pişirmek",
+       "uz": "pishirmoq"
+      },
+      {
+       "tr": "rendelemek",
+       "uz": "qirgichdan chiqarmoq"
+      },
+      {
+       "tr": "saklamak",
+       "uz": "saqlamoq, yashirmoq"
+      },
+      {
+       "tr": "sıralamak",
+       "uz": "navbatga"
+      },
+      {
+       "tr": "süslemek",
+       "uz": "bezamoq"
+      },
+      {
+       "tr": "süzmek",
+       "uz": "suzmoq"
+      },
+      {
+       "tr": "tamamlamak",
+       "uz": "tugatmoq"
+      },
+      {
+       "tr": "tarif etmek",
+       "uz": "tarif qilmoq"
+      },
+      {
+       "tr": "tükenmek",
+       "uz": "tugamoq"
+      },
+      {
+       "tr": "usanmak",
+       "uz": "charchamoq"
+      },
+      {
+       "tr": "uzatmak",
+       "uz": "uzatmoq, chözmoq"
+      },
+      {
+       "tr": "yağmak",
+       "uz": "yoğmoq"
+      },
+      {
+       "tr": "itmek",
+       "uz": "uzoqlashtirmoq, itarmoq"
+      },
+      {
+       "tr": "etmek",
+       "uz": "tashvishlanmoq"
+      },
+      {
+       "tr": "numaralandırmak",
+       "uz": "raqamlamoq"
+      },
+      {
+       "tr": "silmek",
+       "uz": "öchirmoq"
+      },
+      {
+       "tr": "yalan söylemek",
+       "uz": "yolğon gapirmoq"
+      },
+      {
+       "tr": "yerleştirmek",
+       "uz": "joylashtirmoq"
+      },
+      {
+       "tr": "Afiyet olsun",
+       "uz": "yoqimli ishtaha"
+      },
+      {
+       "tr": "Çok yaşayın",
+       "uz": "köp yashang, soğ"
+      },
+      {
+       "tr": "Elinize sağlık",
+       "uz": "qöliz dard körmasin"
+      },
+      {
+       "tr": "Hayırlı olsun",
+       "uz": "xayrlisi bölsin, qulli"
+      },
+      {
+       "tr": "Kolay gelsin",
+       "uz": "xormanng"
+      }
+     ]
+    },
+    {
+     "name": "2-unit",
+     "words": [
+      {
+       "tr": "Alaycı",
+       "uz": "kinoyachi, prikolchi"
+      },
+      {
+       "tr": "Alışkanlık",
+       "uz": "odat"
+      },
+      {
+       "tr": "Alkol",
+       "uz": "alkagol"
+      },
+      {
+       "tr": "Ampul",
+       "uz": "ampulü lampochka"
+      },
+      {
+       "tr": "As",
+       "uz": "ishining ustasi"
+      },
+      {
+       "tr": "Ay",
+       "uz": "oy"
+      },
+      {
+       "tr": "Bağımlılık",
+       "uz": "tobelik, qaramlik"
+      },
+      {
+       "tr": "Baklagil",
+       "uz": "dukkakli, puls"
+      },
+      {
+       "tr": "Beslenme",
+       "uz": "oziqlanmoq"
+      },
+      {
+       "tr": "Beyaz",
+       "uz": "oq"
+      },
+      {
+       "tr": "Bilgin",
+       "uz": "olim, bilimli"
+      },
+      {
+       "tr": "Bolca",
+       "uz": "möl, köpgina"
+      },
+      {
+       "tr": "Bordo",
+       "uz": "bordo qizil"
+      },
+      {
+       "tr": "Buluş",
+       "uz": "botpish, kashfiyot"
+      },
+      {
+       "tr": "Cömert",
+       "uz": "sahiy"
+      },
+      {
+       "tr": "çizgi film",
+       "uz": "multifilm"
+      },
+      {
+       "tr": "demokrasi",
+       "uz": "demokratya"
+      },
+      {
+       "tr": "deney",
+       "uz": "sınov, tajriba"
+      },
+      {
+       "tr": "derbi",
+       "uz": "darba, qözğolon"
+      },
+      {
+       "tr": "dük",
+       "uz": "gersog"
+      },
+      {
+       "tr": "düşes",
+       "uz": "gersoginya"
+      },
+      {
+       "tr": "egzersiz",
+       "uz": "mashq"
+      },
+      {
+       "tr": "ekonomi",
+       "uz": "iqtisodiyot"
+      },
+      {
+       "tr": "emekli",
+       "uz": "nafaqaxör"
+      },
+      {
+       "tr": "erişkin",
+       "uz": "katta"
+      },
+      {
+       "tr": "esnek",
+       "uz": "moslashuvchan"
+      },
+      {
+       "tr": "fare",
+       "uz": "sichqon"
+      },
+      {
+       "tr": "fırsatçı",
+       "uz": "fursatchi, fursatdan"
+      },
+      {
+       "tr": "gazetecilik",
+       "uz": "jurnalistika"
+      },
+      {
+       "tr": "gece",
+       "uz": "kechqurun"
+      },
+      {
+       "tr": "gündüz",
+       "uz": "kunduz"
+      },
+      {
+       "tr": "hayalci",
+       "uz": "hayolparast"
+      },
+      {
+       "tr": "hırsız",
+       "uz": "öğri"
+      },
+      {
+       "tr": "hizmetçi",
+       "uz": "xizmatkor"
+      },
+      {
+       "tr": "hükümdar",
+       "uz": "hukumdor"
+      },
+      {
+       "tr": "ışın",
+       "uz": "nur"
+      },
+      {
+       "tr": "idareci",
+       "uz": "administrator"
+      },
+      {
+       "tr": "ihtiyaç",
+       "uz": "ehtiyoj"
+      },
+      {
+       "tr": "iletişim",
+       "uz": "aloqa"
+      },
+      {
+       "tr": "ilginç",
+       "uz": "qiziq"
+      },
+      {
+       "tr": "ilk",
+       "uz": "ilk"
+      },
+      {
+       "tr": "iskelet",
+       "uz": "sklet"
+      },
+      {
+       "tr": "kahkaha",
+       "uz": "kulgu"
+      },
+      {
+       "tr": "kahraman",
+       "uz": "qahramon"
+      },
+      {
+       "tr": "kalsiyum",
+       "uz": "kalsiy"
+      },
+      {
+       "tr": "kanat",
+       "uz": "qanot"
+      },
+      {
+       "tr": "kaplumbağa",
+       "uz": "toshbaqa"
+      },
+      {
+       "tr": "kemik",
+       "uz": "suyak"
+      },
+      {
+       "tr": "kırmızı",
+       "uz": "qizil"
+      },
+      {
+       "tr": "kolesterol",
+       "uz": "xolesterin"
+      },
+      {
+       "tr": "komutan",
+       "uz": "qömondon"
+      },
+      {
+       "tr": "konforlu",
+       "uz": "kamfort, qulay"
+      },
+      {
+       "tr": "kongre",
+       "uz": "kangres"
+      },
+      {
+       "tr": "koyun",
+       "uz": "qöy"
+      },
+      {
+       "tr": "kristal",
+       "uz": "billur"
+      },
+      {
+       "tr": "kurnaz",
+       "uz": "ayyor"
+      },
+      {
+       "tr": "kuruyemiş",
+       "uz": "quruq meva"
+      },
+      {
+       "tr": "kültür",
+       "uz": "madaniyat"
+      },
+      {
+       "tr": "lacivert",
+       "uz": "töq kök rang"
+      },
+      {
+       "tr": "lakap",
+       "uz": "laqab"
+      },
+      {
+       "tr": "lodos",
+       "uz": "janubiy-ğarbiy"
+      },
+      {
+       "tr": "madde",
+       "uz": "modda"
+      },
+      {
+       "tr": "magazin",
+       "uz": "jurnal"
+      },
+      {
+       "tr": "mağaza",
+       "uz": "butiksifat magazinlar"
+      },
+      {
+       "tr": "meşgul",
+       "uz": "band"
+      },
+      {
+       "tr": "metre",
+       "uz": "metr"
+      },
+      {
+       "tr": "mizaç",
+       "uz": "temperament"
+      },
+      {
+       "tr": "mucit",
+       "uz": "kashfiyotchi"
+      },
+      {
+       "tr": "muhteşem",
+       "uz": "muhtasham"
+      },
+      {
+       "tr": "müdür",
+       "uz": "mudur"
+      },
+      {
+       "tr": "müfettiş",
+       "uz": "tekshiruvchi, taftish"
+      },
+      {
+       "tr": "müze",
+       "uz": "muzey"
+      },
+      {
+       "tr": "nargile",
+       "uz": "chilim"
+      },
+      {
+       "tr": "okyanus",
+       "uz": "okean"
+      },
+      {
+       "tr": "ödül",
+       "uz": "mukofot"
+      },
+      {
+       "tr": "politika",
+       "uz": "siyosat"
+      },
+      {
+       "tr": "protein",
+       "uz": "protain moddasi"
+      },
+      {
+       "tr": "puan",
+       "uz": "baho, ball"
+      },
+      {
+       "tr": "radyo dalgası",
+       "uz": "radyo tölqini"
+      },
+      {
+       "tr": "reçete",
+       "uz": "shifokor yozib beradigan"
+      },
+      {
+       "tr": "romancı",
+       "uz": "roman yozadigan odam"
+      },
+      {
+       "tr": "rütbe",
+       "uz": "mavqe, pagon, unvon"
+      },
+      {
+       "tr": "saf",
+       "uz": "pok, sof, (saf)"
+      },
+      {
+       "tr": "sahil",
+       "uz": "sohil"
+      },
+      {
+       "tr": "saniye",
+       "uz": "soniya (sekunt)"
+      },
+      {
+       "tr": "sarı",
+       "uz": "sariq"
+      },
+      {
+       "tr": "satış",
+       "uz": "sotish"
+      },
+      {
+       "tr": "sene",
+       "uz": "yil"
+      },
+      {
+       "tr": "sıradan",
+       "uz": "oddiy, odatiy"
+      },
+      {
+       "tr": "sinyal",
+       "uz": "signal"
+      },
+      {
+       "tr": "siyah",
+       "uz": "qora"
+      },
+      {
+       "tr": "şövalye",
+       "uz": "ritsar"
+      },
+      {
+       "tr": "takım",
+       "uz": "jamoa"
+      },
+      {
+       "tr": "takma",
+       "uz": "laqab (keyin ataylab taqib"
+      },
+      {
+       "tr": "tavan",
+       "uz": "shift"
+      },
+      {
+       "tr": "tavşan",
+       "uz": "quyon"
+      },
+      {
+       "tr": "teleskop",
+       "uz": "teleskop"
+      },
+      {
+       "tr": "telsiz",
+       "uz": "ratsiya"
+      },
+      {
+       "tr": "toplantı",
+       "uz": "majlis, yiğilish"
+      },
+      {
+       "tr": "tür",
+       "uz": "tur, xil"
+      },
+      {
+       "tr": "unvan",
+       "uz": "unvon"
+      },
+      {
+       "tr": "usta",
+       "uz": "usta (biror ish yoki kasbning"
+      },
+      {
+       "tr": "vasıta",
+       "uz": "vosita"
+      },
+      {
+       "tr": "yazar",
+       "uz": "yozuvchi"
+      },
+      {
+       "tr": "yolculuk",
+       "uz": "yölga otlanish (yolculuk"
+      },
+      {
+       "tr": "nereye",
+       "uz": "yöl bölsın)"
+      },
+      {
+       "tr": "affetmek",
+       "uz": "kechirmoq"
+      },
+      {
+       "tr": "bastırmak",
+       "uz": "bostirmoq"
+      },
+      {
+       "tr": "icat etmek",
+       "uz": "ijodoq qilmoq"
+      },
+      {
+       "tr": "ilerlemek",
+       "uz": "oldinlamoq, ilgarilamoq"
+      },
+      {
+       "tr": "incelemek",
+       "uz": "tekshirmoq"
+      },
+      {
+       "tr": "kazanmak",
+       "uz": "ğolib bölmoq"
+      },
+      {
+       "tr": "keşfetmek",
+       "uz": "kashf qilmoq"
+      },
+      {
+       "tr": "mezun olmak",
+       "uz": "bitirmoq"
+      },
+      {
+       "tr": "yayımlamak",
+       "uz": "nash qilmoq"
+      }
+     ]
+    },
+    {
+     "name": "3-unit",
+     "words": [
+      {
+       "tr": "Ahşap",
+       "uz": "yoğoch"
+      },
+      {
+       "tr": "Aniden",
+       "uz": "birdan, kutilmaganda"
+      },
+      {
+       "tr": "Asker",
+       "uz": "askar"
+      },
+      {
+       "tr": "Avrupa",
+       "uz": "Yevropa"
+      },
+      {
+       "tr": "Baharatlı",
+       "uz": "ziravorli"
+      },
+      {
+       "tr": "Bal",
+       "uz": "asal"
+      },
+      {
+       "tr": "Bambu",
+       "uz": "bambuk"
+      },
+      {
+       "tr": "Başbakan",
+       "uz": "bosh vazir"
+      },
+      {
+       "tr": "Belediye",
+       "uz": "hokimyat"
+      },
+      {
+       "tr": "Bölge",
+       "uz": "qism, hudud"
+      },
+      {
+       "tr": "Bülbül",
+       "uz": "bulbul"
+      },
+      {
+       "tr": "Çadır",
+       "uz": "chodir"
+      },
+      {
+       "tr": "Çekirdek",
+       "uz": "mağiz, donak"
+      },
+      {
+       "tr": "Çevre",
+       "uz": "atrof"
+      },
+      {
+       "tr": "Çiftçi",
+       "uz": "dehqon"
+      },
+      {
+       "tr": "Dağ",
+       "uz": "toğ"
+      },
+      {
+       "tr": "Dışkı",
+       "uz": "tashqi"
+      },
+      {
+       "tr": "Dizi",
+       "uz": "serial"
+      },
+      {
+       "tr": "doğum günü",
+       "uz": "tuğil kun"
+      },
+      {
+       "tr": "döner",
+       "uz": "danar"
+      },
+      {
+       "tr": "dürüst",
+       "uz": "durust"
+      },
+      {
+       "tr": "eldiven",
+       "uz": "qölqop"
+      },
+      {
+       "tr": "eş",
+       "uz": "juft (turmush örtoq)"
+      },
+      {
+       "tr": "etkinlik",
+       "uz": "faoliyat"
+      },
+      {
+       "tr": "ev planı",
+       "uz": "uy rejasi, planı"
+      },
+      {
+       "tr": "fal",
+       "uz": "fol"
+      },
+      {
+       "tr": "faydalı",
+       "uz": "foydali"
+      },
+      {
+       "tr": "ferah",
+       "uz": "keng (içini ferah tut-iching"
+      },
+      {
+       "tr": "festival",
+       "uz": "festival"
+      },
+      {
+       "tr": "gelenek",
+       "uz": "odat"
+      },
+      {
+       "tr": "gösteri",
+       "uz": "tamosha"
+      },
+      {
+       "tr": "güneşli",
+       "uz": "quyoshli"
+      },
+      {
+       "tr": "harika",
+       "uz": "ajiyib, haddan ortiq zör"
+      },
+      {
+       "tr": "hastane",
+       "uz": "kasalxona"
+      },
+      {
+       "tr": "hava",
+       "uz": "havo"
+      },
+      {
+       "tr": "hayal",
+       "uz": "hayol"
+      },
+      {
+       "tr": "hediye",
+       "uz": "sovğa, hadya"
+      },
+      {
+       "tr": "ılık",
+       "uz": "iliq"
+      },
+      {
+       "tr": "icat",
+       "uz": "ijod"
+      },
+      {
+       "tr": "inatçı",
+       "uz": "qaysar"
+      },
+      {
+       "tr": "izleyici",
+       "uz": "tomoshabin"
+      },
+      {
+       "tr": "jimnastik",
+       "uz": "gimnastika"
+      },
+      {
+       "tr": "kaban",
+       "uz": "palto"
+      },
+      {
+       "tr": "kampanya",
+       "uz": "kampaniya"
+      },
+      {
+       "tr": "kar",
+       "uz": "qor (foyda manosida ham"
+      },
+      {
+       "tr": "katedral",
+       "uz": "ibodatxona"
+      },
+      {
+       "tr": "kazak",
+       "uz": "jenfer"
+      },
+      {
+       "tr": "kıyı",
+       "uz": "qirğoq (toğ, dengiz…)"
+      },
+      {
+       "tr": "kıymet",
+       "uz": "qiymat"
+      },
+      {
+       "tr": "klozet",
+       "uz": "unitaz"
+      },
+      {
+       "tr": "mahalli",
+       "uz": "mahalliy"
+      },
+      {
+       "tr": "makyaj",
+       "uz": "makyaj, grim"
+      },
+      {
+       "tr": "merasim",
+       "uz": "marosim"
+      },
+      {
+       "tr": "mercimek",
+       "uz": "yasmiq (chechevitsa)"
+      },
+      {
+       "tr": "mesai",
+       "uz": "ish soati, ish vaqti"
+      },
+      {
+       "tr": "metrekare",
+       "uz": "metr kvadrat (m2)"
+      },
+      {
+       "tr": "mısır",
+       "uz": "makkajöxori, (Mısır-Misr)"
+      },
+      {
+       "tr": "mimar",
+       "uz": "me’mor"
+      },
+      {
+       "tr": "mobilya",
+       "uz": "mebel"
+      },
+      {
+       "tr": "nehir",
+       "uz": "daryo"
+      },
+      {
+       "tr": "nemli",
+       "uz": "namli"
+      },
+      {
+       "tr": "oğul",
+       "uz": "öğil"
+      },
+      {
+       "tr": "okyanus",
+       "uz": "okean"
+      },
+      {
+       "tr": "ödeme",
+       "uz": "tölov (tölanishi kerak bölgan"
+      },
+      {
+       "tr": "padişah",
+       "uz": "podshoh"
+      },
+      {
+       "tr": "pamuk",
+       "uz": "paxta"
+      },
+      {
+       "tr": "piramit",
+       "uz": "piramida"
+      },
+      {
+       "tr": "plaj",
+       "uz": "pilyaj"
+      },
+      {
+       "tr": "robot",
+       "uz": "robot"
+      },
+      {
+       "tr": "romatizma",
+       "uz": "revmatizim"
+      },
+      {
+       "tr": "sağanak",
+       "uz": "sharros quygan yomğir"
+      },
+      {
+       "tr": "sahil",
+       "uz": "sohil"
+      },
+      {
+       "tr": "sakal",
+       "uz": "soqol"
+      },
+      {
+       "tr": "satılık",
+       "uz": "sotiladigan"
+      },
+      {
+       "tr": "saygı",
+       "uz": "hurmat"
+      },
+      {
+       "tr": "seçim",
+       "uz": "tanlov"
+      },
+      {
+       "tr": "semt",
+       "uz": "guzargoh, semt"
+      },
+      {
+       "tr": "serin",
+       "uz": "salqin"
+      },
+      {
+       "tr": "sınav",
+       "uz": "snov, imtihon"
+      },
+      {
+       "tr": "sirk",
+       "uz": "sirk"
+      },
+      {
+       "tr": "sisli",
+       "uz": "tumanli"
+      },
+      {
+       "tr": "soslu",
+       "uz": "sovusli"
+      },
+      {
+       "tr": "sosyal",
+       "uz": "ijtimoiy"
+      },
+      {
+       "tr": "sörf",
+       "uz": "syorfing sport turi (suv ustida"
+      },
+      {
+       "tr": "stant",
+       "uz": "stent, tribuna (ot poygalarida"
+      },
+      {
+       "tr": "şelale",
+       "uz": "sharshara"
+      },
+      {
+       "tr": "tapınak",
+       "uz": "ibodatxona"
+      },
+      {
+       "tr": "tarla",
+       "uz": "dala"
+      },
+      {
+       "tr": "taş",
+       "uz": "tosh"
+      },
+      {
+       "tr": "torun",
+       "uz": "nevara"
+      },
+      {
+       "tr": "tur",
+       "uz": "sayohat (konya turu)"
+      },
+      {
+       "tr": "tuş",
+       "uz": "klavyaturadagi bosiladigan har"
+      },
+      {
+       "tr": "vaat",
+       "uz": "va’da, garov"
+      },
+      {
+       "tr": "vakit",
+       "uz": "vaqt, soat"
+      },
+      {
+       "tr": "valiz",
+       "uz": "chamadon"
+      },
+      {
+       "tr": "vize",
+       "uz": "viza, (universitelerde ara sınavoraliq ma’nosida ham keladi)"
+      },
+      {
+       "tr": "yağmurluk",
+       "uz": "yomğir ötqazmaygigan"
+      },
+      {
+       "tr": "yanardağ",
+       "uz": "vulqon"
+      },
+      {
+       "tr": "yoğunluk",
+       "uz": "zichlik (faoliyatda, ishda"
+      },
+      {
+       "tr": "yosun",
+       "uz": "tarz, (moh-daraxtlar yoki"
+      },
+      {
+       "tr": "yöresel",
+       "uz": "mintaqaviy (Jizzahın yöresel"
+      },
+      {
+       "tr": "yurt",
+       "uz": "yotoqxona"
+      },
+      {
+       "tr": "anlaşmak",
+       "uz": "anglashmoq, kelishmoq"
+      },
+      {
+       "tr": "artmak",
+       "uz": "köpaymoq, ortmoq"
+      },
+      {
+       "tr": "azalmak",
+       "uz": "kamaymoq"
+      },
+      {
+       "tr": "balık tutmak",
+       "uz": "baliq tutmoq"
+      },
+      {
+       "tr": "boyamak",
+       "uz": "böyamoq"
+      },
+      {
+       "tr": "çağırmak",
+       "uz": "chaqirmoq"
+      },
+      {
+       "tr": "çalıştırmak",
+       "uz": "ishlatmoq"
+      },
+      {
+       "tr": "çizmek",
+       "uz": "chizmoq"
+      },
+      {
+       "tr": "dalmak",
+       "uz": "hayollarga berilib ketmoq"
+      },
+      {
+       "tr": "değiştirmek",
+       "uz": "özgartirmoq"
+      },
+      {
+       "tr": "düzenlemek",
+       "uz": "tashkil"
+      },
+      {
+       "tr": "geçirmek",
+       "uz": "ötqazmoq"
+      },
+      {
+       "tr": "geçmek",
+       "uz": "kechmoq"
+      },
+      {
+       "tr": "gerçekleştirmek",
+       "uz": "amalga oshirmoq"
+      },
+      {
+       "tr": "gezmek",
+       "uz": "kezmoq"
+      },
+      {
+       "tr": "görüşmek",
+       "uz": "körishmoq, uchrashmoq"
+      },
+      {
+       "tr": "güneşlenmek",
+       "uz": "toblanmoq"
+      },
+      {
+       "tr": "ikna etmek",
+       "uz": "rozi qilmoq, köndirmoq"
+      },
+      {
+       "tr": "iptal olmak",
+       "uz": "bekor bölmoq"
+      },
+      {
+       "tr": "kaçmak",
+       "uz": "qochmoq"
+      },
+      {
+       "tr": "karar vermek",
+       "uz": "qaror qilmoq"
+      },
+      {
+       "tr": "oynamak",
+       "uz": "qorböron"
+      },
+      {
+       "tr": "katılmak",
+       "uz": "qöshilmoq"
+      },
+      {
+       "tr": "kayak yapmak",
+       "uz": "chanğida uchmoq"
+      },
+      {
+       "tr": "kürek çekmek",
+       "uz": "eshkak eshmoq"
+      },
+      {
+       "tr": "tahmin etmek",
+       "uz": "tahmin qilmoq"
+      },
+      {
+       "tr": "takmak",
+       "uz": "toqmoq, (tinimsiz öylamoq."
+      },
+      {
+       "tr": "tıraş olmak",
+       "uz": "soch, soqol oldirmoq"
+      },
+      {
+       "tr": "tükenmek",
+       "uz": "bitmoq"
+      }
+     ]
+    },
+    {
+     "name": "4-unit",
+     "words": [
+      {
+       "tr": "Ambulans",
+       "uz": "tez yordam"
+      },
+      {
+       "tr": "Asansör",
+       "uz": "lift"
+      },
+      {
+       "tr": "Bilmece",
+       "uz": "topishmoq"
+      },
+      {
+       "tr": "Cankurtaran",
+       "uz": "qutqaruvchi"
+      },
+      {
+       "tr": "Cin",
+       "uz": "makkor, ayyor"
+      },
+      {
+       "tr": "Deve",
+       "uz": "tuya"
+      },
+      {
+       "tr": "Diyar",
+       "uz": "er, diyor"
+      },
+      {
+       "tr": "Efsane",
+       "uz": "afsona"
+      },
+      {
+       "tr": "Evliya",
+       "uz": "avliyo"
+      },
+      {
+       "tr": "Fakir",
+       "uz": "faqr, kambağal"
+      },
+      {
+       "tr": "Fıkra",
+       "uz": "hazıl, anikidot, askiya"
+      },
+      {
+       "tr": "Fırtına",
+       "uz": "dovul"
+      },
+      {
+       "tr": "Hayran",
+       "uz": "hayron, muhlis"
+      },
+      {
+       "tr": "İnşaat",
+       "uz": "inshoat, qurilish"
+      },
+      {
+       "tr": "İşçi",
+       "uz": "ishchi"
+      },
+      {
+       "tr": "İtfaiyeci",
+       "uz": "öt öchiruvchi"
+      },
+      {
+       "tr": "Kasaba",
+       "uz": "shaharcha"
+      },
+      {
+       "tr": "Kasiyer",
+       "uz": "kasser"
+      },
+      {
+       "tr": "Kaval",
+       "uz": "quvur"
+      },
+      {
+       "tr": "Kıtlık",
+       "uz": "ochlik, kam, esipaslik, siyrak"
+      },
+      {
+       "tr": "Konfeksiyon",
+       "uz": "shirinliklar"
+      },
+      {
+       "tr": "Köçek",
+       "uz": "uzun yupkada kiyib beldan"
+      },
+      {
+       "tr": "Macera",
+       "uz": "mojaro, sarguzasht"
+      },
+      {
+       "tr": "Merdiven",
+       "uz": "norvon, zinapoya"
+      },
+      {
+       "tr": "Metrobüs",
+       "uz": "metrobus"
+      },
+      {
+       "tr": "Mimar",
+       "uz": "me’mor"
+      },
+      {
+       "tr": "Müşteri",
+       "uz": "mijoz"
+      },
+      {
+       "tr": "Nişanlı",
+       "uz": "unashtirilgan"
+      },
+      {
+       "tr": "Ölümsüz",
+       "uz": "ölmaydigan,ölimsiz"
+      },
+      {
+       "tr": "Ölümsüzlük",
+       "uz": "abadiylik, ölimsizlik"
+      },
+      {
+       "tr": "Padişah",
+       "uz": "podishoh"
+      },
+      {
+       "tr": "Pansiyon",
+       "uz": "pansiyon"
+      },
+      {
+       "tr": "görevlisi",
+       "uz": "elekt-energiya"
+      },
+      {
+       "tr": "sebze",
+       "uz": "sabzavot"
+      },
+      {
+       "tr": "sedefkâr",
+       "uz": "öymakor (yoğoch, eshik"
+      },
+      {
+       "tr": "sihirli",
+       "uz": "sehirli"
+      },
+      {
+       "tr": "sürü",
+       "uz": "suruv"
+      },
+      {
+       "tr": "tarla",
+       "uz": "dala"
+      },
+      {
+       "tr": "tas",
+       "uz": "(odatda ichiga suvli ovqat,yoki"
+      },
+      {
+       "tr": "tembel",
+       "uz": "tambal, dangasa"
+      },
+      {
+       "tr": "tepe",
+       "uz": "tepa"
+      },
+      {
+       "tr": "tezgâhtar",
+       "uz": "öz sotuv rastasiga ega"
+      },
+      {
+       "tr": "uslu",
+       "uz": "tek turmoq, yaxshi xulqli"
+      },
+      {
+       "tr": "vestiyer",
+       "uz": "uy, mehmonxons, idh yeri"
+      },
+      {
+       "tr": "veteriner",
+       "uz": "veterinar"
+      },
+      {
+       "tr": "yaramaz",
+       "uz": "bezori, shöx"
+      },
+      {
+       "tr": "yem",
+       "uz": "yem, yemish (hayvon ozuqasi)"
+      },
+      {
+       "tr": "yönetmen",
+       "uz": "boshqaruvchi, direktör"
+      },
+      {
+       "tr": "alay etmek",
+       "uz": "hazillashmoq, ustidan"
+      },
+      {
+       "tr": "anırmak",
+       "uz": "hangramoq"
+      },
+      {
+       "tr": "boğulmak",
+       "uz": "buğilmoq"
+      },
+      {
+       "tr": "bozulmak",
+       "uz": "buzilmoq, achimoq, hafa"
+      },
+      {
+       "tr": "fethetmek",
+       "uz": "bosib olmoq"
+      },
+      {
+       "tr": "fışkırmak",
+       "uz": "fishqirmoq"
+      },
+      {
+       "tr": "incitmek",
+       "uz": "hafa qilmoq, zarar bermoq"
+      },
+      {
+       "tr": "oda tutmak",
+       "uz": "xonani ijaraga olish"
+      },
+      {
+       "tr": "şaşırmak",
+       "uz": "hayron qolmoq, özini"
+      },
+      {
+       "tr": "şımartmak",
+       "uz": "erkalamoq"
+      },
+      {
+       "tr": "yetiştirmek",
+       "uz": "yetishtirmoq"
+      }
+     ]
+    },
+    {
+     "name": "5-unit",
+     "words": [
+      {
+       "tr": "Afiş",
+       "uz": "afisha e’loni"
+      },
+      {
+       "tr": "Alan",
+       "uz": "soha, yönalish"
+      },
+      {
+       "tr": "Alışkanlık",
+       "uz": "örganib qolgan"
+      },
+      {
+       "tr": "Animasyon",
+       "uz": "animatsiya"
+      },
+      {
+       "tr": "Aşçı",
+       "uz": "oshpaz"
+      },
+      {
+       "tr": "Atmosfer",
+       "uz": "atmosfera"
+      },
+      {
+       "tr": "banka kartı",
+       "uz": "bank kartasi"
+      },
+      {
+       "tr": "belgesel",
+       "uz": "hujjatli"
+      },
+      {
+       "tr": "biber",
+       "uz": "bulğor qalampiri, qalampir"
+      },
+      {
+       "tr": "bilim kurgu",
+       "uz": "ilmiy fantastika"
+      },
+      {
+       "tr": "bilimsel gerçek",
+       "uz": "ilmiy haqiqat"
+      },
+      {
+       "tr": "bulmaca",
+       "uz": "topishmoq"
+      },
+      {
+       "tr": "bulut",
+       "uz": "bulut"
+      },
+      {
+       "tr": "cisim",
+       "uz": "jism, ob’ekat"
+      },
+      {
+       "tr": "çığ",
+       "uz": "xom, pishmagan"
+      },
+      {
+       "tr": "çöpçü",
+       "uz": "axlatchi (musorchik)"
+      },
+      {
+       "tr": "damlacık",
+       "uz": "tomchi"
+      },
+      {
+       "tr": "dedikodu",
+       "uz": "ğiybat"
+      },
+      {
+       "tr": "delikanlı",
+       "uz": "yigit (kanı deli akan oğlan)"
+      },
+      {
+       "tr": "beslenmek",
+       "uz": "ozıqlanmoq"
+      },
+      {
+       "tr": "deprem",
+       "uz": "zilzila"
+      },
+      {
+       "tr": "dikey",
+       "uz": "tik, vertikal"
+      },
+      {
+       "tr": "doğa",
+       "uz": "tabiat"
+      },
+      {
+       "tr": "doğa olayı",
+       "uz": "tabiat hodisasi"
+      },
+      {
+       "tr": "dolu",
+       "uz": "töla, band (burası müsait mi?"
+      },
+      {
+       "tr": "dünya",
+       "uz": "dunyo"
+      },
+      {
+       "tr": "elektrik enerjisi",
+       "uz": "elektr energiyasi"
+      },
+      {
+       "tr": "etraf",
+       "uz": "atrof"
+      },
+      {
+       "tr": "fay",
+       "uz": "releflarning siljishidan sodir"
+      },
+      {
+       "tr": "fırın",
+       "uz": "pech (duxopka), qandolat yoki"
+      },
+      {
+       "tr": "form",
+       "uz": "form, shakl"
+      },
+      {
+       "tr": "genişlik",
+       "uz": "kenglik"
+      },
+      {
+       "tr": "memuru",
+       "uz": "pullik"
+      },
+      {
+       "tr": "gökkuşağı",
+       "uz": "kamalak"
+      },
+      {
+       "tr": "gökyüzü",
+       "uz": "osmon"
+      },
+      {
+       "tr": "göl",
+       "uz": "köl"
+      },
+      {
+       "tr": "güneş",
+       "uz": "quyosh"
+      },
+      {
+       "tr": "günlük",
+       "uz": "kunlik"
+      },
+      {
+       "tr": "hobi",
+       "uz": "hobbi"
+      },
+      {
+       "tr": "hokkabaz",
+       "uz": "akrabat, iluzyonist"
+      },
+      {
+       "tr": "hortum",
+       "uz": "shlanka"
+      },
+      {
+       "tr": "ılıman",
+       "uz": "mötadil"
+      },
+      {
+       "tr": "ihtimal",
+       "uz": "extimol"
+      },
+      {
+       "tr": "iklim",
+       "uz": "iqlim"
+      },
+      {
+       "tr": "iskele",
+       "uz": "yölovchi yoki yuk tashuvchi"
+      },
+      {
+       "tr": "karanlık",
+       "uz": "qoronği"
+      },
+      {
+       "tr": "kırık",
+       "uz": "singan"
+      },
+      {
+       "tr": "kilo",
+       "uz": "kilogramm"
+      },
+      {
+       "tr": "klasik",
+       "uz": "klassik"
+      },
+      {
+       "tr": "koleksiyon",
+       "uz": "töplam, kolleksiya"
+      },
+      {
+       "tr": "komedi",
+       "uz": "komediya"
+      },
+      {
+       "tr": "korku",
+       "uz": "qörquv"
+      },
+      {
+       "tr": "köşk",
+       "uz": "qasr"
+      },
+      {
+       "tr": "kum",
+       "uz": "qum"
+      },
+      {
+       "tr": "kum fırtınası",
+       "uz": "qum böroni, tarnado"
+      },
+      {
+       "tr": "kurak",
+       "uz": "quruq"
+      },
+      {
+       "tr": "kuraklık",
+       "uz": "qurğoqchilik"
+      },
+      {
+       "tr": "manav",
+       "uz": "sabzavot"
+      },
+      {
+       "tr": "manzara",
+       "uz": "manzara, körinish"
+      },
+      {
+       "tr": "meteorolojik",
+       "uz": "metereologiya"
+      },
+      {
+       "tr": "müze",
+       "uz": "muzey"
+      },
+      {
+       "tr": "nehir",
+       "uz": "daryo"
+      },
+      {
+       "tr": "nem",
+       "uz": "namlik"
+      },
+      {
+       "tr": "öğle yemeği",
+       "uz": "tushlik taomi"
+      },
+      {
+       "tr": "özet",
+       "uz": "voqea, yozuv, kitob… qisqacha"
+      },
+      {
+       "tr": "polisiye",
+       "uz": "dedektiv"
+      },
+      {
+       "tr": "postacı",
+       "uz": "pochtachi"
+      },
+      {
+       "tr": "romantik",
+       "uz": "romantik"
+      },
+      {
+       "tr": "rüzgâr",
+       "uz": "shamol"
+      },
+      {
+       "tr": "sel",
+       "uz": "sel, toshqin"
+      },
+      {
+       "tr": "serin",
+       "uz": "salqin"
+      },
+      {
+       "tr": "sihirbaz",
+       "uz": "sexirgar"
+      },
+      {
+       "tr": "sopa",
+       "uz": "tayoq, dastak"
+      },
+      {
+       "tr": "şarkıcı",
+       "uz": "qöshiqchi"
+      },
+      {
+       "tr": "tamirci",
+       "uz": "ta’mirchi"
+      },
+      {
+       "tr": "teslim",
+       "uz": "taslim, yetkazib berish"
+      },
+      {
+       "tr": "toz",
+       "uz": "chang"
+      },
+      {
+       "tr": "toz fırtınası",
+       "uz": "chang tözoni, chang"
+      },
+      {
+       "tr": "tropik yağmur",
+       "uz": "tropik yomğir"
+      },
+      {
+       "tr": "tsunami",
+       "uz": "sunami"
+      },
+      {
+       "tr": "tür",
+       "uz": "tur, nav, xil"
+      },
+      {
+       "tr": "vazo",
+       "uz": "vaza"
+      },
+      {
+       "tr": "volkanik patlama",
+       "uz": "vulqon otilishi"
+      },
+      {
+       "tr": "yağmur",
+       "uz": "yomğir"
+      },
+      {
+       "tr": "yatay",
+       "uz": "gorizantal"
+      },
+      {
+       "tr": "yatılı okul",
+       "uz": "internat maktab"
+      },
+      {
+       "tr": "yazlık kıyafet",
+       "uz": "yozgi kiyim"
+      },
+      {
+       "tr": "yer çekimi",
+       "uz": "yer tortish qonuni"
+      },
+      {
+       "tr": "yer kabuğu",
+       "uz": "yer qobiği"
+      },
+      {
+       "tr": "yıldırım",
+       "uz": "chaqmoq"
+      },
+      {
+       "tr": "yöresel",
+       "uz": "mahalliy"
+      },
+      {
+       "tr": "ziyaret",
+       "uz": "ziyorat"
+      },
+      {
+       "tr": "batmak",
+       "uz": "botmoq, chökmoq"
+      },
+      {
+       "tr": "biriktirmek",
+       "uz": "biriktirmoq, töplamoq"
+      },
+      {
+       "tr": "çarpmak",
+       "uz": "urilmoq"
+      },
+      {
+       "tr": "dağıtmak",
+       "uz": "tarqatmoq, tözitmoq"
+      },
+      {
+       "tr": "dizilmek",
+       "uz": "qatorga turish, tartib bilan"
+      },
+      {
+       "tr": "donmak",
+       "uz": "muzlamoq"
+      },
+      {
+       "tr": "fırçalamak",
+       "uz": "chötkalamoq"
+      },
+      {
+       "tr": "horlamak",
+       "uz": "xurrak otmoq, hor qilmoq"
+      },
+      {
+       "tr": "imzalamak",
+       "uz": "imzolamoq"
+      },
+      {
+       "tr": "iyileşmek",
+       "uz": "tuzalmoq, yaxshilanmoq"
+      },
+      {
+       "tr": "karşılaşmak",
+       "uz": "qarshilashmoq, duch"
+      },
+      {
+       "tr": "kaynamak",
+       "uz": "qaynamoq"
+      },
+      {
+       "tr": "küsmek",
+       "uz": "xafa bölmoq"
+      },
+      {
+       "tr": "nişanlanmak",
+       "uz": "unashtirilmoq"
+      },
+      {
+       "tr": "pişirmek",
+       "uz": "pishirmoq"
+      },
+      {
+       "tr": "sallanmak",
+       "uz": "tebranmoq, silkinmoq"
+      },
+      {
+       "tr": "söndürmek",
+       "uz": "öchiqmoq, söndirmoq"
+      },
+      {
+       "tr": "sürtünmek",
+       "uz": "suykalmoq"
+      },
+      {
+       "tr": "şaşırmak",
+       "uz": "hayron bölmoq, shokka"
+      },
+      {
+       "tr": "tartmak",
+       "uz": "tarozida tormoq"
+      },
+      {
+       "tr": "taşımak",
+       "uz": "toshimoq, kötarib ketmoq"
+      },
+      {
+       "tr": "taşmak",
+       "uz": "toshmoq, toshib ketmoq"
+      },
+      {
+       "tr": "yağmak",
+       "uz": "yoğmoq"
+      },
+      {
+       "tr": "yapışmak",
+       "uz": "yopishmoq"
+      }
+     ]
+    },
+    {
+     "name": "6-unit",
+     "words": [
+      {
+       "tr": "Acele",
+       "uz": "shoshilish, shoshilinch"
+      },
+      {
+       "tr": "Açma",
+       "uz": "ochilidigan, bölichka"
+      },
+      {
+       "tr": "Alkollü",
+       "uz": "alkagol qabul qilgan odam"
+      },
+      {
+       "tr": "Anlam",
+       "uz": "ma’no"
+      },
+      {
+       "tr": "Ayaküstü",
+       "uz": "oyoqda"
+      },
+      {
+       "tr": "Ayran",
+       "uz": "ayron"
+      },
+      {
+       "tr": "Bagaj",
+       "uz": "bagaj"
+      },
+      {
+       "tr": "Bakıcı",
+       "uz": "boquvchi, (bola yoki yoshi"
+      },
+      {
+       "tr": "Bedesten",
+       "uz": "ichida qurol, marvarid"
+      },
+      {
+       "tr": "Briç",
+       "uz": "olimpiadaga kiritilgan karta"
+      },
+      {
+       "tr": "Çamaşır",
+       "uz": "yuvilishga tashlangan yoki"
+      },
+      {
+       "tr": "çatal (yiyecek)",
+       "uz": "sanchqi (vilka)"
+      },
+      {
+       "tr": "çıkış",
+       "uz": "chiqish"
+      },
+      {
+       "tr": "dekoratif",
+       "uz": "dekorativ"
+      },
+      {
+       "tr": "deneyim",
+       "uz": "tajriba"
+      },
+      {
+       "tr": "desen",
+       "uz": "naqsh"
+      },
+      {
+       "tr": "döviz",
+       "uz": "chet el valyutasi (chet el"
+      },
+      {
+       "tr": "düğün",
+       "uz": "töy"
+      },
+      {
+       "tr": "ehliyet",
+       "uz": "haydovchilik guvohnomasi"
+      },
+      {
+       "tr": "ekip",
+       "uz": "jamoa"
+      },
+      {
+       "tr": "geleneksel",
+       "uz": "an’anaviy"
+      },
+      {
+       "tr": "gözleme",
+       "uz": "kuzatuv"
+      },
+      {
+       "tr": "gürültü",
+       "uz": "shovqin"
+      },
+      {
+       "tr": "güverte",
+       "uz": "paluba"
+      },
+      {
+       "tr": "han",
+       "uz": "xon (Turkiy hukumdor va"
+      },
+      {
+       "tr": "hat",
+       "uz": "xat, yönalish, chegara chizziq"
+      },
+      {
+       "tr": "(dış hatlar",
+       "uz": "davlat chegarasidan"
+      },
+      {
+       "tr": "hazır",
+       "uz": "tayyor, hozir"
+      },
+      {
+       "tr": "heyecan",
+       "uz": "hayajon"
+      },
+      {
+       "tr": "İhtiyaç",
+       "uz": "extiyoj"
+      },
+      {
+       "tr": "İlan",
+       "uz": "e’lon"
+      },
+      {
+       "tr": "İzin",
+       "uz": "izin, ruxsat"
+      },
+      {
+       "tr": "Karar",
+       "uz": "qaroq"
+      },
+      {
+       "tr": "Katmer",
+       "uz": "qatlama"
+      },
+      {
+       "tr": "Kestane",
+       "uz": "kashtan"
+      },
+      {
+       "tr": "Kokoreç",
+       "uz": "sixga"
+      },
+      {
+       "tr": "Konu",
+       "uz": "mavzu"
+      },
+      {
+       "tr": "Köfte",
+       "uz": "katlet"
+      },
+      {
+       "tr": "Kumpir",
+       "uz": "kumpir"
+      },
+      {
+       "tr": "Lahmacun",
+       "uz": "lahmacun"
+      },
+      {
+       "tr": "Lazım",
+       "uz": "kerak"
+      },
+      {
+       "tr": "Martı",
+       "uz": "chağalay"
+      },
+      {
+       "tr": "Mutlaka",
+       "uz": "mutloqo"
+      },
+      {
+       "tr": "Nakit",
+       "uz": "naqt pul"
+      },
+      {
+       "tr": "Öncelik",
+       "uz": "barcha narsadan oldin"
+      },
+      {
+       "tr": "Öneri",
+       "uz": "tafsiya"
+      },
+      {
+       "tr": "Pide",
+       "uz": "pide"
+      },
+      {
+       "tr": "Poğaça",
+       "uz": "poğcha (qandolat)"
+      },
+      {
+       "tr": "Rahat",
+       "uz": "rohat"
+      },
+      {
+       "tr": "Rakip",
+       "uz": "raqib"
+      },
+      {
+       "tr": "Refah",
+       "uz": "farovonlik"
+      },
+      {
+       "tr": "Sanatçı",
+       "uz": "san’tkor."
+      },
+      {
+       "tr": "Sandal",
+       "uz": "sandal daraxti, qayiq"
+      },
+      {
+       "tr": "Seyir",
+       "uz": "sayir"
+      },
+      {
+       "tr": "Sıkışık",
+       "uz": "tor"
+      },
+      {
+       "tr": "Sınır",
+       "uz": "asab, ğazab"
+      },
+      {
+       "tr": "Simit",
+       "uz": "simit"
+      },
+      {
+       "tr": "Siyasetçi",
+       "uz": "siyosatchi"
+      },
+      {
+       "tr": "Sözleşme",
+       "uz": "shartnoma"
+      },
+      {
+       "tr": "Süre",
+       "uz": "vaqt, davomiylik"
+      },
+      {
+       "tr": "Şekerleme",
+       "uz": "shakarlamoq"
+      },
+      {
+       "tr": "Şiddet",
+       "uz": "zöravonlik"
+      },
+      {
+       "tr": "Şirket",
+       "uz": "şirkat, kompaniya"
+      },
+      {
+       "tr": "Tavla",
+       "uz": "narda"
+      },
+      {
+       "tr": "Tavsiye",
+       "uz": "tavsiya"
+      },
+      {
+       "tr": "Tecrübe",
+       "uz": "tajriba"
+      },
+      {
+       "tr": "Terlik",
+       "uz": "shippak"
+      },
+      {
+       "tr": "Tost",
+       "uz": "tost"
+      },
+      {
+       "tr": "Ud",
+       "uz": "ud cholği asbobi"
+      },
+      {
+       "tr": "Ünlü",
+       "uz": "mashhur"
+      },
+      {
+       "tr": "Vakıf",
+       "uz": "vaqf"
+      },
+      {
+       "tr": "Vatandaş",
+       "uz": "fuqaro"
+      },
+      {
+       "tr": "Vezne",
+       "uz": "ğazna"
+      },
+      {
+       "tr": "Yalan",
+       "uz": "yolğon"
+      },
+      {
+       "tr": "Yaygın",
+       "uz": "keng tarqalgan"
+      },
+      {
+       "tr": "Yoğun",
+       "uz": "qöli qöliga tegmay ishlash"
+      },
+      {
+       "tr": "ara vermek",
+       "uz": "tanafus qilmoq"
+      },
+      {
+       "tr": "batmak",
+       "uz": "botmoq, chökmoq"
+      },
+      {
+       "tr": "vermek",
+       "uz": "xabar"
+      },
+      {
+       "tr": "bitirmek",
+       "uz": "bitirmoq"
+      },
+      {
+       "tr": "borç vermek",
+       "uz": "qarz bermoq"
+      },
+      {
+       "tr": "burs vermek",
+       "uz": "stipendiya bermoq"
+      },
+      {
+       "tr": "çekinmek",
+       "uz": "tortinmoq"
+      },
+      {
+       "tr": "çözmek",
+       "uz": "hal qilmoq, yechim topmoq"
+      },
+      {
+       "tr": "dayanmak",
+       "uz": "chidamoq"
+      },
+      {
+       "tr": "denemek",
+       "uz": "harakat qilib körmoq"
+      },
+      {
+       "tr": "destek vermek",
+       "uz": "qöllab quvvatlash"
+      },
+      {
+       "tr": "devam et",
+       "uz": "davom et, davom qil"
+      },
+      {
+       "tr": "dikiş dikmek",
+       "uz": "tikuvchilik qilish"
+      },
+      {
+       "tr": "etmek",
+       "uz": "e’tiborli"
+      },
+      {
+       "tr": "doymak",
+       "uz": "töymoq"
+      },
+      {
+       "tr": "farkında olmak",
+       "uz": "xabardor bölmoq"
+      },
+      {
+       "tr": "gecikmek",
+       "uz": "kechikmoq"
+      },
+      {
+       "tr": "gitar çalmak",
+       "uz": "gitara chalmoq"
+      },
+      {
+       "tr": "giyinmek",
+       "uz": "kiyinmoq"
+      },
+      {
+       "tr": "göz kırpmak",
+       "uz": "közni ochib yopish"
+      },
+      {
+       "tr": "güvenmek",
+       "uz": "ishonmoq"
+      },
+      {
+       "tr": "hoş görmek",
+       "uz": "hush körmoq"
+      },
+      {
+       "tr": "hüküm vermek",
+       "uz": "hukm qilmoq"
+      },
+      {
+       "tr": "ıslık çalmak",
+       "uz": "xushtak chalmoq"
+      },
+      {
+       "tr": "ilgilenmek",
+       "uz": "qiziqmoq"
+      },
+      {
+       "tr": "inanç",
+       "uz": "ishonch"
+      },
+      {
+       "tr": "izlemek",
+       "uz": "körmoq"
+      },
+      {
+       "tr": "kaybolmak",
+       "uz": "yöqolmoq"
+      },
+      {
+       "tr": "kaymak",
+       "uz": "toymoq, chanğida toymoq"
+      },
+      {
+       "tr": "kımıldamak",
+       "uz": "qimirlamoq"
+      },
+      {
+       "tr": "közlemek",
+       "uz": "chöğda pishirmoq"
+      },
+      {
+       "tr": "kredi almak",
+       "uz": "kredit olmoq"
+      },
+      {
+       "tr": "kutlama",
+       "uz": "nishonlamoq"
+      },
+      {
+       "tr": "mola vermek",
+       "uz": "bir necha daiqalik"
+      },
+      {
+       "tr": "neden olmak",
+       "uz": "sababchi bölmoq"
+      },
+      {
+       "tr": "para bozdurmak",
+       "uz": "pul ayrboshlash"
+      },
+      {
+       "tr": "çıkarmak",
+       "uz": "muammo"
+      },
+      {
+       "tr": "sığmak",
+       "uz": "siğmoq"
+      },
+      {
+       "tr": "sıkıntı çekmek",
+       "uz": "qayğuda tortmoq"
+      },
+      {
+       "tr": "soluklanmak",
+       "uz": "nafas rostlamoq"
+      },
+      {
+       "tr": "şişirmek",
+       "uz": "shishirmoq"
+      },
+      {
+       "tr": "etmek",
+       "uz": "kuzatmoq"
+      },
+      {
+       "tr": "uzatmak",
+       "uz": "uzaytirmoq, chözmoq"
+      },
+      {
+       "tr": "ütülemek",
+       "uz": "dazmoq qilish"
+      },
+      {
+       "tr": "vedalaşmak",
+       "uz": "xarylashmoq"
+      },
+      {
+       "tr": "yatıştırmak",
+       "uz": "tinchlantirmoq, bosti"
+      },
+      {
+       "tr": "yenmek",
+       "uz": "yengmoq"
+      },
+      {
+       "tr": "yetişmek",
+       "uz": "yetib"
+      },
+      {
+       "tr": "zannetmek",
+       "uz": "tahmin qilmoq, …deb"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "B1",
+   "units": [
+    {
+     "name": "1-unit",
+     "words": [
+      {
+       "tr": "Abone",
+       "uz": "obuna"
+      },
+      {
+       "tr": "Acil",
+       "uz": "shoshilinch, tez"
+      },
+      {
+       "tr": "Adım",
+       "uz": "qadam"
+      },
+      {
+       "tr": "Araç",
+       "uz": "transport vositasi, vosita."
+      },
+      {
+       "tr": "Arıza",
+       "uz": "xato, (buzilish holati)"
+      },
+      {
+       "tr": "Bedel",
+       "uz": "badal, tölov"
+      },
+      {
+       "tr": "Bilek",
+       "uz": "bilak"
+      },
+      {
+       "tr": "Borç",
+       "uz": "qarz"
+      },
+      {
+       "tr": "Boru",
+       "uz": "quvur"
+      },
+      {
+       "tr": "Büyüklük",
+       "uz": "kattalik"
+      },
+      {
+       "tr": "Büyüleyici",
+       "uz": "kattalashtiradigan."
+      },
+      {
+       "tr": "Civar",
+       "uz": "atrof (çevre-atrof)"
+      },
+      {
+       "tr": "Çöp",
+       "uz": "axlat"
+      },
+      {
+       "tr": "Dahil",
+       "uz": "shu jumladan"
+      },
+      {
+       "tr": "Davranış",
+       "uz": "xulq-atvor"
+      },
+      {
+       "tr": "Deneyim",
+       "uz": "tajriba"
+      },
+      {
+       "tr": "Depozito",
+       "uz": "depozit (kamissiyoniskiy)"
+      },
+      {
+       "tr": "Doğalgaz",
+       "uz": "tabiiy gaz (oqma gaz)"
+      },
+      {
+       "tr": "Döşeme",
+       "uz": "pol"
+      },
+      {
+       "tr": "Durum",
+       "uz": "vaziyat, holat"
+      },
+      {
+       "tr": "Eğitim",
+       "uz": "ta’lim"
+      },
+      {
+       "tr": "Emlak",
+       "uz": "köchmas mulk"
+      },
+      {
+       "tr": "Endişeli",
+       "uz": "xovotirli, tashvishli"
+      },
+      {
+       "tr": "Etki",
+       "uz": "ta’sir"
+      },
+      {
+       "tr": "Evlilik",
+       "uz": "oila qurish, nikoh"
+      },
+      {
+       "tr": "Fatura",
+       "uz": "hisob-faktura"
+      },
+      {
+       "tr": "Fiyat",
+       "uz": "narx"
+      },
+      {
+       "tr": "Fonksiyon",
+       "uz": "funksiya"
+      },
+      {
+       "tr": "Garip",
+       "uz": "ğalati"
+      },
+      {
+       "tr": "Günlük",
+       "uz": "kunlik"
+      },
+      {
+       "tr": "Güvenlik",
+       "uz": "ishonchli"
+      },
+      {
+       "tr": "Halat",
+       "uz": "arqon"
+      },
+      {
+       "tr": "Ham",
+       "uz": "xom"
+      },
+      {
+       "tr": "Isıtma",
+       "uz": "isitish"
+      },
+      {
+       "tr": "Islak",
+       "uz": "höl"
+      },
+      {
+       "tr": "İçerik",
+       "uz": "tarkibi"
+      },
+      {
+       "tr": "İhtiyaç",
+       "uz": "extiyoj"
+      },
+      {
+       "tr": "İlan",
+       "uz": "e’lon"
+      },
+      {
+       "tr": "İmdat",
+       "uz": "yordam"
+      },
+      {
+       "tr": "iş bölümü",
+       "uz": "ish taqsimoti"
+      },
+      {
+       "tr": "işlem",
+       "uz": "jarayon"
+      },
+      {
+       "tr": "jandarma",
+       "uz": "ichki ishlar jandarmi"
+      },
+      {
+       "tr": "kaban",
+       "uz": "palto"
+      },
+      {
+       "tr": "kanat",
+       "uz": "qanot, dalil"
+      },
+      {
+       "tr": "kiralık",
+       "uz": "ijaraga"
+      },
+      {
+       "tr": "kombi",
+       "uz": "kombi (uy va shu suvini"
+      },
+      {
+       "tr": "konum",
+       "uz": "joylashuv"
+      },
+      {
+       "tr": "koza",
+       "uz": "pilla"
+      },
+      {
+       "tr": "lavabo",
+       "uz": "qöl"
+      },
+      {
+       "tr": "lüks",
+       "uz": "hashamat, luks"
+      },
+      {
+       "tr": "manzara",
+       "uz": "körinish, manzara"
+      },
+      {
+       "tr": "masrafsız",
+       "uz": "xarajatsiz, bepul"
+      },
+      {
+       "tr": "mevki",
+       "uz": "mavqe, pozitsiya"
+      },
+      {
+       "tr": "muhit",
+       "uz": "muhit"
+      },
+      {
+       "tr": "müstakil",
+       "uz": "xususiy"
+      },
+      {
+       "tr": "nezih",
+       "uz": "yaxshi"
+      },
+      {
+       "tr": "ödeme",
+       "uz": "tölov"
+      },
+      {
+       "tr": "ömür",
+       "uz": "umr"
+      },
+      {
+       "tr": "özellik",
+       "uz": "xususiyat"
+      },
+      {
+       "tr": "pazarlık",
+       "uz": "savdolashish"
+      },
+      {
+       "tr": "pil",
+       "uz": "batareka"
+      },
+      {
+       "tr": "sahip",
+       "uz": "ega, sohib"
+      },
+      {
+       "tr": "satır",
+       "uz": "chizziq"
+      },
+      {
+       "tr": "satış",
+       "uz": "sotish"
+      },
+      {
+       "tr": "sızıntı",
+       "uz": "oqish, sizib chiqish"
+      },
+      {
+       "tr": "sigorta",
+       "uz": "suğurta, (elektr avtomati)"
+      },
+      {
+       "tr": "sözleşme",
+       "uz": "shartnoma"
+      },
+      {
+       "tr": "şofben",
+       "uz": "suv isitgich"
+      },
+      {
+       "tr": "tarife",
+       "uz": "retsept, toifa"
+      },
+      {
+       "tr": "taşınma",
+       "uz": "köchish"
+      },
+      {
+       "tr": "temel",
+       "uz": "asos"
+      },
+      {
+       "tr": "tesisatçı",
+       "uz": "santexnik"
+      },
+      {
+       "tr": "tuhaf",
+       "uz": "ğalati"
+      },
+      {
+       "tr": "tüketim",
+       "uz": "iste’mol"
+      },
+      {
+       "tr": "ulaşım",
+       "uz": "transport, ulashish yöli"
+      },
+      {
+       "tr": "uygun",
+       "uz": "uyğun, mos"
+      },
+      {
+       "tr": "uyum",
+       "uz": "moslik, uyum"
+      },
+      {
+       "tr": "vali",
+       "uz": "hokim"
+      },
+      {
+       "tr": "vana",
+       "uz": "vena, klapan"
+      },
+      {
+       "tr": "vergi",
+       "uz": "soliq"
+      },
+      {
+       "tr": "yakınlık",
+       "uz": "yaqinlik"
+      },
+      {
+       "tr": "yapışık",
+       "uz": "yopishgan"
+      },
+      {
+       "tr": "yuva",
+       "uz": "uya, in"
+      },
+      {
+       "tr": "zam",
+       "uz": "narx oshishi, oylik oshishi"
+      },
+      {
+       "tr": "acele etmek",
+       "uz": "shoshilmoq"
+      },
+      {
+       "tr": "akıtmak",
+       "uz": "drenaj, oqizmoq"
+      },
+      {
+       "tr": "atıştırmak",
+       "uz": "aperatif"
+      },
+      {
+       "tr": "ayırmak",
+       "uz": "ayirmoq"
+      },
+      {
+       "tr": "basmak",
+       "uz": "bosmoq"
+      },
+      {
+       "tr": "benzemek",
+       "uz": "öxshamoq"
+      },
+      {
+       "tr": "boşaltmak",
+       "uz": "boshatmoq"
+      },
+      {
+       "tr": "bozulmak",
+       "uz": "aynımoq"
+      },
+      {
+       "tr": "burkmak",
+       "uz": "paylarning"
+      },
+      {
+       "tr": "değerlendirmek",
+       "uz": "qadrlantirmoq"
+      },
+      {
+       "tr": "çekmek",
+       "uz": "boshqalarni"
+      },
+      {
+       "tr": "doldurmak",
+       "uz": "töldirmoq"
+      },
+      {
+       "tr": "eğmek",
+       "uz": "egmoq, böysuntirmoq"
+      },
+      {
+       "tr": "fışkırmak",
+       "uz": "otilib chiqmoq, fishqirib"
+      },
+      {
+       "tr": "harcamak",
+       "uz": "xarjlamoq, sarflamoq"
+      },
+      {
+       "tr": "ısınmak",
+       "uz": "isinmoq"
+      },
+      {
+       "tr": "ilerletmek",
+       "uz": "oldinga olib chiqmoq"
+      },
+      {
+       "tr": "karşılaşmak",
+       "uz": "uchrashib"
+      },
+      {
+       "tr": "kopmak",
+       "uz": "uzulmoq"
+      },
+      {
+       "tr": "kurtulmak",
+       "uz": "qutilmoq, ozod bölmoq"
+      },
+      {
+       "tr": "önermek",
+       "uz": "taklif"
+      },
+      {
+       "tr": "patlamak",
+       "uz": "portlamoq"
+      },
+      {
+       "tr": "sığmak",
+       "uz": "siğmoq"
+      },
+      {
+       "tr": "sıkışmak",
+       "uz": "tiqilib qolmoq, siqishmoq"
+      },
+      {
+       "tr": "sızdırmak",
+       "uz": "sizdirmoq"
+      },
+      {
+       "tr": "söndürmek",
+       "uz": "södiqmoq, öchirmoq"
+      },
+      {
+       "tr": "etmek",
+       "uz": "taqib"
+      },
+      {
+       "tr": "tartışmak",
+       "uz": "tortishmoq"
+      },
+      {
+       "tr": "telaşlanmak",
+       "uz": "xovotir"
+      },
+      {
+       "tr": "etmek",
+       "uz": "tanmaloq"
+      },
+      {
+       "tr": "etmek",
+       "uz": "taslim"
+      },
+      {
+       "tr": "tıkanmak",
+       "uz": "tiqilmoq, tiqilib qolmoq"
+      },
+      {
+       "tr": "uğraşmak",
+       "uz": "öralashmoq"
+      },
+      {
+       "tr": "yadırgamak",
+       "uz": "ğalati bölib qolmoq"
+      },
+      {
+       "tr": "yansıtmak",
+       "uz": "aks etirmoq"
+      },
+      {
+       "tr": "yardımcı olmak",
+       "uz": "yordam bermoq"
+      },
+      {
+       "tr": "yığmak",
+       "uz": "toplamoq, yiğmoq"
+      },
+      {
+       "tr": "zenginleşmek",
+       "uz": "boyimoq"
+      },
+      {
+       "tr": "yemek",
+       "uz": "minğirlab"
+      },
+      {
+       "tr": "kalbini fethetmek",
+       "uz": "yuragini zabt"
+      }
+     ]
+    },
+    {
+     "name": "2-unit",
+     "words": [
+      {
+       "tr": "Abur cubur",
+       "uz": "mayda chuyda"
+      },
+      {
+       "tr": "Esnek",
+       "uz": "moslashuvchan"
+      },
+      {
+       "tr": "Metabolizma",
+       "uz": "metobolizm"
+      },
+      {
+       "tr": "Verimsiz",
+       "uz": "samarasiz"
+      },
+      {
+       "tr": "izin vermek",
+       "uz": "ruxsat bermoq"
+      },
+      {
+       "tr": "amaç",
+       "uz": "maqsad"
+      },
+      {
+       "tr": "etkileyici",
+       "uz": "tasir ötqazadigan, tasir"
+      },
+      {
+       "tr": "nakış",
+       "uz": "naqsh"
+      },
+      {
+       "tr": "yağ",
+       "uz": "yoğ"
+      },
+      {
+       "tr": "kaçınmak",
+       "uz": "qochish"
+      },
+      {
+       "tr": "ambalaj",
+       "uz": "qadoq"
+      },
+      {
+       "tr": "etkin",
+       "uz": "samarali, tasir qiladigan"
+      },
+      {
+       "tr": "organizasyon",
+       "uz": "tashkilot, tashkil"
+      },
+      {
+       "tr": "yaradılış",
+       "uz": "yaratilish"
+      },
+      {
+       "tr": "kanıtlamak",
+       "uz": "isbatlash, …ga dalil"
+      },
+      {
+       "tr": "amiral",
+       "uz": "admiral"
+      },
+      {
+       "tr": "farklılık",
+       "uz": "farqlilik, farq"
+      },
+      {
+       "tr": "ortam",
+       "uz": "muhit"
+      },
+      {
+       "tr": "yaşayış",
+       "uz": "yashash holati"
+      },
+      {
+       "tr": "kaptırmak",
+       "uz": "tutilmoq"
+      },
+      {
+       "tr": "arzu",
+       "uz": "orzu"
+      },
+      {
+       "tr": "fırsat",
+       "uz": "fursat, shans"
+      },
+      {
+       "tr": "ödül",
+       "uz": "mukofot, sovrin"
+      },
+      {
+       "tr": "yenik",
+       "uz": "mağlub"
+      },
+      {
+       "tr": "kırılmak",
+       "uz": "sinmoq"
+      },
+      {
+       "tr": "asgari",
+       "uz": "eng kam"
+      },
+      {
+       "tr": "firma",
+       "uz": "firma"
+      },
+      {
+       "tr": "öğe",
+       "uz": "element"
+      },
+      {
+       "tr": "yenilikçi",
+       "uz": "yangilikchi"
+      },
+      {
+       "tr": "kurmak",
+       "uz": "qurmoq, tashkil qilmoq"
+      },
+      {
+       "tr": "aşağılama",
+       "uz": "pastga urmoq"
+      },
+      {
+       "tr": "fiziksel",
+       "uz": "jismoniy"
+      },
+      {
+       "tr": "örgüt",
+       "uz": "tashkilot (ğayri tashkilot."
+      },
+      {
+       "tr": "Terör örgütü",
+       "uz": "terorizm tashkiloti)"
+      },
+      {
+       "tr": "yetenek",
+       "uz": "iste’dot"
+      },
+      {
+       "tr": "kurtarmak",
+       "uz": "qutqarmoq, saqlab"
+      },
+      {
+       "tr": "aşırı",
+       "uz": "oshiri daraja, haddan ortiq"
+      },
+      {
+       "tr": "fizyolojik",
+       "uz": "fiziologik"
+      },
+      {
+       "tr": "özellik",
+       "uz": "xususiyat"
+      },
+      {
+       "tr": "yetişkin",
+       "uz": "voyaga yetgan"
+      },
+      {
+       "tr": "motive etmek",
+       "uz": "ruhlantirmoq"
+      },
+      {
+       "tr": "ayrıntı",
+       "uz": "batafsil"
+      },
+      {
+       "tr": "geçici",
+       "uz": "vaqtinchalik"
+      },
+      {
+       "tr": "özenli",
+       "uz": "ğamxör"
+      },
+      {
+       "tr": "zafer",
+       "uz": "ğalaba"
+      },
+      {
+       "tr": "paylaşmak",
+       "uz": "baham körmoq"
+      },
+      {
+       "tr": "azim",
+       "uz": "qaror"
+      },
+      {
+       "tr": "geleneksel",
+       "uz": "an’anaviy"
+      },
+      {
+       "tr": "özgü",
+       "uz": "öziga xoslik"
+      },
+      {
+       "tr": "zahmetli",
+       "uz": "zahmatli, mashaqqatli"
+      },
+      {
+       "tr": "rica etmek",
+       "uz": "arzimaydi, iltimos qilish"
+      },
+      {
+       "tr": "baskı",
+       "uz": "nashr, zulm"
+      },
+      {
+       "tr": "gıda",
+       "uz": "oziq-ovqat"
+      },
+      {
+       "tr": "paralel",
+       "uz": "paralel"
+      },
+      {
+       "tr": "zorluk",
+       "uz": "qiyinchilik"
+      },
+      {
+       "tr": "başarı",
+       "uz": "yutuq, muvafaqqiyat"
+      },
+      {
+       "tr": "girişimci",
+       "uz": "kirishuvchan"
+      },
+      {
+       "tr": "parlak",
+       "uz": "yaltiroqlik"
+      },
+      {
+       "tr": "sağlamak",
+       "uz": "tanminlash"
+      },
+      {
+       "tr": "başlık",
+       "uz": "sarlavha"
+      },
+      {
+       "tr": "görev",
+       "uz": "vazifa, yumush"
+      },
+      {
+       "tr": "performans",
+       "uz": "layoqat, ğayrat"
+      },
+      {
+       "tr": "beklenti",
+       "uz": "umidvorlik"
+      },
+      {
+       "tr": "görünüm",
+       "uz": "körinish"
+      },
+      {
+       "tr": "planlama",
+       "uz": "rejalashtirish"
+      },
+      {
+       "tr": "akıldan geçirmek",
+       "uz": "hayoldan"
+      },
+      {
+       "tr": "saymak",
+       "uz": "sanamoq"
+      },
+      {
+       "tr": "benzerlik",
+       "uz": "öxshashlik"
+      },
+      {
+       "tr": "görünüş",
+       "uz": "görinish"
+      },
+      {
+       "tr": "püf noktası",
+       "uz": "fokus (ishni közi)"
+      },
+      {
+       "tr": "aklına getirmek",
+       "uz": "hayoliga keltirish"
+      },
+      {
+       "tr": "sıyrılmak",
+       "uz": "chiqib ketmoq, siyrilmoq"
+      },
+      {
+       "tr": "beslenme",
+       "uz": "oziqlanish"
+      },
+      {
+       "tr": "güç",
+       "uz": "kuch"
+      },
+      {
+       "tr": "rastgele",
+       "uz": "rostdan ham"
+      },
+      {
+       "tr": "aksamak",
+       "uz": "oqsamoq"
+      },
+      {
+       "tr": "söz",
+       "uz": "va’da"
+      },
+      {
+       "tr": "tutmak",
+       "uz": "ushlamoq, tutmoq"
+      },
+      {
+       "tr": "birey",
+       "uz": "shaxs"
+      },
+      {
+       "tr": "günlük",
+       "uz": "kunlik"
+      },
+      {
+       "tr": "rastlantı",
+       "uz": "tasodifan qarshilashish"
+      },
+      {
+       "tr": "anımsamak",
+       "uz": "eslamoq"
+      },
+      {
+       "tr": "şikayet etmek",
+       "uz": "shikoyat qilmoq"
+      },
+      {
+       "tr": "cazip",
+       "uz": "jozibali, jozibador"
+      },
+      {
+       "tr": "hastalık",
+       "uz": "kasallik"
+      },
+      {
+       "tr": "risk",
+       "uz": "xavf, risk"
+      },
+      {
+       "tr": "artmak",
+       "uz": "köpaymoq"
+      },
+      {
+       "tr": "tamamlamak",
+       "uz": "tamomlamoq"
+      },
+      {
+       "tr": "çalışan",
+       "uz": "ishlaygigan ishchi, ishchi"
+      },
+      {
+       "tr": "hedef",
+       "uz": "maqsad, nishon"
+      },
+      {
+       "tr": "saklı",
+       "uz": "yashirin"
+      },
+      {
+       "tr": "aşmak",
+       "uz": "ochmoq"
+      },
+      {
+       "tr": "tanımlamak",
+       "uz": "aniqlamoq"
+      },
+      {
+       "tr": "danışman",
+       "uz": "ilmiy rahbar"
+      },
+      {
+       "tr": "hizmet",
+       "uz": "hizmat"
+      },
+      {
+       "tr": "satış",
+       "uz": "sotish"
+      },
+      {
+       "tr": "bahsetmek",
+       "uz": "haqida gapirmoq"
+      },
+      {
+       "tr": "tüketmek",
+       "uz": "istemoq qilmoq"
+      },
+      {
+       "tr": "davranış",
+       "uz": "munosabatda bölish"
+      },
+      {
+       "tr": "huy",
+       "uz": "odat"
+      },
+      {
+       "tr": "saygın",
+       "uz": "hurmatli, baobröli"
+      },
+      {
+       "tr": "belirlemek",
+       "uz": "bildirmoq"
+      },
+      {
+       "tr": "ulaşmak",
+       "uz": "boğlanmoq, yetishmoq"
+      },
+      {
+       "tr": "değişiklik",
+       "uz": "farqlilik"
+      },
+      {
+       "tr": "ikramiye",
+       "uz": "bonus, ikrom qilinadigan"
+      },
+      {
+       "tr": "seçim",
+       "uz": "tanlov, saylov"
+      },
+      {
+       "tr": "bocalamak",
+       "uz": "qimirlatmoq"
+      },
+      {
+       "tr": "denizaltı",
+       "uz": "dengiz tagi"
+      },
+      {
+       "tr": "iştah",
+       "uz": "ishtaha"
+      },
+      {
+       "tr": "sorumlu",
+       "uz": "mas’ulyatli"
+      },
+      {
+       "tr": "cesaret etmek",
+       "uz": "jasorat qilmoq"
+      },
+      {
+       "tr": "uzaklaşmak",
+       "uz": "uzoqlashmoq"
+      },
+      {
+       "tr": "departman",
+       "uz": "bölim"
+      },
+      {
+       "tr": "itibar",
+       "uz": "e’tibor"
+      },
+      {
+       "tr": "sürekli",
+       "uz": "muntazam"
+      },
+      {
+       "tr": "değerlendirmek",
+       "uz": "qadrlantirmoq"
+      },
+      {
+       "tr": "uzamak",
+       "uz": "uzalmoq"
+      },
+      {
+       "tr": "destek",
+       "uz": "yordam"
+      },
+      {
+       "tr": "izin",
+       "uz": "ruxsat"
+      },
+      {
+       "tr": "sürekli",
+       "uz": "tinimsiz"
+      },
+      {
+       "tr": "yaratmak",
+       "uz": "yaratmoq"
+      },
+      {
+       "tr": "depolamak",
+       "uz": "arxivlamoq"
+      },
+      {
+       "tr": "devlet",
+       "uz": "davlat"
+      },
+      {
+       "tr": "katkı",
+       "uz": "hissa"
+      },
+      {
+       "tr": "şart",
+       "uz": "shart"
+      },
+      {
+       "tr": "yenilemek",
+       "uz": "yangilamoq"
+      },
+      {
+       "tr": "dokunmak",
+       "uz": "teginmoq"
+      },
+      {
+       "tr": "dikiş",
+       "uz": "tikish"
+      },
+      {
+       "tr": "kazanç",
+       "uz": "qozonilgan narsa, foyda"
+      },
+      {
+       "tr": "şikayetçi",
+       "uz": "shikoyat qilgan odam"
+      },
+      {
+       "tr": "yıpratmak",
+       "uz": "ekirtirib tashlamoq"
+      },
+      {
+       "tr": "doğrultu",
+       "uz": "yönalish"
+      },
+      {
+       "tr": "kıdemli",
+       "uz": "tajribali, stajli"
+      },
+      {
+       "tr": "tanıdık",
+       "uz": "tanish"
+      },
+      {
+       "tr": "dönüşmek",
+       "uz": "aylanish"
+      },
+      {
+       "tr": "yol açmak",
+       "uz": "yül ochmoq"
+      },
+      {
+       "tr": "dolgun",
+       "uz": "töla, töliq"
+      },
+      {
+       "tr": "kişilik",
+       "uz": "shaxiyat"
+      },
+      {
+       "tr": "tanım",
+       "uz": "ta’rif"
+      },
+      {
+       "tr": "eleştirmek",
+       "uz": "tanqid qilmoq"
+      },
+      {
+       "tr": "yönetmek",
+       "uz": "boshqarmoq"
+      },
+      {
+       "tr": "dönüm noktası",
+       "uz": "özgarish nuqtasi"
+      },
+      {
+       "tr": "konteynır",
+       "uz": "kanteynir"
+      },
+      {
+       "tr": "toptancı",
+       "uz": "ulgurcu savdogar"
+      },
+      {
+       "tr": "geliştirmek",
+       "uz": "rivojlantirmoq"
+      },
+      {
+       "tr": "gerektirmek",
+       "uz": "kerakli bölish, talab"
+      },
+      {
+       "tr": "yönlendirmek",
+       "uz": "yönaltirmoq"
+      },
+      {
+       "tr": "duruş",
+       "uz": "turish"
+      },
+      {
+       "tr": "korkunç",
+       "uz": "qörquv, qörqinch"
+      },
+      {
+       "tr": "tarz",
+       "uz": "uslub"
+      },
+      {
+       "tr": "düşük",
+       "uz": "past"
+      },
+      {
+       "tr": "liderlik",
+       "uz": "liderlik, yetakchilik"
+      },
+      {
+       "tr": "tehlike",
+       "uz": "tahlika, xavf-xatar"
+      },
+      {
+       "tr": "görevlendirmek",
+       "uz": "malum vazifa bilan"
+      },
+      {
+       "tr": "yüceltmek",
+       "uz": "uluğlash"
+      },
+      {
+       "tr": "editör",
+       "uz": "tahrirchi"
+      },
+      {
+       "tr": "temel",
+       "uz": "asos, tamal"
+      },
+      {
+       "tr": "gütmek",
+       "uz": "(hayvonlarni oldiga bitta"
+      },
+      {
+       "tr": "yükseltmek",
+       "uz": "yuksaltish, oshirish"
+      },
+      {
+       "tr": "maaş",
+       "uz": "oylik, maosh"
+      },
+      {
+       "tr": "eksiklik",
+       "uz": "kamchilik"
+      },
+      {
+       "tr": "güvenmek",
+       "uz": "ishonmoq"
+      },
+      {
+       "tr": "zorlamak",
+       "uz": "majburlamoq"
+      },
+      {
+       "tr": "macera",
+       "uz": "sarguzasht"
+      },
+      {
+       "tr": "tempo",
+       "uz": "tezlik"
+      },
+      {
+       "tr": "elverişsiz",
+       "uz": "noqulay"
+      },
+      {
+       "tr": "mandıracılık",
+       "uz": "mol fermachiligi bilan"
+      },
+      {
+       "tr": "usul",
+       "uz": "usul"
+      },
+      {
+       "tr": "ilgi çekmek",
+       "uz": "e’tiborni jalb qilmoq"
+      },
+      {
+       "tr": "zorlaştırmak",
+       "uz": "qiyinlashtirmoq"
+      },
+      {
+       "tr": "engel",
+       "uz": "tösiq"
+      },
+      {
+       "tr": "memnuniyetsiz",
+       "uz": "norozi"
+      },
+      {
+       "tr": "ücra",
+       "uz": "közga tashlanmaydigan, juda"
+      },
+      {
+       "tr": "imza atmak",
+       "uz": "imzolamoq"
+      },
+      {
+       "tr": "engelli",
+       "uz": "nogiron"
+      },
+      {
+       "tr": "mesai",
+       "uz": "ish vaqti"
+      },
+      {
+       "tr": "ümit",
+       "uz": "umit"
+      },
+      {
+       "tr": "incelemek",
+       "uz": "tekshirmoq, sinchiklab"
+      }
+     ]
+    },
+    {
+     "name": "3-unit",
+     "words": [
+      {
+       "tr": "Adalet",
+       "uz": "adolat"
+      },
+      {
+       "tr": "Gen",
+       "uz": "gen"
+      },
+      {
+       "tr": "Nalın",
+       "uz": "taqa (eski vaqtda hamomda"
+      },
+      {
+       "tr": "tavsiye",
+       "uz": "tavsiye"
+      },
+      {
+       "tr": "kavuşmak",
+       "uz": "birlashmoq, bir biriga"
+      },
+      {
+       "tr": "ahşap",
+       "uz": "yoğoch, taxta"
+      },
+      {
+       "tr": "genetik",
+       "uz": "nasliy (nasldan naslga"
+      },
+      {
+       "tr": "nazar",
+       "uz": "nazar, köz (nazar deydi-köz"
+      },
+      {
+       "tr": "tedavi",
+       "uz": "muolaja, davo"
+      },
+      {
+       "tr": "keşfetmek",
+       "uz": "Kashf etmoq."
+      },
+      {
+       "tr": "akılcı",
+       "uz": "oqil, oqilona, dono"
+      },
+      {
+       "tr": "gerekçe",
+       "uz": "sabab"
+      },
+      {
+       "tr": "nüfus",
+       "uz": "aholi soni"
+      },
+      {
+       "tr": "tedbir",
+       "uz": "ehtiyot chorasi"
+      },
+      {
+       "tr": "kutlamak",
+       "uz": "nishonlamoq"
+      },
+      {
+       "tr": "akik",
+       "uz": "haqiq (aqiq toshi)"
+      },
+      {
+       "tr": "gergin",
+       "uz": "asabiy, asabi tarang holat"
+      },
+      {
+       "tr": "obezite",
+       "uz": "semirish"
+      },
+      {
+       "tr": "tere",
+       "uz": "kreslo"
+      },
+      {
+       "tr": "netleşmek",
+       "uz": "aniqlashmoq"
+      },
+      {
+       "tr": "akuamarin",
+       "uz": "akuamarin tooshi"
+      },
+      {
+       "tr": "görüş",
+       "uz": "qarash, fikr"
+      },
+      {
+       "tr": "obur",
+       "uz": "ochköz"
+      },
+      {
+       "tr": "tıp",
+       "uz": "tibbiyot"
+      },
+      {
+       "tr": "not etmek",
+       "uz": "qayd olmoq, zametka"
+      },
+      {
+       "tr": "ametist",
+       "uz": "ametist qimmatbaho toshi"
+      },
+      {
+       "tr": "hamilelik",
+       "uz": "homilalil"
+      },
+      {
+       "tr": "odun",
+       "uz": "ötin"
+      },
+      {
+       "tr": "tiroit bezleri",
+       "uz": "qalqonsimon bez"
+      },
+      {
+       "tr": "odaklanmak",
+       "uz": "diqqat qaratmoq"
+      },
+      {
+       "tr": "antrenman",
+       "uz": "trenirovka"
+      },
+      {
+       "tr": "hamur",
+       "uz": "xamir"
+      },
+      {
+       "tr": "okyanus",
+       "uz": "okean"
+      },
+      {
+       "tr": "toplum",
+       "uz": "jamoa, jamiyat"
+      },
+      {
+       "tr": "ovmak",
+       "uz": "tarash"
+      },
+      {
+       "tr": "arkeoloji",
+       "uz": "arxeologik"
+      },
+      {
+       "tr": "hatmi",
+       "uz": "zefir güli"
+      },
+      {
+       "tr": "oran",
+       "uz": "nisbat (oranda-nisbatda)"
+      },
+      {
+       "tr": "tutanak",
+       "uz": "miqdor , tutib ketishi (bu"
+      },
+      {
+       "tr": "aytaşı",
+       "uz": "oy toshi"
+      },
+      {
+       "tr": "hormon",
+       "uz": "garmon"
+      },
+      {
+       "tr": "ortalama",
+       "uz": "örtachasi (benim puan"
+      },
+      {
+       "tr": "tutsak",
+       "uz": "mahbus"
+      },
+      {
+       "tr": "pıhtılaşmak",
+       "uz": "quyuqlashmoq"
+      },
+      {
+       "tr": "baca",
+       "uz": "tutun"
+      },
+      {
+       "tr": "hücre",
+       "uz": "hujra"
+      },
+      {
+       "tr": "oyun",
+       "uz": "öyin"
+      },
+      {
+       "tr": "tüccar",
+       "uz": "tujjor, savdogar"
+      },
+      {
+       "tr": "saklamak",
+       "uz": "saqlamoq, yashirmoq"
+      },
+      {
+       "tr": "bağlam",
+       "uz": "kontekst"
+      },
+      {
+       "tr": "ıssız",
+       "uz": "egasiz (usmonli davrida)"
+      },
+      {
+       "tr": "dom",
+       "uz": "daraksiz ketmoq."
+      },
+      {
+       "tr": "va yo'l",
+       "uz": "yo'riq ko'rsatuvchi shaxs."
+      }
+     ]
+    },
+    {
+     "name": "4-unit",
+     "words": [
+      {
+       "tr": "kuch",
+       "uz": "qudrat darajasi."
+      }
+     ]
+    },
+    {
+     "name": "5-unit",
+     "words": [
+      {
+       "tr": "Anonim",
+       "uz": "anonim(nomalum)"
+      },
+      {
+       "tr": "Çekirge",
+       "uz": "chıgırtka"
+      },
+      {
+       "tr": "Olgunlaşmak",
+       "uz": "yetuklashmoq"
+      },
+      {
+       "tr": "Detoks",
+       "uz": "detoks(parhez)"
+      },
+      {
+       "tr": "Öfkelenmek",
+       "uz": "ğazablanmoq"
+      },
+      {
+       "tr": "İnanç",
+       "uz": "ishonch, etiqod"
+      },
+      {
+       "tr": "Batıl inanç",
+       "uz": "bid’at"
+      },
+      {
+       "tr": "Kasaba",
+       "uz": "shahar, shaharcha"
+      },
+      {
+       "tr": "Can atmak",
+       "uz": "ıntılmoq"
+      },
+      {
+       "tr": "Kutsal",
+       "uz": "muqaddas"
+      },
+      {
+       "tr": "Gözdek çıkarmak",
+       "uz": "bıror narsadan"
+      },
+      {
+       "tr": "Martı",
+       "uz": "baliqchi"
+      },
+      {
+       "tr": "İç hesaplaşma",
+       "uz": "bıznes körgazması"
+      },
+      {
+       "tr": "Martı",
+       "uz": "chayqa"
+      },
+      {
+       "tr": "İçini çekmek",
+       "uz": "xörsinmoq"
+      },
+      {
+       "tr": "Meteliksiz",
+       "uz": "buzıldı"
+      },
+      {
+       "tr": "Konsantre olmak",
+       "uz": "dıqqatnı"
+      },
+      {
+       "tr": "Piyango",
+       "uz": "lotereya"
+      },
+      {
+       "tr": "Slogan",
+       "uz": "shıorı"
+      },
+      {
+       "tr": "Şerit",
+       "uz": "tasma"
+      },
+      {
+       "tr": "Tadını çıkarmak",
+       "uz": "rohatlanmoq"
+      },
+      {
+       "tr": "Vicdan meselesi",
+       "uz": "vıjdon masalası"
+      },
+      {
+       "tr": "Talihsiz",
+       "uz": "baxtsız"
+      },
+      {
+       "tr": "Tebessüm",
+       "uz": "tabassum"
+      },
+      {
+       "tr": "Tekne",
+       "uz": "qayıq"
+      },
+      {
+       "tr": "Teori",
+       "uz": "nazarıya"
+      },
+      {
+       "tr": "Tesadüf",
+       "uz": "tasodif"
+      },
+      {
+       "tr": "Toksin",
+       "uz": "toksın"
+      },
+      {
+       "tr": "Tura",
+       "uz": "tanganıng rasmlı tarafı"
+      }
+     ]
+    },
+    {
+     "name": "6-unit",
+     "words": [
+      {
+       "tr": "izzatlamoq, izzat",
+       "uz": "ikrom ko'rsatmoq"
+      },
+      {
+       "tr": "Yonca",
+       "uz": "beda"
+      },
+      {
+       "tr": "Arınmak",
+       "uz": "qutulmoq"
+      },
+      {
+       "tr": "Çıldırtmak",
+       "uz": "aqldan ozısh"
+      },
+      {
+       "tr": "Halsız kalmak",
+       "uz": "charchamoq"
+      },
+      {
+       "tr": "Hayal kurmak",
+       "uz": "orzu qılmoq"
+      },
+      {
+       "tr": "soladigan, shov",
+       "uz": "-shuvli. 2. Hayratangiz"
+      },
+      {
+       "tr": "narsalar, noz",
+       "uz": "ne'matlar. 3. Yaxshilik"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "B2",
+   "units": [
+    {
+     "name": "1-unit",
+     "words": [
+      {
+       "tr": "Buhar",
+       "uz": "buğ"
+      },
+      {
+       "tr": "Buruşuk",
+       "uz": "qabarıq, burishgan"
+      },
+      {
+       "tr": "çarmıh",
+       "uz": "xoch"
+      },
+      {
+       "tr": "gelenek",
+       "uz": "odat, urf-odat"
+      },
+      {
+       "tr": "gelir düzeyi",
+       "uz": "daromat tartibi, tizimi"
+      },
+      {
+       "tr": "gözlem",
+       "uz": "kuzatuv"
+      },
+      {
+       "tr": "hac",
+       "uz": "haj safarı"
+      },
+      {
+       "tr": "hacı",
+       "uz": "hoji (haj safarini qilgan odam)"
+      },
+      {
+       "tr": "heves",
+       "uz": "havas"
+      },
+      {
+       "tr": "ikon",
+       "uz": "ikona belgisi"
+      },
+      {
+       "tr": "izlenim",
+       "uz": "taassurot"
+      },
+      {
+       "tr": "karavan",
+       "uz": "karvon, (kartej ma’nosida"
+      },
+      {
+       "tr": "kısıtlı",
+       "uz": "qisitli, cheklangan"
+      },
+      {
+       "tr": "konukseverlik",
+       "uz": "mehmonsevarlik"
+      },
+      {
+       "tr": "mütevazı",
+       "uz": "tavoze"
+      },
+      {
+       "tr": "palet",
+       "uz": "palitrasi (ashyolarning"
+      },
+      {
+       "tr": "sanal",
+       "uz": "virtual (gerçekte yeri"
+      },
+      {
+       "tr": "sektör",
+       "uz": "tarmoq, soha (siz hangı"
+      },
+      {
+       "tr": "sektördesiniz",
+       "uz": "siz qaysi sohadasiz."
+      },
+      {
+       "tr": "Ben tarım sektörindeyim",
+       "uz": "men"
+      },
+      {
+       "tr": "şifa",
+       "uz": "shifo"
+      },
+      {
+       "tr": "pazarlamak",
+       "uz": "marketing, bozorga"
+      },
+      {
+       "tr": "chiqarmoq, (pazarlama",
+       "uz": "çalışmaları"
+      }
+     ]
+    },
+    {
+     "name": "2-unit",
+     "words": [
+      {
+       "tr": "şnorkel",
+       "uz": "shnorkel, suvga"
+      },
+      {
+       "tr": "tavla",
+       "uz": "narda"
+      },
+      {
+       "tr": "tedirgin",
+       "uz": "bezovta"
+      },
+      {
+       "tr": "tırabzan",
+       "uz": "panjara"
+      },
+      {
+       "tr": "turizm elçisi",
+       "uz": "turizm elchisi"
+      },
+      {
+       "tr": "yarımada",
+       "uz": "yarımorol"
+      },
+      {
+       "tr": "bronzlaşma",
+       "uz": "bronzalashish"
+      },
+      {
+       "tr": "elemek",
+       "uz": "yöq qilish, elaktan ötqazish"
+      },
+      {
+       "tr": "çek",
+       "uz": "yat -tortib olmoq, pull-out (tagi"
+      },
+      {
+       "tr": "incitmek",
+       "uz": "könglini"
+      },
+      {
+       "tr": "incimek",
+       "uz": "latiqmoq, xafa bölmoq"
+      },
+      {
+       "tr": "keselemek",
+       "uz": "taramoq, (kir çıkarmak"
+      },
+      {
+       "tr": "oyalamak",
+       "uz": "chalğitmoq (aldab nima"
+      },
+      {
+       "tr": "Alarm",
+       "uz": "budilnik, signalizatsiya"
+      },
+      {
+       "tr": "askerî",
+       "uz": "askarlarga xos, eng kam ish"
+      },
+      {
+       "tr": "astronot",
+       "uz": "astronom"
+      },
+      {
+       "tr": "atari",
+       "uz": "orqada"
+      },
+      {
+       "tr": "bağımlılık",
+       "uz": "qaramlik"
+      },
+      {
+       "tr": "basın",
+       "uz": "gazeta, jurnal va bunga"
+      },
+      {
+       "tr": "belgesel",
+       "uz": "hujjatli"
+      },
+      {
+       "tr": "boynuz",
+       "uz": "shox (kulak boynuzu"
+      },
+      {
+       "tr": "canavar",
+       "uz": "jonivor"
+      },
+      {
+       "tr": "cihaz",
+       "uz": "elektroniy jihoz"
+      },
+      {
+       "tr": "civar",
+       "uz": "yaqın, atrof"
+      },
+      {
+       "tr": "çıktı",
+       "uz": "qoğozga chiqarib olingan"
+      },
+      {
+       "tr": "dokunmatik",
+       "uz": "sensirli"
+      },
+      {
+       "tr": "esas",
+       "uz": "asos, tag, zamin"
+      },
+      {
+       "tr": "etkin",
+       "uz": "samarali"
+      },
+      {
+       "tr": "etnografya",
+       "uz": "etnografiya"
+      },
+      {
+       "tr": "fayton",
+       "uz": "foytun (ot arava)"
+      },
+      {
+       "tr": "fevkalâde",
+       "uz": "favqulotta"
+      },
+      {
+       "tr": "folklorik",
+       "uz": "falklorga oid"
+      },
+      {
+       "tr": "gar",
+       "uz": "ğor"
+      },
+      {
+       "tr": "gezegen",
+       "uz": "sayyora"
+      },
+      {
+       "tr": "harikulâde",
+       "uz": "ajoyib, ğaroyib"
+      },
+      {
+       "tr": "ileti",
+       "uz": "uzatma"
+      },
+      {
+       "tr": "kabin",
+       "uz": "kabina"
+      },
+      {
+       "tr": "kapasite",
+       "uz": "qamrov, qurshov, siğim"
+      },
+      {
+       "tr": "kısa yol",
+       "uz": "qisqa yöl"
+      },
+      {
+       "tr": "koleksiyon",
+       "uz": "kaleksiya"
+      },
+      {
+       "tr": "kullanıcı",
+       "uz": "qöllanuvchi"
+      },
+      {
+       "tr": "kurşun",
+       "uz": "öq (qörğishin öq)"
+      },
+      {
+       "tr": "maden",
+       "uz": "madan (kömir, gaz, oltin"
+      },
+      {
+       "tr": "masum",
+       "uz": "aybsiz, masum"
+      },
+      {
+       "tr": "mesai",
+       "uz": "ish soati"
+      },
+      {
+       "tr": "misket",
+       "uz": "marmar"
+      },
+      {
+       "tr": "mucit",
+       "uz": "ixtirochi"
+      },
+      {
+       "tr": "mülâkat",
+       "uz": "muloqot"
+      },
+      {
+       "tr": "Anmak",
+       "uz": "eslamoq, xotirlamoq"
+      },
+      {
+       "tr": "ayak uydurmak",
+       "uz": "moslashmoq"
+      },
+      {
+       "tr": "cızırdamak",
+       "uz": "shitirlash"
+      },
+      {
+       "tr": "olmak",
+       "uz": "qaram"
+      },
+      {
+       "tr": "savunmak",
+       "uz": "himoya qilish"
+      },
+      {
+       "tr": "başa çıkmak",
+       "uz": "bilan ish yuritish"
+      },
+      {
+       "tr": "sergilemek",
+       "uz": "saralamoq"
+      },
+      {
+       "tr": "dili tutulmak",
+       "uz": "tili tutilmoq"
+      },
+      {
+       "tr": "tıklamak",
+       "uz": "bosmoq"
+      },
+      {
+       "tr": "geride bırakmak",
+       "uz": "orqada qoldirmoq"
+      },
+      {
+       "tr": "yönlendirmek",
+       "uz": "boshqarmoq"
+      },
+      {
+       "tr": "geride kalmak",
+       "uz": "orqada qolmoq"
+      },
+      {
+       "tr": "hızına yetişememek",
+       "uz": "qadam tashlay"
+      },
+      {
+       "tr": "temelini atmak",
+       "uz": "poydevorini qöymoq"
+      },
+      {
+       "tr": "özenli",
+       "uz": "qayğuradigan, mehribon"
+      },
+      {
+       "tr": "porselen",
+       "uz": "chinni"
+      },
+      {
+       "tr": "şeffaf",
+       "uz": "shaffof"
+      },
+      {
+       "tr": "şifre",
+       "uz": "parol, kod"
+      },
+      {
+       "tr": "takipçi",
+       "uz": "kuztuvchi"
+      },
+      {
+       "tr": "telgraf",
+       "uz": "telegraf"
+      },
+      {
+       "tr": "telsiz",
+       "uz": "ratsiya (simsiz aloqa)"
+      },
+      {
+       "tr": "tuş",
+       "uz": "knopka, kalit"
+      },
+      {
+       "tr": "tutucu",
+       "uz": "konservativ"
+      },
+      {
+       "tr": "uzay",
+       "uz": "koinot, kosmos"
+      },
+      {
+       "tr": "veri",
+       "uz": "ma’lumotlar"
+      },
+      {
+       "tr": "yakıt",
+       "uz": "yoqilği"
+      },
+      {
+       "tr": "yazıcı",
+       "uz": "printer"
+      }
+     ]
+    },
+    {
+     "name": "3-unit",
+     "words": [
+      {
+       "tr": "atılganlık",
+       "uz": "qat’iyyatlik, (öz fikrini"
+      },
+      {
+       "tr": "azimli",
+       "uz": "azimli"
+      },
+      {
+       "tr": "barışçıl",
+       "uz": "tinch, tinchlik yöli"
+      },
+      {
+       "tr": "bedensel",
+       "uz": "tanaga oid"
+      },
+      {
+       "tr": "bulanık",
+       "uz": "xira"
+      },
+      {
+       "tr": "çatışma",
+       "uz": "otishma"
+      },
+      {
+       "tr": "dengeleyici",
+       "uz": "muvozanatni"
+      },
+      {
+       "tr": "düşünsel",
+       "uz": "fikriy…"
+      },
+      {
+       "tr": "edepli",
+       "uz": "odobli"
+      },
+      {
+       "tr": "eğilim",
+       "uz": "egiluvchanlik"
+      },
+      {
+       "tr": "endişeli",
+       "uz": "xovotirli"
+      },
+      {
+       "tr": "esinti",
+       "uz": "shabada"
+      },
+      {
+       "tr": "fon",
+       "uz": "fon, jamğarma"
+      },
+      {
+       "tr": "güdülenme",
+       "uz": "bolalatmoq"
+      },
+      {
+       "tr": "haz",
+       "uz": "zavq"
+      },
+      {
+       "tr": "hile",
+       "uz": "xiyla-nayrang"
+      },
+      {
+       "tr": "ima",
+       "uz": "imo qilish, shama"
+      },
+      {
+       "tr": "iştah",
+       "uz": "ishtaha"
+      },
+      {
+       "tr": "karamsar",
+       "uz": "pessimistik"
+      },
+      {
+       "tr": "kararlılık",
+       "uz": "qarorlilik, qattiyat"
+      },
+      {
+       "tr": "kıtlık",
+       "uz": "ochlik, kamchilik, ochközlik"
+      },
+      {
+       "tr": "kifayetsiz",
+       "uz": "ochközlik, yeb-töymas"
+      },
+      {
+       "tr": "matem",
+       "uz": "motam, aza"
+      },
+      {
+       "tr": "mısra",
+       "uz": "misra, ikki qator she’r"
+      },
+      {
+       "tr": "mizaç",
+       "uz": "temperament"
+      },
+      {
+       "tr": "mutasavvıf",
+       "uz": "tasavvufshunos"
+      },
+      {
+       "tr": "öğe",
+       "uz": "element, qism"
+      },
+      {
+       "tr": "ruhsal",
+       "uz": "ruhiy"
+      },
+      {
+       "tr": "seyrek",
+       "uz": "kamdan-kam"
+      },
+      {
+       "tr": "tedirgin",
+       "uz": "bezovta"
+      },
+      {
+       "tr": "tepki",
+       "uz": "munosabat, …ga nisabatan"
+      },
+      {
+       "tr": "tutku",
+       "uz": "ehtiros, boğliqlik"
+      },
+      {
+       "tr": "ufuk",
+       "uz": "ufq"
+      },
+      {
+       "tr": "yargı",
+       "uz": "hukm"
+      },
+      {
+       "tr": "yiğit",
+       "uz": "yigit"
+      },
+      {
+       "tr": "zarif",
+       "uz": "nafis"
+      },
+      {
+       "tr": "sinirsel bozukluk",
+       "uz": "asabiylik"
+      }
+     ]
+    },
+    {
+     "name": "4-unit",
+     "words": [
+      {
+       "tr": "Yitirmek",
+       "uz": "yöqotmoq, yeb tugatmoq"
+      },
+      {
+       "tr": "akım",
+       "uz": "oqim"
+      },
+      {
+       "tr": "bağımlılık",
+       "uz": "qaramlik"
+      },
+      {
+       "tr": "bilinçli",
+       "uz": "ongli"
+      },
+      {
+       "tr": "çağ",
+       "uz": "davr, vaqt"
+      },
+      {
+       "tr": "desen",
+       "uz": "naqsh"
+      },
+      {
+       "tr": "geleneksel",
+       "uz": "an’anaviy"
+      },
+      {
+       "tr": "hazırcevap",
+       "uz": "hozirjavob"
+      },
+      {
+       "tr": "moda",
+       "uz": "moda"
+      },
+      {
+       "tr": "örgü",
+       "uz": "örgü"
+      },
+      {
+       "tr": "prensip",
+       "uz": "prensip"
+      },
+      {
+       "tr": "puantiye",
+       "uz": "nuqali bezak turi"
+      },
+      {
+       "tr": "sektör",
+       "uz": "sektir"
+      },
+      {
+       "tr": "stil",
+       "uz": "stil, tarz"
+      },
+      {
+       "tr": "şık",
+       "uz": "hashamatli"
+      },
+      {
+       "tr": "takıntı",
+       "uz": "takını (biror narsani"
+      },
+      {
+       "tr": "tarz",
+       "uz": "stil, tarz"
+      },
+      {
+       "tr": "tasarım",
+       "uz": "dizayn"
+      },
+      {
+       "tr": "tasarımcı",
+       "uz": "dizayner"
+      },
+      {
+       "tr": "tayyör",
+       "uz": "ayollarning jaket va"
+      },
+      {
+       "tr": "tulum",
+       "uz": "teri plash, Riza cholğu"
+      },
+      {
+       "tr": "vatka",
+       "uz": "vatka, pagon"
+      },
+      {
+       "tr": "duygusal zekâ",
+       "uz": "hissiy intelekt"
+      },
+      {
+       "tr": "Fısıldama",
+       "uz": "shivirlamoq"
+      },
+      {
+       "tr": "hayal kırıklığı",
+       "uz": "umidiszlik"
+      },
+      {
+       "tr": "Küreselleşmek",
+       "uz": "globallashuv"
+      },
+      {
+       "tr": "Ertelemek",
+       "uz": "keyinga qoldirmoq"
+      },
+      {
+       "tr": "Kandırmak",
+       "uz": "aldamoq"
+      },
+      {
+       "tr": "Kapsamak",
+       "uz": "qamramoq, öz ichiga"
+      },
+      {
+       "tr": "Odaklanmak",
+       "uz": "diqqatli bölmoq"
+      },
+      {
+       "tr": "Saldırganlaşmak",
+       "uz": "hujumkor"
+      },
+      {
+       "tr": "Saptamak",
+       "uz": "aniqlamoq, tuzatmoq"
+      },
+      {
+       "tr": "Şımarmak",
+       "uz": "erkalanib ketmoq"
+      },
+      {
+       "tr": "Yatıştırmak",
+       "uz": "tinchlantirmoq"
+      },
+      {
+       "tr": "bosti",
+       "uz": "bosti qilmoq"
+      },
+      {
+       "tr": "kılık kıyafet",
+       "uz": "ust-bosh"
+      },
+      {
+       "tr": "sindirim sistemi",
+       "uz": "hazm qilish tizimi"
+      },
+      {
+       "tr": "kalıtsal özellik",
+       "uz": "qoluvchi xususiyat"
+      },
+      {
+       "tr": "Sığmak",
+       "uz": "siğmoq, mos kelmoq"
+      },
+      {
+       "tr": "Takılmak",
+       "uz": "taqilmoq, qoqilmoq"
+      },
+      {
+       "tr": "Tasarlamak",
+       "uz": "loyıhalamoq"
+      },
+      {
+       "tr": "Yoğunlaşmak",
+       "uz": "jadallashmoq"
+      },
+      {
+       "tr": "Yansıtmak",
+       "uz": "aks ettirmoq"
+      },
+      {
+       "tr": "Yönelmek",
+       "uz": "yönalmoq"
+      },
+      {
+       "tr": "damgasını vurmak ele almak",
+       "uz": "qölga olish"
+      },
+      {
+       "tr": "rivayet",
+       "uz": "rivoyat"
+      },
+      {
+       "tr": "sivri",
+       "uz": "uchiga chiqqan sari"
+      },
+      {
+       "tr": "soylu",
+       "uz": "oliyjanob"
+      },
+      {
+       "tr": "söylenti",
+       "uz": "mishmish"
+      },
+      {
+       "tr": "şantiye",
+       "uz": "qurilish maydoni, biror"
+      },
+      {
+       "tr": "şifre",
+       "uz": "kod, parol"
+      },
+      {
+       "tr": "tapınak",
+       "uz": "mabud, ichida tangriga"
+      },
+      {
+       "tr": "zafer",
+       "uz": "ğalaba"
+      },
+      {
+       "tr": "zalim",
+       "uz": "shafqatsiz, zolim"
+      },
+      {
+       "tr": "Barındırmak",
+       "uz": "mezbonlik qilmoq"
+      }
+     ]
+    },
+    {
+     "name": "5-unit",
+     "words": [
+      {
+       "tr": "akustik",
+       "uz": "akustik"
+      },
+      {
+       "tr": "aristokrat",
+       "uz": "aristokrat"
+      },
+      {
+       "tr": "asıl",
+       "uz": "asil, asli"
+      },
+      {
+       "tr": "atasözü",
+       "uz": "maqol"
+      },
+      {
+       "tr": "bitkin",
+       "uz": "charchagan, charchab"
+      },
+      {
+       "tr": "cenaze",
+       "uz": "janoza, mayit"
+      },
+      {
+       "tr": "destan",
+       "uz": "dost2on"
+      },
+      {
+       "tr": "dev",
+       "uz": "dev"
+      },
+      {
+       "tr": "fener",
+       "uz": "mash’al, mash’ala"
+      },
+      {
+       "tr": "hafıza",
+       "uz": "xotira"
+      },
+      {
+       "tr": "heykel",
+       "uz": "haykal"
+      },
+      {
+       "tr": "kaya",
+       "uz": "tosh, harsang tosh, qoya"
+      },
+      {
+       "tr": "kurban",
+       "uz": "qurbon"
+      },
+      {
+       "tr": "lakap",
+       "uz": "laqab, taqma ot"
+      },
+      {
+       "tr": "mermer",
+       "uz": "marmar"
+      },
+      {
+       "tr": "peri bacası",
+       "uz": "sel, suv toshqinidan"
+      },
+      {
+       "tr": "piramit",
+       "uz": "piramida"
+      },
+      {
+       "tr": "çığlık atmak",
+       "uz": "qichqirmoq"
+      },
+      {
+       "tr": "fokurdamak",
+       "uz": "pufaklashmoq"
+      },
+      {
+       "tr": "kanıtlamak",
+       "uz": "isbotlamoq"
+      },
+      {
+       "tr": "sürmek",
+       "uz": "surmoq, surkamoq"
+      },
+      {
+       "tr": "teklif etmek",
+       "uz": "taklif qilmoq"
+      },
+      {
+       "tr": "tercih etmek",
+       "uz": "tanlov qilmoq"
+      },
+      {
+       "tr": "yitirmek",
+       "uz": "yöqotmoq, bitirmoq"
+      },
+      {
+       "tr": "anıt mezar",
+       "uz": "turba, xotira qabri"
+      },
+      {
+       "tr": "canına tak etmek",
+       "uz": "sabri tugamoq"
+      },
+      {
+       "tr": "gönlü ferman",
+       "uz": "yurak amri, qalb"
+      },
+      {
+       "tr": "dinlememek",
+       "uz": "eshitmaslik, gapga"
+      },
+      {
+       "tr": "gönlünü hoş tutmak",
+       "uz": "könglini"
+      },
+      {
+       "tr": "göz kamaştırmak",
+       "uz": "közni olmoq"
+      },
+      {
+       "tr": "katkı sağlamak",
+       "uz": "hissa qöshmoq"
+      },
+      {
+       "tr": "anatomi",
+       "uz": "anatomya"
+      },
+      {
+       "tr": "aykırılık",
+       "uz": "qarama-qarshilik"
+      },
+      {
+       "tr": "azar",
+       "uz": "tanbeh"
+      },
+      {
+       "tr": "azim",
+       "uz": "qat’iyat"
+      },
+      {
+       "tr": "baskı",
+       "uz": "1.bosim, 2.nashr"
+      },
+      {
+       "tr": "bellek",
+       "uz": "xotira"
+      },
+      {
+       "tr": "boğa",
+       "uz": "buqa, hökiz"
+      },
+      {
+       "tr": "cenaze",
+       "uz": "mayit, janoza"
+      },
+      {
+       "tr": "cinayet",
+       "uz": "jinoyat"
+      },
+      {
+       "tr": "çekirge",
+       "uz": "chigirtka"
+      },
+      {
+       "tr": "denizatı",
+       "uz": "dengizoti"
+      },
+      {
+       "tr": "doruk",
+       "uz": "chöqqi"
+      },
+      {
+       "tr": "erişkin",
+       "uz": "kattalar"
+      },
+      {
+       "tr": "fevkalade",
+       "uz": "favqulotta"
+      },
+      {
+       "tr": "gayret",
+       "uz": "ğayrat"
+      },
+      {
+       "tr": "gerekçe",
+       "uz": "sabab"
+      },
+      {
+       "tr": "gösterge",
+       "uz": "körsatuv, körsatuvchi"
+      },
+      {
+       "tr": "gülünç",
+       "uz": "kulgili"
+      },
+      {
+       "tr": "harikulade",
+       "uz": "multifilm"
+      },
+      {
+       "tr": "haysiyet",
+       "uz": "qadr-qimmat"
+      },
+      {
+       "tr": "hörgüç",
+       "uz": "dumba"
+      },
+      {
+       "tr": "itibar",
+       "uz": "etibor"
+      },
+      {
+       "tr": "kaptan",
+       "uz": "kapitan"
+      },
+      {
+       "tr": "kesik",
+       "uz": "kesma, kesilgan narsa"
+      },
+      {
+       "tr": "kırkayak",
+       "uz": "qirqoyoq"
+      },
+      {
+       "tr": "kiler",
+       "uz": "yertöla"
+      },
+      {
+       "tr": "kova",
+       "uz": "kelak"
+      },
+      {
+       "tr": "köftehor",
+       "uz": "tilanchi"
+      },
+      {
+       "tr": "leğen",
+       "uz": "1.lagan, 2.havza"
+      },
+      {
+       "tr": "mat",
+       "uz": "1.mot, 2.gapira olmay"
+      },
+      {
+       "tr": "muhterem",
+       "uz": "hurmatli"
+      },
+      {
+       "tr": "mücadele",
+       "uz": "kurash, mujodala"
+      },
+      {
+       "tr": "mühür",
+       "uz": "muhr"
+      },
+      {
+       "tr": "okkalı",
+       "uz": "salmoqlı, salmoqdor"
+      },
+      {
+       "tr": "olasılık",
+       "uz": "1.imkoniyat, 2.biror"
+      },
+      {
+       "tr": "omurilik",
+       "uz": "umurtqa, orqa miya"
+      },
+      {
+       "tr": "onur",
+       "uz": "hurmat"
+      },
+      {
+       "tr": "öbür",
+       "uz": "keyingisi, boshqasi, (o bir"
+      },
+      {
+       "tr": "pergel",
+       "uz": "kompaslar, sirkul"
+      },
+      {
+       "tr": "posa",
+       "uz": "1.pulpa, 2.suvi siqib olingan"
+      },
+      {
+       "tr": "pürüzsüz",
+       "uz": "silliq"
+      },
+      {
+       "tr": "saydam",
+       "uz": "shaffof"
+      },
+      {
+       "tr": "sivrisinek",
+       "uz": "chivin"
+      },
+      {
+       "tr": "şakak",
+       "uz": "chakka (qulo, köz, peshona"
+      },
+      {
+       "tr": "usul",
+       "uz": "usul"
+      },
+      {
+       "tr": "yel",
+       "uz": "shabada, shamol"
+      },
+      {
+       "tr": "zar",
+       "uz": "zar"
+      },
+      {
+       "tr": "aldatmak",
+       "uz": "xiyonat qilmoq (erkak va"
+      },
+      {
+       "tr": "algılamak",
+       "uz": "his qilish, sezish"
+      },
+      {
+       "tr": "aşmak",
+       "uz": "aşmak"
+      },
+      {
+       "tr": "ayıklamak",
+       "uz": "saralamoq, orasidan"
+      },
+      {
+       "tr": "azarlamak",
+       "uz": "haqorat qilmoq"
+      },
+      {
+       "tr": "berabere kalmak",
+       "uz": "tenglikda qolib"
+      },
+      {
+       "tr": "çatmak",
+       "uz": "tirishmoq, tirishtirmoq"
+      },
+      {
+       "tr": "daldırmak",
+       "uz": "shönğitmoq, botirmoq"
+      },
+      {
+       "tr": "pekiştirmek",
+       "uz": "börtirmoq, orttirmoq"
+      },
+      {
+       "tr": "sahiplenmek",
+       "uz": "ega chiqmoq"
+      },
+      {
+       "tr": "sanmak",
+       "uz": "…deb öylamoq"
+      },
+      {
+       "tr": "takdir etmek",
+       "uz": "tan bermoq, tan"
+      },
+      {
+       "tr": "sıvazlamak",
+       "uz": "surkamoq, shivamoq"
+      },
+      {
+       "tr": "şaşmak",
+       "uz": "hayron qolmoq"
+      },
+      {
+       "tr": "tartılmak",
+       "uz": "tortilmoq"
+      },
+      {
+       "tr": "tutuklamak",
+       "uz": "ushlab olmoq, tutqun"
+      },
+      {
+       "tr": "ummak",
+       "uz": "… deb yaxshi niyyat"
+      },
+      {
+       "tr": "büyümüş de küçülmüş",
+       "uz": "özi"
+      },
+      {
+       "tr": "dillere destan",
+       "uz": "tillarga doston"
+      },
+      {
+       "tr": "eser kalmamak evlat edinmek",
+       "uz": "asrab qolinmoq"
+      },
+      {
+       "tr": "iş güç sahibi",
+       "uz": "ishi bor odam"
+      },
+      {
+       "tr": "kafasına esmek",
+       "uz": "aqliga kelib"
+      },
+      {
+       "tr": "maymun olmak",
+       "uz": "mashara bölmoq"
+      },
+      {
+       "tr": "ruh ikizi",
+       "uz": "ruhiy yaqin bölgan jufti"
+      },
+      {
+       "tr": "usanmak",
+       "uz": "mashaqqattan chekinib"
+      },
+      {
+       "tr": "taçsız kral",
+       "uz": "tojsiz shox bölmoq"
+      },
+      {
+       "tr": "yakınmak",
+       "uz": "yonmoq, kuyib pishmoq"
+      },
+      {
+       "tr": "Uğurlar olsun",
+       "uz": "baxti ochiq bölsin"
+      },
+      {
+       "tr": "yanılmak",
+       "uz": "yanglishmoq, adashmoq"
+      },
+      {
+       "tr": "yaralamak",
+       "uz": "yaralamoq"
+      },
+      {
+       "tr": "konmak",
+       "uz": "qönmoq"
+      },
+      {
+       "tr": "ağzına layık",
+       "uz": "oğziga mos"
+      },
+      {
+       "tr": "üstesinden gelmek",
+       "uz": "uddasşdan"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "C1",
+   "units": [
+    {
+     "name": "1-unit",
+     "words": [
+      {
+       "tr": "Akım",
+       "uz": "oqim"
+      },
+      {
+       "tr": "Alarm",
+       "uz": "qönğiroq, budilnik"
+      },
+      {
+       "tr": "Aşama",
+       "uz": "bosqich"
+      },
+      {
+       "tr": "ateş saati",
+       "uz": "olov vaqti, olov"
+      },
+      {
+       "tr": "atılgan",
+       "uz": "dovyurak"
+      },
+      {
+       "tr": "ay yılı",
+       "uz": "oy yili (oy yil hisobi)"
+      },
+      {
+       "tr": "ayrıntı",
+       "uz": "detal"
+      },
+      {
+       "tr": "barınma",
+       "uz": "saqlanmoq"
+      },
+      {
+       "tr": "beklenti",
+       "uz": "kutilma, kutilgan biror"
+      },
+      {
+       "tr": "Cıva",
+       "uz": "simob"
+      },
+      {
+       "tr": "Çanak",
+       "uz": "chanoq"
+      },
+      {
+       "tr": "Çelimsiz",
+       "uz": "kuchsiz"
+      },
+      {
+       "tr": "Devre",
+       "uz": "davra,davr"
+      },
+      {
+       "tr": "Düzenek",
+       "uz": "tuzilgan tartib sistema"
+      },
+      {
+       "tr": "Felç",
+       "uz": "falch"
+      },
+      {
+       "tr": "Göç",
+       "uz": "köchmanchilik, muhojirot"
+      },
+      {
+       "tr": "güneş saati",
+       "uz": "quyosh soat, quyosh"
+      },
+      {
+       "tr": "güneş yılı",
+       "uz": "quyosh yili, quyosh yil"
+      },
+      {
+       "tr": "hasat",
+       "uz": "hasat"
+      },
+      {
+       "tr": "heves",
+       "uz": "havas"
+      },
+      {
+       "tr": "hicrî",
+       "uz": "hijriy"
+      },
+      {
+       "tr": "uygarlık",
+       "uz": "madaaniyat , manaviyat"
+      },
+      {
+       "tr": "yöre",
+       "uz": "atrof, tevarak, muhit"
+      },
+      {
+       "tr": "buğulanmak",
+       "uz": "buğlanmoq"
+      },
+      {
+       "tr": "çırpınmak",
+       "uz": "tölğanmoq"
+      },
+      {
+       "tr": "doğrulmak",
+       "uz": "töğirlamoq"
+      },
+      {
+       "tr": "düzenlemek",
+       "uz": "tuzatish, tartiblamoq"
+      },
+      {
+       "tr": "eritmek",
+       "uz": "eritmoq"
+      },
+      {
+       "tr": "iletmek",
+       "uz": "yetkazmoq"
+      },
+      {
+       "tr": "ilişkilendirmek",
+       "uz": "aloqa qurmoq"
+      },
+      {
+       "tr": "istifade etmek",
+       "uz": "istefo qilmoq"
+      },
+      {
+       "tr": "hürmetli",
+       "uz": "hurmatli"
+      },
+      {
+       "tr": "ibre",
+       "uz": "öq, nayza, mil"
+      },
+      {
+       "tr": "ipucu",
+       "uz": "ip uchi, kalavaning uchi"
+      },
+      {
+       "tr": "isyankâr",
+       "uz": "isyonkor"
+      },
+      {
+       "tr": "işitme engelli",
+       "uz": "eshitish qobilyati"
+      },
+      {
+       "tr": "kadran",
+       "uz": "shkala"
+      },
+      {
+       "tr": "kum saati",
+       "uz": "qum soat"
+      },
+      {
+       "tr": "makul",
+       "uz": "ma’qul"
+      },
+      {
+       "tr": "mantık",
+       "uz": "mantiq"
+      },
+      {
+       "tr": "mehtap",
+       "uz": "maktub"
+      },
+      {
+       "tr": "mekanik",
+       "uz": "mexanik"
+      },
+      {
+       "tr": "mekanizma",
+       "uz": "mexanizma"
+      },
+      {
+       "tr": "mermer",
+       "uz": "marmar"
+      },
+      {
+       "tr": "metal",
+       "uz": "metal"
+      },
+      {
+       "tr": "mil",
+       "uz": "mil"
+      },
+      {
+       "tr": "milâdî",
+       "uz": "milodiy"
+      },
+      {
+       "tr": "periyot",
+       "uz": "davr.zamon"
+      },
+      {
+       "tr": "piyanist",
+       "uz": "piyaninachi"
+      },
+      {
+       "tr": "pusula",
+       "uz": "kompas, qiblanoma"
+      },
+      {
+       "tr": "rutin",
+       "uz": "odatiy, odatdagi, bir xil"
+      },
+      {
+       "tr": "sağır",
+       "uz": "kar, sağir"
+      },
+      {
+       "tr": "saydam",
+       "uz": "tiniq, shafof"
+      },
+      {
+       "tr": "sihirbaz",
+       "uz": "sehirgar"
+      },
+      {
+       "tr": "sponsor",
+       "uz": "homiy"
+      },
+      {
+       "tr": "su saati",
+       "uz": "suv soati"
+      },
+      {
+       "tr": "şakak",
+       "uz": "yonoq"
+      },
+      {
+       "tr": "teorik",
+       "uz": "teorik"
+      },
+      {
+       "tr": "kılmak",
+       "uz": "ehtimollilik"
+      },
+      {
+       "tr": "sözleşmek",
+       "uz": "kelishmoq"
+      },
+      {
+       "tr": "takışmak",
+       "uz": "tashimoq"
+      },
+      {
+       "tr": "tasarlamak",
+       "uz": "dizain"
+      },
+      {
+       "tr": "taşmak",
+       "uz": "toshmoq"
+      },
+      {
+       "tr": "ulumak",
+       "uz": "uvlamoq, ulimoq"
+      },
+      {
+       "tr": "yaygınlaşmak",
+       "uz": "ommalashmoq"
+      },
+      {
+       "tr": "zehirlenmek",
+       "uz": "zaharlanmoq"
+      },
+      {
+       "tr": "zonklamak",
+       "uz": "löqillamoq"
+      },
+      {
+       "tr": "birisini ekmek",
+       "uz": "bir kishini kuttirib"
+      },
+      {
+       "tr": "çekip gitmek",
+       "uz": "tark etib ketmoq"
+      },
+      {
+       "tr": "ilgi duymak",
+       "uz": "e’tibor körmoq"
+      },
+      {
+       "tr": "ilham vermek",
+       "uz": "ilhom bermoq"
+      },
+      {
+       "tr": "kalbi küt küt atmak",
+       "uz": "yuragi duk duk"
+      },
+      {
+       "tr": "uyandırmak",
+       "uz": "qiziqish"
+      },
+      {
+       "tr": "para canlısı",
+       "uz": "pul desa öladigan"
+      },
+      {
+       "tr": "renk katmak",
+       "uz": "rangi chiqmoq, rangi"
+      },
+      {
+       "tr": "gerilmek",
+       "uz": "asablari"
+      },
+      {
+       "tr": "kaybetmek",
+       "uz": "umidini"
+      },
+      {
+       "tr": "olmak",
+       "uz": "yopishqoq"
+      },
+      {
+       "tr": "zaman almak",
+       "uz": "vaqtini olmoq"
+      },
+      {
+       "tr": "zaman harcamak",
+       "uz": "vaqt sarflash"
+      },
+      {
+       "tr": "zaman kaybetmek",
+       "uz": "vaqt yöqotmoq"
+      },
+      {
+       "tr": "zaman öldürmek",
+       "uz": "vaqtni ötqazish"
+      }
+     ]
+    },
+    {
+     "name": "2-unit",
+     "words": [
+      {
+       "tr": "eser",
+       "uz": "asar"
+      },
+      {
+       "tr": "faz",
+       "uz": "bosqichi"
+      },
+      {
+       "tr": "gazel",
+       "uz": "ğazal"
+      },
+      {
+       "tr": "gerdanlık",
+       "uz": "zebigardon"
+      },
+      {
+       "tr": "antrenman",
+       "uz": "mashğulot"
+      },
+      {
+       "tr": "gözbebeği",
+       "uz": "köz qorachiği"
+      },
+      {
+       "tr": "antropolog",
+       "uz": "antropolog"
+      },
+      {
+       "tr": "güvercin",
+       "uz": "kabutar"
+      },
+      {
+       "tr": "ayet",
+       "uz": "oyat"
+      },
+      {
+       "tr": "hakiki",
+       "uz": "haqiqiy"
+      },
+      {
+       "tr": "bağlılık",
+       "uz": "boğliqlik, qaramlik"
+      },
+      {
+       "tr": "harikulade",
+       "uz": "xoriqulodda, favqulodda"
+      },
+      {
+       "tr": "belirti",
+       "uz": "belgi, alomat, nishona"
+      },
+      {
+       "tr": "hasılı",
+       "uz": "qisqasi"
+      },
+      {
+       "tr": "bilgin",
+       "uz": "bilimdon, olim"
+      },
+      {
+       "tr": "bilhassa",
+       "uz": "xususan"
+      },
+      {
+       "tr": "bilinçaltı",
+       "uz": "ong osti"
+      },
+      {
+       "tr": "hormon",
+       "uz": "garmon (ichki sekretsiya"
+      },
+      {
+       "tr": "cefa",
+       "uz": "jafo"
+      },
+      {
+       "tr": "ıstırap",
+       "uz": "iztirob"
+      },
+      {
+       "tr": "cihaz",
+       "uz": "jihoz (elektronik, mexanik…)"
+      },
+      {
+       "tr": "içtenlik",
+       "uz": "samimiylik, samimiyat"
+      },
+      {
+       "tr": "çekingen",
+       "uz": "uylachang, tortinchoq"
+      },
+      {
+       "tr": "ilham",
+       "uz": "ilom"
+      },
+      {
+       "tr": "derviş",
+       "uz": "darvesh"
+      },
+      {
+       "tr": "imkân",
+       "uz": "imkon"
+      },
+      {
+       "tr": "dizgin",
+       "uz": "tizgin"
+      },
+      {
+       "tr": "irtibat",
+       "uz": "aloqa, boğlanish"
+      },
+      {
+       "tr": "dörtnala",
+       "uz": "chopqir, choptirib, yeldirib"
+      },
+      {
+       "tr": "ispat",
+       "uz": "isbot"
+      },
+      {
+       "tr": "edep",
+       "uz": "odob"
+      },
+      {
+       "tr": "izlenim",
+       "uz": "tassurot"
+      },
+      {
+       "tr": "emniyet kemeri",
+       "uz": "xavfsizlik kamari"
+      },
+      {
+       "tr": "kalender",
+       "uz": "qalandar"
+      },
+      {
+       "tr": "kanaat",
+       "uz": "qanot"
+      },
+      {
+       "tr": "öz",
+       "uz": "öz, asl"
+      },
+      {
+       "tr": "karışım",
+       "uz": "qorishma"
+      },
+      {
+       "tr": "pisi",
+       "uz": "mushuk (bola tilida)"
+      },
+      {
+       "tr": "katot",
+       "uz": "manfiy zaryadlangan elektrod"
+      },
+      {
+       "tr": "ikizi",
+       "uz": "ruhiy"
+      },
+      {
+       "tr": "kaynak",
+       "uz": "mana, adabiyotlar"
+      },
+      {
+       "tr": "salınım",
+       "uz": "1.tebratnish"
+      },
+      {
+       "tr": "kıvılcım",
+       "uz": "uchqun, olov zarrasi"
+      },
+      {
+       "tr": "kıymet",
+       "uz": "qiymat"
+      },
+      {
+       "tr": "samanyolu",
+       "uz": "somon yöli"
+      },
+      {
+       "tr": "kimya",
+       "uz": "kimyo"
+      },
+      {
+       "tr": "kramp",
+       "uz": "tomir tortishish, tirishish"
+      },
+      {
+       "tr": "sanki",
+       "uz": "xuddi, misol, göyoki"
+      },
+      {
+       "tr": "saplantı",
+       "uz": "miyyaga ötirib qolgan fikr"
+      },
+      {
+       "tr": "kusursuz",
+       "uz": "qusursiz, kamchiliksiz"
+      },
+      {
+       "tr": "seyran",
+       "uz": "sayron, sayir tamoshalar."
+      },
+      {
+       "tr": "kuşkucu",
+       "uz": "shubhachi"
+      },
+      {
+       "tr": "Sır",
+       "uz": "sir"
+      },
+      {
+       "tr": "yıldız",
+       "uz": "dumli"
+      },
+      {
+       "tr": "Sırça",
+       "uz": "oyna, shisha"
+      },
+      {
+       "tr": "Sine",
+       "uz": "siyna, kökrak"
+      },
+      {
+       "tr": "lisan",
+       "uz": "til"
+      },
+      {
+       "tr": "Sitem",
+       "uz": "sitam"
+      },
+      {
+       "tr": "lunapark",
+       "uz": "atraksiyonli park"
+      },
+      {
+       "tr": "Sükûnet",
+       "uz": "sukunat"
+      },
+      {
+       "tr": "maharet",
+       "uz": "mahorat"
+      },
+      {
+       "tr": "Tabir",
+       "uz": "ta’bir"
+      },
+      {
+       "tr": "makam",
+       "uz": "maqom, lavozim"
+      },
+      {
+       "tr": "Takdir",
+       "uz": "taqdir, qismat"
+      },
+      {
+       "tr": "maksat",
+       "uz": "maqsad"
+      },
+      {
+       "tr": "Takıntılı",
+       "uz": "vasvasali, vahimali"
+      },
+      {
+       "tr": "mânâ",
+       "uz": "ma’no, mani"
+      },
+      {
+       "tr": "Tasavvuf",
+       "uz": "tasavvuf"
+      },
+      {
+       "tr": "manevî",
+       "uz": "manaviy"
+      },
+      {
+       "tr": "Tavır",
+       "uz": "tavr, xatti-harakat"
+      },
+      {
+       "tr": "mecnun",
+       "uz": "majnun"
+      },
+      {
+       "tr": "mektep",
+       "uz": "maktub"
+      },
+      {
+       "tr": "Tedavül",
+       "uz": "muomalada"
+      },
+      {
+       "tr": "molekül",
+       "uz": "malekula"
+      },
+      {
+       "tr": "Tekke",
+       "uz": "döppi"
+      },
+      {
+       "tr": "muhatap",
+       "uz": "hamsuhbat, suhbatdosh"
+      },
+      {
+       "tr": "Tepki",
+       "uz": "aks tasir, javob"
+      },
+      {
+       "tr": "mülakat",
+       "uz": "muloqot, suhbat"
+      },
+      {
+       "tr": "Teslimiyet",
+       "uz": "taslim bölish"
+      },
+      {
+       "tr": "müsaade",
+       "uz": "izn, ijozat"
+      },
+      {
+       "tr": "Tez",
+       "uz": "tez, disertatsiya, ilmiy ish"
+      },
+      {
+       "tr": "nahoş",
+       "uz": "nohush, xunuk, köngilsiz"
+      },
+      {
+       "tr": "Tutku",
+       "uz": "ehtiros, kuchli his tuyğu"
+      },
+      {
+       "tr": "nasip",
+       "uz": "nasib"
+      },
+      {
+       "tr": "Tüberküloz",
+       "uz": "tuberkiloz"
+      },
+      {
+       "tr": "nazik",
+       "uz": "nozik, nazokatli, mört, qaltis"
+      },
+      {
+       "tr": "Ultraviyole",
+       "uz": "ultirabinafsha"
+      },
+      {
+       "tr": "ne denli",
+       "uz": "sababli"
+      },
+      {
+       "tr": "Uyum",
+       "uz": "hamohanglik, uyğunlik"
+      },
+      {
+       "tr": "niyaz",
+       "uz": "niyoz, yolvorish, ötinish"
+      },
+      {
+       "tr": "Vefa",
+       "uz": "vafo"
+      },
+      {
+       "tr": "nörotik",
+       "uz": "nevragoliyaga"
+      },
+      {
+       "tr": "övgü",
+       "uz": "maqtov, alqov"
+      },
+      {
+       "tr": "vicdan azabı",
+       "uz": "vijdon azobi"
+      },
+      {
+       "tr": "yiğit",
+       "uz": "yigit"
+      },
+      {
+       "tr": "zemin",
+       "uz": "zamin"
+      },
+      {
+       "tr": "zikir",
+       "uz": "zikr, eslamoq, qayd qilmoq"
+      },
+      {
+       "tr": "ziyade",
+       "uz": "ziyoda, ortiq"
+      },
+      {
+       "tr": "kanıtlamak",
+       "uz": "dalillamoq, isbot"
+      },
+      {
+       "tr": "kasılmak",
+       "uz": "kasmoq, yopilib olish"
+      },
+      {
+       "tr": "aşk olsun",
+       "uz": "ashk bölsin"
+      },
+      {
+       "tr": "keyfime",
+       "uz": "kayfimga"
+      },
+      {
+       "tr": "katlanmak",
+       "uz": "chidamoq, qöshilmoq"
+      },
+      {
+       "tr": "oymak",
+       "uz": "öymoq"
+      },
+      {
+       "tr": "övmek",
+       "uz": "maqtamoq"
+      },
+      {
+       "tr": "düşürmemek",
+       "uz": "tilidan"
+      },
+      {
+       "tr": "püskürtmek",
+       "uz": "purkatmoq"
+      },
+      {
+       "tr": "dillerde dolaşmak",
+       "uz": "tilma til bölish"
+      },
+      {
+       "tr": "seyre dalmak",
+       "uz": "berilib ketmoq"
+      },
+      {
+       "tr": "kafayı yemek",
+       "uz": "aqldan ozmoq"
+      },
+      {
+       "tr": "lanet olsun",
+       "uz": "lanat bölsin"
+      },
+      {
+       "tr": "salgılamak",
+       "uz": "sirleş"
+      },
+      {
+       "tr": "payını almak",
+       "uz": "ulushuni olmoq"
+      },
+      {
+       "tr": "sınıflandırmak",
+       "uz": "tasnif qilmoq"
+      },
+      {
+       "tr": "temelini atmak",
+       "uz": "tamalini qöymoq"
+      },
+      {
+       "tr": "sürüklemek",
+       "uz": "sudramoq, tortmoq"
+      },
+      {
+       "tr": "Adamak",
+       "uz": "atamoq, nazr qilmoq"
+      },
+      {
+       "tr": "süzülmek",
+       "uz": "suzilmoq, noz ishva"
+      },
+      {
+       "tr": "Aksetmek",
+       "uz": "aksetmoq"
+      },
+      {
+       "tr": "tatmin etmek",
+       "uz": "qoniqtirmoq"
+      },
+      {
+       "tr": "Depolamak",
+       "uz": "zahiralamoq"
+      },
+      {
+       "tr": "Deşmek",
+       "uz": "teşmoq"
+      },
+      {
+       "tr": "Fırlatmak",
+       "uz": "otmoq, uloqtirmoq"
+      },
+      {
+       "tr": "Fısıldamak",
+       "uz": "shivirlamoq"
+      },
+      {
+       "tr": "Harmanlamak",
+       "uz": "xirmon kötarmoq"
+      },
+      {
+       "tr": "iddia etmek",
+       "uz": "iddao qilish"
+      },
+      {
+       "tr": "tercih etmek",
+       "uz": "tanlamoq, afsal"
+      },
+      {
+       "tr": "ummak",
+       "uz": "umid qilmoq, taxmin"
+      },
+      {
+       "tr": "yakarmak",
+       "uz": "yolvormoq, ötinmoq"
+      },
+      {
+       "tr": "isyan etmek",
+       "uz": "isyon qilmoq"
+      },
+      {
+       "tr": "işlemek",
+       "uz": "ishlamoq, ishlov bermoq"
+      }
+     ]
+    },
+    {
+     "name": "3-unit",
+     "words": [
+      {
+       "tr": "yorum",
+       "uz": "izoh, sharh"
+      },
+      {
+       "tr": "zarf",
+       "uz": "1. Konvert 2.ravish"
+      },
+      {
+       "tr": "yaygın",
+       "uz": "keng tarqalgan"
+      },
+      {
+       "tr": "tempo",
+       "uz": "temp"
+      },
+      {
+       "tr": "hâkimiyet",
+       "uz": "hokimyat"
+      },
+      {
+       "tr": "kıtlık",
+       "uz": "ochlik"
+      },
+      {
+       "tr": "iman",
+       "uz": "imon"
+      },
+      {
+       "tr": "kısırlık",
+       "uz": "bepushtlik"
+      },
+      {
+       "tr": "muhtaç",
+       "uz": "muhtoj, ehtiyojmand"
+      },
+      {
+       "tr": "geçersiz",
+       "uz": "yaroqsiz"
+      },
+      {
+       "tr": "köken",
+       "uz": "kelib chiqish, asos"
+      },
+      {
+       "tr": "gelişigüzel",
+       "uz": "tasodifiy"
+      },
+      {
+       "tr": "kesin",
+       "uz": "aniq"
+      },
+      {
+       "tr": "hayırsever",
+       "uz": "xayrsevar"
+      },
+      {
+       "tr": "itiraz etmek",
+       "uz": "e’tiroz bildirmoq"
+      },
+      {
+       "tr": "nalbant",
+       "uz": "taqachi"
+      },
+      {
+       "tr": "felaket",
+       "uz": "falokat"
+      },
+      {
+       "tr": "aşırı doz",
+       "uz": "haddan oriq dozani"
+      },
+      {
+       "tr": "çeyiz",
+       "uz": "sep"
+      },
+      {
+       "tr": "malvarlığı",
+       "uz": "mol-dunyo"
+      },
+      {
+       "tr": "huzurevi",
+       "uz": "qaryalar uyi"
+      },
+      {
+       "tr": "uğraşı",
+       "uz": "kasb, faoliyat"
+      },
+      {
+       "tr": "kabartma",
+       "uz": "yengilik, pahmoq"
+      },
+      {
+       "tr": "pul",
+       "uz": "1. Shtamp 2.maydalangan"
+      },
+      {
+       "tr": "zar",
+       "uz": "zar"
+      },
+      {
+       "tr": "karşılıklı",
+       "uz": "qarama-qarshi"
+      },
+      {
+       "tr": "enteresan",
+       "uz": "qiziqarli, ğaroyib"
+      },
+      {
+       "tr": "karşılık olarak",
+       "uz": "evaziga, qarshiligi"
+      },
+      {
+       "tr": "sunmak",
+       "uz": "taqdim etish"
+      },
+      {
+       "tr": "kebe",
+       "uz": "peshtaxta"
+      },
+      {
+       "tr": "ummak",
+       "uz": "umid qilmoq, kutmoq"
+      },
+      {
+       "tr": "katlanmak",
+       "uz": "chidamoq"
+      },
+      {
+       "tr": "yakınmak",
+       "uz": "norozilik bildirmoq"
+      },
+      {
+       "tr": "suratını asmak",
+       "uz": "qovoq osmoq"
+      },
+      {
+       "tr": "sıkıntı çekmek",
+       "uz": "qiyinchilik körmoq"
+      },
+      {
+       "tr": "ileri geri konuşmak",
+       "uz": "past balan"
+      },
+      {
+       "tr": "değişken",
+       "uz": "özgaruvchan"
+      },
+      {
+       "tr": "geri çevirmek",
+       "uz": "qaytarmoq, qabul"
+      },
+      {
+       "tr": "seçkin",
+       "uz": "ajralib turadigan, tanlab"
+      },
+      {
+       "tr": "ele geçmek",
+       "uz": "asr bölmoq, qölga"
+      },
+      {
+       "tr": "tabut",
+       "uz": "tobut"
+      },
+      {
+       "tr": "yaşayıp gitmek",
+       "uz": "yashab ketmoq, öz"
+      },
+      {
+       "tr": "Sıkılmak",
+       "uz": "siqilmoq"
+      },
+      {
+       "tr": "iş işten geçmek",
+       "uz": "ğish qoliptan"
+      },
+      {
+       "tr": "Özetlemek",
+       "uz": "qisqacha boyon qilmoq"
+      },
+      {
+       "tr": "aman dilemek",
+       "uz": "omonlik tilamoq"
+      },
+      {
+       "tr": "Desteklemek",
+       "uz": "qöllab quvvatlamoq"
+      },
+      {
+       "tr": "kılık değiştirmek",
+       "uz": "1.ust boshini"
+      },
+      {
+       "tr": "işleri yolunda olmak",
+       "uz": "ishlari joyida"
+      },
+      {
+       "tr": "hale düşmek",
+       "uz": "1.yomon ahvolga"
+      },
+      {
+       "tr": "uzak durmak",
+       "uz": "uzoq turmoq"
+      }
+     ]
+    },
+    {
+     "name": "4-unit",
+     "words": [
+      {
+       "tr": "Algılama",
+       "uz": "idrok, idrok etish"
+      },
+      {
+       "tr": "Analitik",
+       "uz": "analiştik"
+      },
+      {
+       "tr": "Arşın",
+       "uz": "tirsak"
+      },
+      {
+       "tr": "Arzuhal",
+       "uz": "arzu hol, shikoyat"
+      },
+      {
+       "tr": "Arzuhalci",
+       "uz": "shikoyatchi"
+      },
+      {
+       "tr": "aşırı makyaj",
+       "uz": "haddan ortiq makyaj"
+      },
+      {
+       "tr": "atanma",
+       "uz": "tayinlanish"
+      },
+      {
+       "tr": "avuç",
+       "uz": "huvush, kift"
+      },
+      {
+       "tr": "biçare",
+       "uz": "bechora"
+      },
+      {
+       "tr": "bilinçli",
+       "uz": "ongli"
+      },
+      {
+       "tr": "bizzat",
+       "uz": "shaxsan"
+      },
+      {
+       "tr": "cihan",
+       "uz": "jahon"
+      },
+      {
+       "tr": "çırak",
+       "uz": "yordamchi shogirt"
+      },
+      {
+       "tr": "dart",
+       "uz": "dart"
+      },
+      {
+       "tr": "dava",
+       "uz": "1.da’vo, 2.oliy maqsad"
+      },
+      {
+       "tr": "esna",
+       "uz": "asno"
+      },
+      {
+       "tr": "frekans",
+       "uz": "chastota"
+      },
+      {
+       "tr": "hasır",
+       "uz": "böyra"
+      },
+      {
+       "tr": "hekim",
+       "uz": "tabib, shifokor"
+      },
+      {
+       "tr": "adım atmak",
+       "uz": "qadam tashlamoq"
+      },
+      {
+       "tr": "küçük düşünmek",
+       "uz": "kichik öylash"
+      },
+      {
+       "tr": "peşini bırakmamak",
+       "uz": "izini quvish"
+      },
+      {
+       "tr": "süzülüp gitmek",
+       "uz": "sassiz, ovozsiz"
+      },
+      {
+       "tr": "gözünü yükseklere dikmek",
+       "uz": "yuqori"
+      },
+      {
+       "tr": "hamle yapmak",
+       "uz": "hamla qilmoq"
+      },
+      {
+       "tr": "heybetli",
+       "uz": "habaytli"
+      },
+      {
+       "tr": "ıstırab",
+       "uz": "istirob"
+      },
+      {
+       "tr": "imaj",
+       "uz": "imij"
+      },
+      {
+       "tr": "iskemle",
+       "uz": "kursi, örindiq"
+      },
+      {
+       "tr": "izin tezkeresi",
+       "uz": "ruxatnoma, izin"
+      },
+      {
+       "tr": "kadı",
+       "uz": "kadi"
+      },
+      {
+       "tr": "kama",
+       "uz": "xanjar"
+      },
+      {
+       "tr": "kamış",
+       "uz": "qamish"
+      },
+      {
+       "tr": "külliye",
+       "uz": "köpleks, kulliya"
+      },
+      {
+       "tr": "makam",
+       "uz": "lavozim, maqom"
+      },
+      {
+       "tr": "makul",
+       "uz": "ma’qul"
+      },
+      {
+       "tr": "maruzat",
+       "uz": "arz, shikoyat"
+      },
+      {
+       "tr": "motivasyon",
+       "uz": "mativatsiya"
+      },
+      {
+       "tr": "mülakat",
+       "uz": "muloqot, suhbat, aloqa"
+      },
+      {
+       "tr": "organizasyon",
+       "uz": "tashkil etilgan"
+      },
+      {
+       "tr": "rütbe",
+       "uz": "daraja, rütbe"
+      },
+      {
+       "tr": "satır",
+       "uz": "satr, qator"
+      },
+      {
+       "tr": "sektör",
+       "uz": "soha, yönalish, bölim"
+      },
+      {
+       "tr": "staj",
+       "uz": "staj, amaliyot"
+      },
+      {
+       "tr": "sütun",
+       "uz": "ustun"
+      },
+      {
+       "tr": "tazminat",
+       "uz": "tovon, badal"
+      },
+      {
+       "tr": "uçuk kıyafet",
+       "uz": "uchuq ust bosh"
+      },
+      {
+       "tr": "unvan",
+       "uz": "unvon"
+      },
+      {
+       "tr": "üstat",
+       "uz": "ustoz, usta, ustod"
+      },
+      {
+       "tr": "vizyon",
+       "uz": "körish, qarash, yondashish"
+      },
+      {
+       "tr": "yasal süreç",
+       "uz": "taqiqlangan mudat"
+      },
+      {
+       "tr": "zulüm",
+       "uz": "zulum, uqubat"
+      },
+      {
+       "tr": "artış göstermek",
+       "uz": "ösish körsatmoq"
+      },
+      {
+       "tr": "arz etmek",
+       "uz": "1.arz etmoq, shikoyat"
+      }
+     ]
+    },
+    {
+     "name": "5-unit",
+     "words": [
+      {
+       "tr": "Danıştay",
+       "uz": "davlat kengashi"
+      },
+      {
+       "tr": "bakteri",
+       "uz": "bakteriya"
+      },
+      {
+       "tr": "mantar",
+       "uz": "qöziqorin"
+      },
+      {
+       "tr": "denetlenme",
+       "uz": "sinab körish, tajriba"
+      },
+      {
+       "tr": "kısıtlanma",
+       "uz": "qisitlash"
+      },
+      {
+       "tr": "olgu",
+       "uz": "hodisa"
+      },
+      {
+       "tr": "bilinçaltı",
+       "uz": "ong osti"
+      },
+      {
+       "tr": "propaganda",
+       "uz": "propaganda"
+      },
+      {
+       "tr": "ideoloji",
+       "uz": "idealogiya"
+      },
+      {
+       "tr": "şahsiyet",
+       "uz": "shaxsiyat"
+      },
+      {
+       "tr": "sanal",
+       "uz": "virtual"
+      },
+      {
+       "tr": "vakıf",
+       "uz": "vaqf"
+      },
+      {
+       "tr": "versiyon",
+       "uz": "versiya, variyant"
+      },
+      {
+       "tr": "gala",
+       "uz": "premyere, gala"
+      },
+      {
+       "tr": "şelale",
+       "uz": "sharshara, fantan"
+      },
+      {
+       "tr": "trajikomik",
+       "uz": "tragikomediya"
+      },
+      {
+       "tr": "orijinal",
+       "uz": "arginal, haqiqiy"
+      },
+      {
+       "tr": "çare aramak",
+       "uz": "imkon qidirmoq"
+      },
+      {
+       "tr": "ölçüp biçmek",
+       "uz": "ölchab bichmoq"
+      },
+      {
+       "tr": "uğraşmak",
+       "uz": "ovora bölmoq, band"
+      },
+      {
+       "tr": "delik deşik etmek",
+       "uz": "ilma teshik"
+      },
+      {
+       "tr": "derdine çare olmak",
+       "uz": "dardiga"
+      },
+      {
+       "tr": "emri başı üstüne",
+       "uz": "buyruq bosh"
+      },
+      {
+       "tr": "ipler koptu",
+       "uz": "rishtalar uzildi"
+      },
+      {
+       "tr": "bobin",
+       "uz": "lasan"
+      },
+      {
+       "tr": "mülkiyet",
+       "uz": "egalik"
+      },
+      {
+       "tr": "başrol",
+       "uz": "bosh rol"
+      },
+      {
+       "tr": "garip",
+       "uz": "ğarib, ğalati"
+      },
+      {
+       "tr": "tapu",
+       "uz": "mülk guvohnomasi, egalik"
+      },
+      {
+       "tr": "hariç",
+       "uz": "tashqari, shu jumladan"
+      },
+      {
+       "tr": "kritik",
+       "uz": "tanqidiy, qaltis"
+      },
+      {
+       "tr": "müthiş",
+       "uz": "muthish"
+      },
+      {
+       "tr": "smokin",
+       "uz": "smoking"
+      },
+      {
+       "tr": "rezil",
+       "uz": "razil, sharmanda"
+      },
+      {
+       "tr": "mecbur",
+       "uz": "majbur"
+      },
+      {
+       "tr": "gladyatör",
+       "uz": "gladiyator"
+      },
+      {
+       "tr": "uğruna",
+       "uz": "uchun, hotirasiga, atab"
+      },
+      {
+       "tr": "doküman",
+       "uz": "hujjat"
+      },
+      {
+       "tr": "tribün",
+       "uz": "tribuna"
+      },
+      {
+       "tr": "bağlam",
+       "uz": "konteks, boğliqlik"
+      },
+      {
+       "tr": "uzantı",
+       "uz": "kengaytma"
+      },
+      {
+       "tr": "tutku",
+       "uz": "ehtiros"
+      },
+      {
+       "tr": "yöre",
+       "uz": "mintaqa"
+      },
+      {
+       "tr": "olgu",
+       "uz": "hodisa, voqea"
+      },
+      {
+       "tr": "örgü",
+       "uz": "trikotaj, örilgan"
+      },
+      {
+       "tr": "restore edilmek",
+       "uz": "rezitor qilmish"
+      },
+      {
+       "tr": "sınırlı tutmak",
+       "uz": "chegarali tutish"
+      },
+      {
+       "tr": "dönüşmek",
+       "uz": "aylanmoq"
+      },
+      {
+       "tr": "kılavuzluk etmek",
+       "uz": "rahbarlik"
+      },
+      {
+       "tr": "yansımak",
+       "uz": "aks ettirish"
+      },
+      {
+       "tr": "tutturmak",
+       "uz": "mahkamlamoq"
+      },
+      {
+       "tr": "canı gönülden",
+       "uz": "jonu köngildan"
+      },
+      {
+       "tr": "göz önüne serilmek",
+       "uz": "ajralib turish"
+      },
+      {
+       "tr": "çığır açmak",
+       "uz": "yangi zamin ochmoq"
+      },
+      {
+       "tr": "iki laf etmek",
+       "uz": "ikki oğiz gapirmoq"
+      },
+      {
+       "tr": "gün ışığına çıkarmak",
+       "uz": "yoeuğ"
+      },
+      {
+       "tr": "ilham almak",
+       "uz": "ilhom olmoq"
+      },
+      {
+       "tr": "peşine düşmek",
+       "uz": "iziga tushmoq"
+      },
+      {
+       "tr": "bir şeyde hakkı olmak",
+       "uz": "birir"
+      },
+      {
+       "tr": "sönük kalmak",
+       "uz": "sönmish holda"
+      },
+      {
+       "tr": "kanun çıkarmak",
+       "uz": "qonun"
+      },
+      {
+       "tr": "işe girişmek",
+       "uz": "ishga kirishmoq"
+      }
+     ]
+    },
+    {
+     "name": "6-unit",
+     "words": [
+      {
+       "tr": "Tevazu",
+       "uz": "tavoze"
+      },
+      {
+       "tr": "İhtiras",
+       "uz": "ehtiros"
+      },
+      {
+       "tr": "Muhakeme",
+       "uz": "muhokama"
+      },
+      {
+       "tr": "Bilinç",
+       "uz": "ong, ong osti"
+      },
+      {
+       "tr": "Fazilet",
+       "uz": "fazilat, xislat"
+      },
+      {
+       "tr": "Hikmet",
+       "uz": "hikmat"
+      },
+      {
+       "tr": "Şuur",
+       "uz": "shuur"
+      },
+      {
+       "tr": "Nahoş",
+       "uz": "yoqimsiz, noxush"
+      },
+      {
+       "tr": "İşitsel",
+       "uz": "eshitish"
+      },
+      {
+       "tr": "Görsel",
+       "uz": "körish"
+      },
+      {
+       "tr": "Oran",
+       "uz": "nisbat, nisbatan"
+      },
+      {
+       "tr": "Duyu",
+       "uz": "sezgi"
+      },
+      {
+       "tr": "Reaksiyon",
+       "uz": "reaksiya, munosabat"
+      },
+      {
+       "tr": "Yazılım",
+       "uz": "dasturiy ta’minot"
+      },
+      {
+       "tr": "Küreselleşme",
+       "uz": "globallashuv"
+      },
+      {
+       "tr": "Faktör",
+       "uz": "omil, faktir"
+      },
+      {
+       "tr": "Kalifiye",
+       "uz": "malakali, tajribaga ega"
+      },
+      {
+       "tr": "Bileşke",
+       "uz": "natijasi"
+      },
+      {
+       "tr": "Entelektüel",
+       "uz": "intelektual"
+      },
+      {
+       "tr": "Uygar",
+       "uz": "madaniyatli, madaniy"
+      },
+      {
+       "tr": "Yetkinlik",
+       "uz": "malaka, …"
+      },
+      {
+       "tr": "Ütopik",
+       "uz": "xayoliy, utopik"
+      },
+      {
+       "tr": "Arınmak",
+       "uz": "qutilmoq, ayrilmoq"
+      },
+      {
+       "tr": "İrtibatlandırmak",
+       "uz": "aloqa qilish"
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }
