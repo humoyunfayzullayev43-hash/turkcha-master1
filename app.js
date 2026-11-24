@@ -440,7 +440,7 @@ function download(name, text, type) {
 }
 const csvCell = s => `"${String(s).replace(/"/g, '""')}"`;
 
-app.addEventListener('click', async e => {
+document.addEventListener('click', async e => {
   const el = e.target.closest('[data-act]'); if (!el) return;
   const a = el.dataset.act;
   try {
