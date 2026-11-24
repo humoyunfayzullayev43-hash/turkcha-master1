@@ -120,7 +120,7 @@
       },
       {
        "tr": "Çamaşır",
-       "uz": "yuvilgan"
+       "uz": "yuvilgan, yuvilishi kk bölgan kiyimkar (kir)"
       },
       {
        "tr": "Çanta",
@@ -128,7 +128,7 @@
       },
       {
        "tr": "Çarşı",
-       "uz": "mahalla markazı, guzargoh"
+       "uz": "mahalla markazi, guzargoh"
       },
       {
        "tr": "Çay",
@@ -240,11 +240,11 @@
       },
       {
        "tr": "Güzel",
-       "uz": "chiroyli."
+       "uz": "chiroyli"
       },
       {
        "tr": "Hâl",
-       "uz": "hol-ahvol"
+       "uz": "hol-ahvol (ulgurcu meva, savzavot, kökatlar sotiladigan bozor)"
       },
       {
        "tr": "Halı",
@@ -268,11 +268,11 @@
       },
       {
        "tr": "Hemşire",
-       "uz": "hamshira"
+       "uz": "hamshira (erkaklarga nisbatan ham ishlatiladi)"
       },
       {
        "tr": "Hiç",
-       "uz": "hech"
+       "uz": "hech, umuman yöqlik ma’nosida"
       },
       {
        "tr": "Ispanak",
@@ -280,7 +280,7 @@
       },
       {
        "tr": "Izgara",
-       "uz": "qör"
+       "uz": "qör yöqlik"
       },
       {
        "tr": "İdeal",
@@ -412,7 +412,7 @@
       },
       {
        "tr": "Lokanta",
-       "uz": "oshxona"
+       "uz": "oshxona (kichik ovqatlanish joyi)"
       },
       {
        "tr": "Lütfen",
@@ -620,7 +620,7 @@
       },
       {
        "tr": "Şişe",
-       "uz": "shisha, (baklashkaga nisbatan"
+       "uz": "shisha, (baklashkaga nisbatan ham ishlatiladi)"
       },
       {
        "tr": "Tahta",
@@ -704,7 +704,7 @@
       },
       {
        "tr": "Afiyet olsun",
-       "uz": "yoqimli ishtaha, osh"
+       "uz": "yoqimli ishtaha, osh bölsin"
       },
       {
        "tr": "Bol şanslar",
@@ -716,7 +716,11 @@
       },
       {
        "tr": "Geçmiş olsun",
-       "uz": "ötgani rost bölsin"
+       "uz": "ötgani rost bölsin (körgan kechirganing shu bölsin)"
+      },
+      {
+       "tr": "Görüşürüz",
+       "uz": "körishguncha"
       },
       {
        "tr": "Güle güle",
@@ -743,8 +747,8 @@
        "uz": "salom (Hello)"
       },
       {
-       "tr": "dilerim",
-       "uz": "kechiring"
+       "tr": "Özür dilerim",
+       "uz": "kechiring, uzr sörayman"
       },
       {
        "tr": "Rica ederim",
@@ -756,7 +760,7 @@
       },
       {
        "tr": "Tebrikler",
-       "uz": "tabriklamoq"
+       "uz": "tabriklamoq, qutlamoq (congratulate)"
       },
       {
        "tr": "Üzgünüm",
@@ -965,7 +969,7 @@
       },
       {
        "tr": "fırın",
-       "uz": "qandolat va non pishiriladigan"
+       "uz": "qandolat va non pishiriladigan pech (duxopka)"
       },
       {
        "tr": "gazete",
@@ -977,7 +981,7 @@
       },
       {
        "tr": "genellikle",
-       "uz": "odatda, umuman"
+       "uz": "odatda, umuman, asosan"
       },
       {
        "tr": "geniş",
@@ -993,7 +997,7 @@
       },
       {
        "tr": "gün",
-       "uz": "kun (gap ma’nosida ham"
+       "uz": "kun (gap ma’nosida ham keladi)"
       },
       {
        "tr": "gündüz",
@@ -1001,11 +1005,7 @@
       },
       {
        "tr": "hafta sonu",
-       "uz": "dam olish kunlari"
-      },
-      {
-       "tr": "(shanba",
-       "uz": "yakshanba)"
+       "uz": "dam olish kunlari (shanba-yakshanba)"
       },
       {
        "tr": "hasta",
@@ -1029,15 +1029,11 @@
       },
       {
        "tr": "içecek",
-       "uz": "ichiladigan narsalar (suv"
+       "uz": "ichiladigan narsalar (suv, choy, ayron…)"
       },
       {
        "tr": "istasyon",
-       "uz": "bekat, stansiya (tren"
-      },
-      {
-       "tr": "istasyonu",
-       "uz": "poyezd bekati)"
+       "uz": "bekat, stansiya (tren istasyonu-poyezd bekati)"
       },
       {
        "tr": "iyi",
@@ -1053,11 +1049,11 @@
       },
       {
        "tr": "kantin",
-       "uz": "kantin (universitet, litsey"
+       "uz": "kantin (universitet, litsey, maktablarning ovqatyeyiladigan oshxonasi)"
       },
       {
        "tr": "kapalı",
-       "uz": "yopiq (kapalı kız- örangan"
+       "uz": "yopiq (kapalı kız-örangan qiz)"
       },
       {
        "tr": "kasap",
@@ -1081,7 +1077,7 @@
       },
       {
        "tr": "kibar",
-       "uz": "kibor, xushmuomala"
+       "uz": "kibor, xushmuomala, jentelmen"
       },
       {
        "tr": "kilo",
@@ -1089,11 +1085,11 @@
       },
       {
        "tr": "kitaplık",
-       "uz": "kitob taxlanadigan jovon"
+       "uz": "kitob taxlanadigan jovon, kitob orasiga qöyiladigan xatchöp"
       },
       {
        "tr": "kolay",
-       "uz": "qulay,oson"
+       "uz": "qulay, oson"
       },
       {
        "tr": "komik",
@@ -1101,7 +1097,7 @@
       },
       {
        "tr": "konuşkan",
-       "uz": "köp gapiradiga (sergap"
+       "uz": "köp gapiradiga (sergap, laqqi)"
       },
       {
        "tr": "koridor",
@@ -1129,7 +1125,7 @@
       },
       {
        "tr": "manav",
-       "uz": "yetishtirilgan mahsulotlar"
+       "uz": "yetishtirilgan mahsulotlar dökoni (meva, sabzavot va yashillik sotadigan odam)"
       },
       {
        "tr": "market",
@@ -1137,7 +1133,7 @@
       },
       {
        "tr": "mutfak",
-       "uz": "oshxona (evimizde iki"
+       "uz": "oshxona"
       },
       {
        "tr": "mutlu",
@@ -1161,15 +1157,7 @@
       },
       {
        "tr": "ocak",
-       "uz": "gaz plitasi (yanvar oyi"
-      },
-      {
-       "tr": "söndür",
-       "uz": "gazni öchir, ocak ayında"
-      },
-      {
-       "tr": "havalar çok sovuk oluyor",
-       "uz": "yanvar"
+       "uz": "gaz plitasi (yanvar oyi ma’nosida ham keladi)"
       },
       {
        "tr": "ofis",
@@ -1181,7 +1169,7 @@
       },
       {
        "tr": "öğleden sonra",
-       "uz": "tushdan keyin"
+       "uz": "tushdan keyin (abetdan keyin)"
       },
       {
        "tr": "önemli",
@@ -1197,7 +1185,7 @@
       },
       {
        "tr": "pastane",
-       "uz": "qandolat, tort va"
+       "uz": "qandolat, tort va shirinliklar sotiladigan dökon"
       },
       {
        "tr": "pembe",
@@ -1209,7 +1197,7 @@
       },
       {
        "tr": "projektör",
-       "uz": "projektor (kuchli"
+       "uz": "projektor (kuchli yoritgich chiroq)"
       },
       {
        "tr": "psikolog",
@@ -1217,7 +1205,7 @@
       },
       {
        "tr": "resepsiyonist",
-       "uz": "mehmonxonalarda"
+       "uz": "mehmonxonalarda reseptionda turadigan odam"
       },
       {
        "tr": "sabah",
@@ -1233,7 +1221,7 @@
       },
       {
        "tr": "sehpa",
-       "uz": "uyda qahva ichiladigan stol"
+       "uz": "uyda qahva ichiladigan stol (qahva stoli)"
       },
       {
        "tr": "sekreter",
@@ -1301,7 +1289,7 @@
       },
       {
        "tr": "tezgâhtar",
-       "uz": "sotuvchi, (savdo"
+       "uz": "sotuvchi (savdo rastasiga ega odam, dökondor)"
       },
       {
        "tr": "tuzlu",
@@ -1333,7 +1321,7 @@
       },
       {
        "tr": "yaş",
-       "uz": "yosh (yaşın kaç?-yoshing"
+       "uz": "yosh (yaşın kaç? yoshing nechida)"
       },
       {
        "tr": "yaşlı",
@@ -1357,11 +1345,11 @@
       },
       {
        "tr": "yiyecek",
-       "uz": "yegulik (chaynab"
+       "uz": "yegulik (chaynab yeyiladigan narsalarning barchasi)"
       },
       {
        "tr": "yoğun",
-       "uz": "jadal, (yoğun çalışıyorumqölim qölimga tegmay"
+       "uz": "jadal (yoğun çalışıyorum-qölim qölimga tegmay ishlayapman)"
       },
       {
        "tr": "yok",
@@ -1369,15 +1357,11 @@
       },
       {
        "tr": "yorgun",
-       "uz": "charchoq, charchagan"
-      },
-      {
-       "tr": "(yorgunum",
-       "uz": "charchaganman)"
+       "uz": "charchoq, charchagan (yorgunum-charchaganman)"
       },
       {
        "tr": "zamir",
-       "uz": "asosi, tag (olmosh söz"
+       "uz": "asosi, tag (olmosh söz turkumi ma’nosida keladi)"
       },
       {
        "tr": "zayıf",
@@ -1389,15 +1373,7 @@
       },
       {
        "tr": "aramak",
-       "uz": "qidirmoq, telefon qilmoq"
-      },
-      {
-       "tr": "(anahtarımnı arıyorum",
-       "uz": "kalitimni"
-      },
-      {
-       "tr": "qidiryapman, beni ara",
-       "uz": "benga"
+       "uz": "qidirmoq, telefon qilmoq (anahtarımnı arıyorum-kalitimni qidiryapman, beni ara-benga telefon qil)"
       }
      ]
     },
@@ -1474,7 +1450,7 @@
       },
       {
        "tr": "erken",
-       "uz": "erta (erken dönmüşsün- erta"
+       "uz": "erta (erken dönmüşsün-erta qaytibsan)"
       },
       {
        "tr": "eski",
@@ -1482,7 +1458,7 @@
       },
       {
        "tr": "eş",
-       "uz": "turmush örtoq (ayol va erkak"
+       "uz": "turmush örtoq (ayol va erkak ikkalsiga ham ishlatiladi)"
       },
       {
        "tr": "ev hanımı",
@@ -1518,7 +1494,7 @@
       },
       {
        "tr": "gezi",
-       "uz": "sayr,sayohat"
+       "uz": "sayr, sayohat"
       },
       {
        "tr": "gitar",
@@ -1530,7 +1506,7 @@
       },
       {
        "tr": "hafta içi",
-       "uz": "hafta ichi (dushanbajuma)"
+       "uz": "hafta ichi (dushanba-juma)"
       },
       {
        "tr": "hava",
@@ -1578,11 +1554,7 @@
       },
       {
        "tr": "kampus",
-       "uz": "lager"
-      },
-      {
-       "tr": "kampusu",
-       "uz": "Marmara universiteti"
+       "uz": "lager, talabalar shaharchasi"
       },
       {
        "tr": "kanepe",
@@ -1610,19 +1582,19 @@
       },
       {
        "tr": "maç",
-       "uz": "öyin (fudbol öyiniga nisabat"
-      },
-      {
-       "tr": "maç var",
-       "uz": "bugun öyin bor)"
+       "uz": "öyin (bugün maç var-bugun öyin bor)"
       },
       {
        "tr": "memur",
        "uz": "ofitser"
       },
       {
+       "tr": "mp3 çalar",
+       "uz": "pler"
+      },
+      {
        "tr": "müsait",
-       "uz": "bösh, (mavjud)"
+       "uz": "bösh (mavjud)"
       },
       {
        "tr": "müşteri",
@@ -1634,11 +1606,7 @@
       },
       {
        "tr": "normal",
-       "uz": "ortacha (normal)"
-      },
-      {
-       "tr": "opera",
-       "uz": "opera"
+       "uz": "ortacha"
       },
       {
        "tr": "öğlen",
@@ -1646,7 +1614,7 @@
       },
       {
        "tr": "öğrenci işleri",
-       "uz": "talaba ishlariş bilan"
+       "uz": "talaba ishlari bilan shuğillanadigan bölim"
       },
       {
        "tr": "pijama",
@@ -1694,11 +1662,7 @@
       },
       {
        "tr": "tur",
-       "uz": "sayohat (yarın Konya turu"
-      },
-      {
-       "tr": "başlıcak",
-       "uz": "ertaga Konya sayohat turi"
+       "uz": "sayohat (ertaga Konya sayohat turi boshlanadi)"
       },
       {
        "tr": "tür",
@@ -1710,7 +1674,7 @@
       },
       {
        "tr": "vapur",
-       "uz": "kema (yilovchi tashiydigan"
+       "uz": "kema (yo‘lovchi tashiydigan dengiz usti kemasi)"
       },
       {
        "tr": "yalan",
@@ -1722,7 +1686,7 @@
       },
       {
        "tr": "yemekhane",
-       "uz": "oshxona"
+       "uz": "oshxona, ovqatlanadigan joy"
       },
       {
        "tr": "yeni",
@@ -1774,7 +1738,7 @@
       },
       {
        "tr": "bayılmak",
-       "uz": "hushidan ketmoq (biror"
+       "uz": "hushidan ketmoq (haddan ortiq yaxshi ko‘rmoq)"
       },
       {
        "tr": "beslenmek",
@@ -1790,11 +1754,7 @@
       },
       {
        "tr": "biriktirmek",
-       "uz": "biriktirmoq"
-      },
-      {
-       "tr": "biriktirmer",
-       "uz": "pul"
+       "uz": "biriktirmoq, yiğmoq (para biriktirmek-pul yiğmoq)"
       },
       {
        "tr": "bitmek",
@@ -1870,7 +1830,7 @@
       },
       {
        "tr": "hoşlanmak",
-       "uz": "zavqlanmoq"
+       "uz": "zavqlanmoq, tasirlanmoq"
       },
       {
        "tr": "internete girmek",
@@ -1878,7 +1838,7 @@
       },
       {
        "tr": "izlemek",
-       "uz": "körmoq (dizi izlemek-serial"
+       "uz": "körmoq (dizi izlemek-serial körmoq)"
       },
       {
        "tr": "kahvaltı etmek",
@@ -1898,7 +1858,7 @@
       },
       {
        "tr": "kontrol etmek",
-       "uz": "tekshirmoq, kontrol"
+       "uz": "tekshirmoq, nazorat qilmoq"
       },
       {
        "tr": "konuşmak",
@@ -1918,11 +1878,7 @@
       },
       {
        "tr": "kullanmak",
-       "uz": "qöllanmoq"
-      },
-      {
-       "tr": "kullanmak",
-       "uz": "telefon"
+       "uz": "qöllanmoq, ishlatmoq (telefon kullanmak-telefon qöllanmoq)"
       },
       {
        "tr": "nefret etmek",
@@ -1950,11 +1906,7 @@
       },
       {
        "tr": "para çekmek",
-       "uz": "pul yechib olmoq"
-      },
-      {
-       "tr": "(karttan para çektim",
-       "uz": "kartdan pul"
+       "uz": "pul yechib olmoq (karttan para çektim-kartdan pul yechib oldim)"
       },
       {
        "tr": "pişirmek",
@@ -1985,24 +1937,28 @@
        "uz": "aytmoq, demoq"
       },
       {
-       "tr": "yapmak",
-       "uz": "sport"
+       "tr": "spor yapmak",
+       "uz": "sport bilan shuğillanmoq"
       },
       {
        "tr": "stres atmak",
-       "uz": "stress otmoq, stress"
+       "uz": "stress otmoq, stressni ketkazmoq"
       },
       {
        "tr": "tanımak",
-       "uz": "tanımoq"
+       "uz": "tanimoq"
       },
       {
        "tr": "tanışmak",
        "uz": "tanishmoq"
       },
       {
-       "tr": "etmek",
-       "uz": "takror"
+       "tr": "tekrar etmek",
+       "uz": "takror qilmoq, takrorlamoq"
+      },
+      {
+       "tr": "temizlemek",
+       "uz": "tozalamoq"
       },
       {
        "tr": "tırmanmak",
@@ -2062,7 +2018,7 @@
       },
       {
        "tr": "yüzmek",
-       "uz": "suzmo"
+       "uz": "suzmoq"
       }
      ]
     },
@@ -2099,15 +2055,15 @@
       },
       {
        "tr": "Anaokulu",
-       "uz": "bolalar bohchasi"
+       "uz": "bolalar bohchasi (maktabgacha ta’lim)"
       },
       {
        "tr": "Anneanne",
-       "uz": "buvi, momo (ona"
+       "uz": "buvi, momo (ona tarafdan buvi)"
       },
       {
        "tr": "Babaanne",
-       "uz": "buvi, momo )ota"
+       "uz": "buvi, momo (ota tarafdan buvi)"
       },
       {
        "tr": "Boyun",
@@ -2127,7 +2083,7 @@
       },
       {
        "tr": "Diş",
-       "uz": "tish (tashqi, tashqari manosida"
+       "uz": "tish (tashqi, tashqari manosida ham keladi)"
       },
       {
        "tr": "erkek kardeş",
@@ -2147,11 +2103,7 @@
       },
       {
        "tr": "karı",
-       "uz": "xotin (bir karıyı gördüm-bir"
-      },
-      {
-       "tr": "nerede",
-       "uz": "bening xotinim qayerda)"
+       "uz": "xotin"
       },
       {
        "tr": "kız kardeş",
@@ -2183,7 +2135,7 @@
       },
       {
        "tr": "ortaokul",
-       "uz": "örta-maxusu ta’lim"
+       "uz": "örta maxsus ta’lim"
       },
       {
        "tr": "satranç",
@@ -2191,7 +2143,7 @@
       },
       {
        "tr": "şirket",
-       "uz": "shirkar, kompaniya"
+       "uz": "shirkat, kompaniya"
       },
       {
        "tr": "teneffüs",
@@ -2215,7 +2167,11 @@
       },
       {
        "tr": "yaramaz",
-       "uz": "bezori, shayton, (ishga"
+       "uz": "bezori, shayton"
+      },
+      {
+       "tr": "zevk",
+       "uz": "zavqli, maroqli"
       },
       {
        "tr": "almak",
@@ -2228,10 +2184,6 @@
       {
        "tr": "çalmak",
        "uz": "chalmoq, jiringlamoq"
-      },
-      {
-       "tr": "telefonu çalındı",
-       "uz": "telefoni öğirlandi)"
       },
       {
        "tr": "hissetmek",
@@ -2396,7 +2348,7 @@
       },
       {
        "tr": "Geveze",
-       "uz": "köp gapiradigan, sergap"
+       "uz": "köp gapiradigan, sergap, laqqi"
       },
       {
        "tr": "Harf",
@@ -2476,7 +2428,7 @@
       },
       {
        "tr": "Mola",
-       "uz": "tanafuz (pyat minut perikur)"
+       "uz": "tanafus (besh minutlik tanaffus)"
       },
       {
        "tr": "Mor",
@@ -2524,7 +2476,7 @@
       },
       {
        "tr": "Randevu",
-       "uz": "uchrashuv (kelishilgan"
+       "uz": "uchrashuv (kelishilgan uchrashuv)"
       },
       {
        "tr": "Resmi",
@@ -2532,7 +2484,7 @@
       },
       {
        "tr": "Rezervasyon",
-       "uz": "band qilish, bron"
+       "uz": "band qilish, bron qilish"
       },
       {
        "tr": "Salı",
@@ -2560,7 +2512,7 @@
       },
       {
        "tr": "Sürpriz",
-       "uz": "surpiriz, kutilmagan…"
+       "uz": "surpriz, kutilmagan"
       },
       {
        "tr": "Şubat",
@@ -2672,7 +2624,7 @@
       },
       {
        "tr": "karşılamak",
-       "uz": "qarshilamoq, kutib"
+       "uz": "qarshilamoq, kutib olmoq"
       },
       {
        "tr": "katılmak",
@@ -2684,11 +2636,11 @@
       },
       {
        "tr": "kutlamak",
-       "uz": "nishonlamoq"
+       "uz": "nishonlamoq, tabriklamoq"
       },
       {
        "tr": "kutlu olmak",
-       "uz": "qutluğ bölmoq, baxtli"
+       "uz": "qutluğ bölmoq"
       },
       {
        "tr": "öpmek",
@@ -2700,7 +2652,7 @@
       },
       {
        "tr": "sürmek",
-       "uz": "haydamoq, mashina"
+       "uz": "haydamoq, mashina haydamoq"
       },
       {
        "tr": "toplamak",
@@ -2708,7 +2660,7 @@
       },
       {
        "tr": "vedalaşmak",
-       "uz": "xayrlashmoq"
+       "uz": "xayrlashmoq, vidolashmoq"
       },
       {
        "tr": "yakmak",
@@ -2756,6 +2708,10 @@
        "uz": "jasur"
       },
       {
+       "tr": "Şikâyet",
+       "uz": "arz, shikoyat"
+      },
+      {
        "tr": "Çene",
        "uz": "jağ, iyak"
       },
@@ -2793,7 +2749,7 @@
       },
       {
        "tr": "Güler yüzlü",
-       "uz": "kulib turadigan yuz"
+       "uz": "kulib turadigan yuz, ochiq chehrali"
       },
       {
        "tr": "Halsiz",
@@ -2805,7 +2761,7 @@
       },
       {
        "tr": "İskele",
-       "uz": "kema, vapurlarni töxtash"
+       "uz": "kema, vapurlarni töxtash joyi (bandargoh)"
       },
       {
        "tr": "Kalabalık",
@@ -2841,7 +2797,7 @@
       },
       {
        "tr": "Lezzetli",
-       "uz": "lazzzatli"
+       "uz": "lazzatli"
       },
       {
        "tr": "Mahalle",
@@ -2856,12 +2812,12 @@
        "uz": "marka, brent"
       },
       {
-       "tr": "çorbası",
-       "uz": "marjumak"
+       "tr": "Mercimek çorbası",
+       "uz": "marjumak shörvasi"
       },
       {
        "tr": "Meydan",
-       "uz": "maydon (meydan okumakduelga chaqirmoq)"
+       "uz": "maydon (meydan okumak-duelga chaqirmoq)"
       },
       {
        "tr": "Nehir",
@@ -2893,7 +2849,7 @@
       },
       {
        "tr": "Reçete",
-       "uz": "retsept (shifokor yozgan"
+       "uz": "retsept (shifokor yozgan retsept)"
       },
       {
        "tr": "Renk",
@@ -2914,10 +2870,6 @@
       {
        "tr": "Sözlük",
        "uz": "luğat"
-      },
-      {
-       "tr": "Şeker",
-       "uz": "shakar, qand"
       },
       {
        "tr": "Tahmin",
@@ -2961,7 +2913,7 @@
       },
       {
        "tr": "Ağrımak",
-       "uz": "oğrimoq"
+       "uz": "oğrimoq, kasal bölib qolmoq"
       },
       {
        "tr": "Anlaşmak",
@@ -2977,7 +2929,7 @@
       },
       {
        "tr": "Danışmak",
-       "uz": "maslahat qilmoq, fikr"
+       "uz": "maslahat qilmoq, fikr almashmoq"
       },
       {
        "tr": "Değiştirmek",
@@ -3001,7 +2953,7 @@
       },
       {
        "tr": "İlgilenmek",
-       "uz": "qiziqmoq"
+       "uz": "qiziqmoq, etibor qaratmoq"
       },
       {
        "tr": "Kalkmak",
@@ -3029,11 +2981,11 @@
       },
       {
        "tr": "Tansiyon ölçtürmek",
-       "uz": "qon bosimini"
+       "uz": "qon bosimini ölchatmoq"
       },
       {
        "tr": "Tartılmak",
-       "uz": "tortilmoq"
+       "uz": "tortilmoq, vaznini ölchamoq"
       },
       {
        "tr": "Tedavi olmak",
@@ -3045,7 +2997,11 @@
       },
       {
        "tr": "Ziyarete gelmek",
-       "uz": "ziyoratga kelmoq"
+       "uz": "ziyoratga kelmoq, yöqlamoq"
+      },
+      {
+       "tr": "Şeker",
+       "uz": "shakar, qand"
       }
      ]
     }
@@ -3103,7 +3059,7 @@
       },
       {
        "tr": "bez",
-       "uz": "latta (toz bezi-chang artadigan"
+       "uz": "latta (toz bezi-chang artadigan latta)"
       },
       {
        "tr": "bıyık",
@@ -3151,7 +3107,7 @@
       },
       {
        "tr": "dalgalı",
-       "uz": "tölqinli"
+       "uz": "tölqinli (dalgalı saç-tölqinsimon soch)"
       },
       {
        "tr": "damar",
@@ -3231,7 +3187,7 @@
       },
       {
        "tr": "güler yüzlü",
-       "uz": "ochiq chexrali, kular"
+       "uz": "ochiq chexrali, kular yuz"
       },
       {
        "tr": "güvenilir",
@@ -3239,7 +3195,7 @@
       },
       {
        "tr": "harika",
-       "uz": "super, öta darajada zörni"
+       "uz": "super, öta darajada zörni ifodalash uchun"
       },
       {
        "tr": "hayvan",
@@ -3279,7 +3235,7 @@
       },
       {
        "tr": "kapıcı",
-       "uz": "darvozabon"
+       "uz": "darvozabon (eshikda turadigan odam)"
       },
       {
        "tr": "karabiber",
@@ -3335,7 +3291,7 @@
       },
       {
        "tr": "konu",
-       "uz": "mazvu, tema, ünit"
+       "uz": "mavzu, ünit"
       },
       {
        "tr": "korkak",
@@ -3351,7 +3307,7 @@
       },
       {
        "tr": "kuşbaşı",
-       "uz": "bosh barmoq kattaligida"
+       "uz": "bosh barmoq kattaligida töğralgan narsa"
       },
       {
        "tr": "kutsal",
@@ -3487,7 +3443,7 @@
       },
       {
        "tr": "salyangoz",
-       "uz": "salyangoz"
+       "uz": "salyangoz, chiğanoq, shilliqurt"
       },
       {
        "tr": "saman",
@@ -3535,7 +3491,7 @@
       },
       {
        "tr": "sosyal paylaşım",
-       "uz": "ijtimoiy baham"
+       "uz": "ijtimoiy baham körish, ijtimoiy almashish"
       },
       {
        "tr": "su",
@@ -3655,7 +3611,7 @@
       },
       {
        "tr": "anlatmak",
-       "uz": "anglatmoq"
+       "uz": "anglatmoq, tushuntirmoq"
       },
       {
        "tr": "bağlamak",
@@ -3671,7 +3627,7 @@
       },
       {
        "tr": "bıkmak",
-       "uz": "biqmoq, biror kishi yoki"
+       "uz": "biqmoq, biror kishi yoki narsadan töyib ketmoq"
       },
       {
        "tr": "çağırmak",
@@ -3679,15 +3635,11 @@
       },
       {
        "tr": "çekmek",
-       "uz": "tushirmoq"
+       "uz": "tushirmoq (fotoğraf çekmek-rasm tushirmoq)"
       },
       {
        "tr": "çekmek",
-       "uz": "rasm tushirmoq, tortmoq"
-      },
-      {
-       "tr": "(elini çek",
-       "uz": "qölingni tort"
+       "uz": "tortmoq (elini çek-qölingni tort)"
       },
       {
        "tr": "çırpmak",
@@ -3731,27 +3683,27 @@
       },
       {
        "tr": "göndermek",
-       "uz": "yubormoq, jönatmoq."
+       "uz": "yubormoq, jönatmoq"
       },
       {
-       "tr": "Hapşırmak",
+       "tr": "hapşırmak",
        "uz": "aksi urmoq"
       },
       {
-       "tr": "Haşlamak",
+       "tr": "haşlamak",
        "uz": "qaynatmoq"
       },
       {
-       "tr": "Hatırlamak",
+       "tr": "hatırlamak",
        "uz": "xotirlamoq"
       },
       {
-       "tr": "Ismarlamak",
-       "uz": "(erimoq)erimoq"
+       "tr": "ismarlamak",
+       "uz": "erimoq"
       },
       {
        "tr": "ihmal etmek",
-       "uz": "e’tiborsizlik qilmoq"
+       "uz": "e’tiborsizlik qilmoq, e’tiborsiz qoldirmoq"
       },
       {
        "tr": "ilave etmek",
@@ -3759,7 +3711,7 @@
       },
       {
        "tr": "ilerlemek",
-       "uz": "oldınlamoq"
+       "uz": "oldinlamoq"
       },
       {
        "tr": "isyan etmek",
@@ -3767,7 +3719,7 @@
       },
       {
        "tr": "işaretlemek",
-       "uz": "ishoratlamoq"
+       "uz": "ishoratlamoq, belgilamoq"
       },
       {
        "tr": "kavga etmek",
@@ -3799,7 +3751,7 @@
       },
       {
        "tr": "özen göstermek",
-       "uz": "qayğurmoq, özini"
+       "uz": "qayğurmoq, özini extiyot qilmoq"
       },
       {
        "tr": "park etmek",
@@ -3819,7 +3771,7 @@
       },
       {
        "tr": "sıralamak",
-       "uz": "navbatga"
+       "uz": "navbatga qöymoq, saralamoq"
       },
       {
        "tr": "süslemek",
@@ -3843,7 +3795,7 @@
       },
       {
        "tr": "usanmak",
-       "uz": "charchamoq"
+       "uz": "charchamoq, mashaqqatli"
       },
       {
        "tr": "uzatmak",
@@ -3858,8 +3810,8 @@
        "uz": "uzoqlashtirmoq, itarmoq"
       },
       {
-       "tr": "etmek",
-       "uz": "tashvishlanmoq"
+       "tr": "merak etmek",
+       "uz": "tashvishlanmoq, xovotir olmoq, qiziqmoq"
       },
       {
        "tr": "numaralandırmak",
@@ -3883,7 +3835,7 @@
       },
       {
        "tr": "Çok yaşayın",
-       "uz": "köp yashang, soğ"
+       "uz": "köp yashang, soğ böling"
       },
       {
        "tr": "Elinize sağlık",
@@ -3891,7 +3843,7 @@
       },
       {
        "tr": "Hayırlı olsun",
-       "uz": "xayrlisi bölsin, qulli"
+       "uz": "xayrlisi bölsin, qulli bölsin"
       },
       {
        "tr": "Kolay gelsin",
@@ -3936,7 +3888,7 @@
       },
       {
        "tr": "Beslenme",
-       "uz": "oziqlanmoq"
+       "uz": "oziqlanmoq, ovqatlanmoq"
       },
       {
        "tr": "Beyaz",
@@ -4012,7 +3964,7 @@
       },
       {
        "tr": "fırsatçı",
-       "uz": "fursatchi, fursatdan"
+       "uz": "fursatchi, fursatdan foydalanib qoladiganlar"
       },
       {
        "tr": "gazetecilik",
@@ -4048,7 +4000,7 @@
       },
       {
        "tr": "idareci",
-       "uz": "administrator"
+       "uz": "administrator, boshqaruvchi"
       },
       {
        "tr": "ihtiyaç",
@@ -4156,7 +4108,7 @@
       },
       {
        "tr": "mağaza",
-       "uz": "butiksifat magazinlar"
+       "uz": "butik"
       },
       {
        "tr": "meşgul",
@@ -4184,7 +4136,7 @@
       },
       {
        "tr": "müfettiş",
-       "uz": "tekshiruvchi, taftish"
+       "uz": "tekshiruvchi, taftish qiluvchi"
       },
       {
        "tr": "müze",
@@ -4220,7 +4172,7 @@
       },
       {
        "tr": "reçete",
-       "uz": "shifokor yozib beradigan"
+       "uz": "shifokor yozib beradigan retsept"
       },
       {
        "tr": "romancı",
@@ -4232,7 +4184,7 @@
       },
       {
        "tr": "saf",
-       "uz": "pok, sof, (saf)"
+       "uz": "pok, sof"
       },
       {
        "tr": "sahil",
@@ -4276,7 +4228,7 @@
       },
       {
        "tr": "takma",
-       "uz": "laqab (keyin ataylab taqib"
+       "uz": "laqab (keyin ataylab taqib qöyilgan ism)"
       },
       {
        "tr": "tavan",
@@ -4308,7 +4260,7 @@
       },
       {
        "tr": "usta",
-       "uz": "usta (biror ish yoki kasbning"
+       "uz": "usta (biror ish yoki kasbning uzoq yillik tajribaga ega insoni)"
       },
       {
        "tr": "vasıta",
@@ -4320,11 +4272,7 @@
       },
       {
        "tr": "yolculuk",
-       "uz": "yölga otlanish (yolculuk"
-      },
-      {
-       "tr": "nereye",
-       "uz": "yöl bölsın)"
+       "uz": "yölga otlanish (yolculuk nereye-yöl bölsın)"
       },
       {
        "tr": "affetmek",
@@ -4348,7 +4296,7 @@
       },
       {
        "tr": "kazanmak",
-       "uz": "ğolib bölmoq"
+       "uz": "ğolib bölmoq, qozonmoq, foyda körmoq"
       },
       {
        "tr": "keşfetmek",
@@ -4356,7 +4304,7 @@
       },
       {
        "tr": "mezun olmak",
-       "uz": "bitirmoq"
+       "uz": "bitirmoq, universiterni tamomlamoq"
       },
       {
        "tr": "yayımlamak",
@@ -4477,7 +4425,7 @@
       },
       {
        "tr": "ferah",
-       "uz": "keng (içini ferah tut-iching"
+       "uz": "keng (içini ferah tut-iching keng qil)"
       },
       {
        "tr": "festival",
@@ -4541,11 +4489,11 @@
       },
       {
        "tr": "kampanya",
-       "uz": "kampaniya"
+       "uz": "kampaniya (aksiya ma’nosida ham keladi)"
       },
       {
        "tr": "kar",
-       "uz": "qor (foyda manosida ham"
+       "uz": "qor (foyda ma’nosida ham keladi)"
       },
       {
        "tr": "katedral",
@@ -4557,7 +4505,7 @@
       },
       {
        "tr": "kıyı",
-       "uz": "qirğoq (toğ, dengiz…)"
+       "uz": "qirğoq (toğ, dengiz)"
       },
       {
        "tr": "kıymet",
@@ -4593,7 +4541,7 @@
       },
       {
        "tr": "mısır",
-       "uz": "makkajöxori, (Mısır-Misr)"
+       "uz": "makkajöxori (Mısır-Misr)"
       },
       {
        "tr": "mimar",
@@ -4621,7 +4569,7 @@
       },
       {
        "tr": "ödeme",
-       "uz": "tölov (tölanishi kerak bölgan"
+       "uz": "tölov"
       },
       {
        "tr": "padişah",
@@ -4649,7 +4597,7 @@
       },
       {
        "tr": "sağanak",
-       "uz": "sharros quygan yomğir"
+       "uz": "sharros quygan yomğir, jala"
       },
       {
        "tr": "sahil",
@@ -4661,7 +4609,7 @@
       },
       {
        "tr": "satılık",
-       "uz": "sotiladigan"
+       "uz": "sotiladigan, sotuvga chiqarilgan"
       },
       {
        "tr": "saygı",
@@ -4701,11 +4649,11 @@
       },
       {
        "tr": "sörf",
-       "uz": "syorfing sport turi (suv ustida"
+       "uz": "syorfing sport turi (suv ustida taxtali akrobatik sport)"
       },
       {
        "tr": "stant",
-       "uz": "stent, tribuna (ot poygalarida"
+       "uz": "stent, tribuna (ot poygalarida tomoshabin tribunasi)"
       },
       {
        "tr": "şelale",
@@ -4713,7 +4661,7 @@
       },
       {
        "tr": "tapınak",
-       "uz": "ibodatxona"
+       "uz": "ibodatxona (siğinadigan joy)"
       },
       {
        "tr": "tarla",
@@ -4733,7 +4681,7 @@
       },
       {
        "tr": "tuş",
-       "uz": "klavyaturadagi bosiladigan har"
+       "uz": "klavyaturadagi bosiladigan knopka"
       },
       {
        "tr": "vaat",
@@ -4749,11 +4697,11 @@
       },
       {
        "tr": "vize",
-       "uz": "viza, (universitelerde ara sınavoraliq ma’nosida ham keladi)"
+       "uz": "viza (universitetlarda ara sınav, oraliq ma’nosida ham keladi)"
       },
       {
        "tr": "yağmurluk",
-       "uz": "yomğir ötqazmaygigan"
+       "uz": "yomğir ötqazmaydigan, yomğir vaqtida kiyiladigan kiyim"
       },
       {
        "tr": "yanardağ",
@@ -4761,15 +4709,15 @@
       },
       {
        "tr": "yoğunluk",
-       "uz": "zichlik (faoliyatda, ishda"
+       "uz": "zichlik (faoliyatda, ishda qöl qölga tegmaydigan vaqtdagi holat)"
       },
       {
        "tr": "yosun",
-       "uz": "tarz, (moh-daraxtlar yoki"
+       "uz": "tarz (moh-daraxtlar yoki yerlarda bo‘ladigan mayin yashillik o‘t)"
       },
       {
        "tr": "yöresel",
-       "uz": "mintaqaviy (Jizzahın yöresel"
+       "uz": "mintaqaviy"
       },
       {
        "tr": "yurt",
@@ -4809,7 +4757,7 @@
       },
       {
        "tr": "dalmak",
-       "uz": "hayollarga berilib ketmoq"
+       "uz": "hayollarga berilib ketmoq, orzularga shönğib ketmoq"
       },
       {
        "tr": "değiştirmek",
@@ -4817,7 +4765,7 @@
       },
       {
        "tr": "düzenlemek",
-       "uz": "tashkil"
+       "uz": "tashkil qilmoq, uyushtirmoq, tuzatmoq"
       },
       {
        "tr": "geçirmek",
@@ -4825,7 +4773,7 @@
       },
       {
        "tr": "geçmek",
-       "uz": "kechmoq"
+       "uz": "kechmoq, ötmoq"
       },
       {
        "tr": "gerçekleştirmek",
@@ -4837,7 +4785,7 @@
       },
       {
        "tr": "görüşmek",
-       "uz": "körishmoq, uchrashmoq"
+       "uz": "körishmoq, uchrashmoq, muhakama qilmoq"
       },
       {
        "tr": "güneşlenmek",
@@ -4860,8 +4808,8 @@
        "uz": "qaror qilmoq"
       },
       {
-       "tr": "oynamak",
-       "uz": "qorböron"
+       "tr": "kartopu oynamak",
+       "uz": "qorböron öynamoq"
       },
       {
        "tr": "katılmak",
@@ -4881,7 +4829,7 @@
       },
       {
        "tr": "takmak",
-       "uz": "toqmoq, (tinimsiz öylamoq."
+       "uz": "toqmoq, tinimsiz öylamoq"
       },
       {
        "tr": "tıraş olmak",
@@ -4889,7 +4837,7 @@
       },
       {
        "tr": "tükenmek",
-       "uz": "bitmoq"
+       "uz": "bitmoq, tugamoq"
       }
      ]
     },
@@ -4982,7 +4930,7 @@
       },
       {
        "tr": "Köçek",
-       "uz": "uzun yupkada kiyib beldan"
+       "uz": "uzun yupkada kiyib beldan pastini öynatib raqsga tushish (eski madaniyat turlaridan biri)"
       },
       {
        "tr": "Macera",
@@ -5010,7 +4958,7 @@
       },
       {
        "tr": "Ölümsüz",
-       "uz": "ölmaydigan,ölimsiz"
+       "uz": "ölmaydigan, ölimsiz"
       },
       {
        "tr": "Ölümsüzlük",
@@ -5022,11 +4970,11 @@
       },
       {
        "tr": "Pansiyon",
-       "uz": "pansiyon"
+       "uz": "pansiyon (uy ko‘rinishidagi mehmonxona)"
       },
       {
-       "tr": "görevlisi",
-       "uz": "elekt-energiya"
+       "tr": "santral görevlisi",
+       "uz": "elektr energiya markaz ishchisi"
       },
       {
        "tr": "sebze",
@@ -5034,7 +4982,7 @@
       },
       {
        "tr": "sedefkâr",
-       "uz": "öymakor (yoğoch, eshik"
+       "uz": "öymakor (yoğoch, eshik, taxt, peshtoq lavhalariga öyib ishlov beruvchi)"
       },
       {
        "tr": "sihirli",
@@ -5050,7 +4998,7 @@
       },
       {
        "tr": "tas",
-       "uz": "(odatda ichiga suvli ovqat,yoki"
+       "uz": "odatda ichiga suvli ovqat solib qöyiladigan idish, temirdan osh tovoq"
       },
       {
        "tr": "tembel",
@@ -5062,7 +5010,7 @@
       },
       {
        "tr": "tezgâhtar",
-       "uz": "öz sotuv rastasiga ega"
+       "uz": "öz sotuv rastasiga ega sotuvchi"
       },
       {
        "tr": "uslu",
@@ -5070,7 +5018,7 @@
       },
       {
        "tr": "vestiyer",
-       "uz": "uy, mehmonxons, idh yeri"
+       "uz": "uy, mehmonxona, idish yeri, restoratlarda shapka, usti kiyim ilib qöyiladigan shkaf"
       },
       {
        "tr": "veteriner",
@@ -5090,11 +5038,11 @@
       },
       {
        "tr": "alay etmek",
-       "uz": "hazillashmoq, ustidan"
+       "uz": "hazillashmoq, ustidan kulmoq, masqara qilmoq"
       },
       {
        "tr": "anırmak",
-       "uz": "hangramoq"
+       "uz": "hangramoq (eshak hangrashi)"
       },
       {
        "tr": "boğulmak",
@@ -5102,7 +5050,7 @@
       },
       {
        "tr": "bozulmak",
-       "uz": "buzilmoq, achimoq, hafa"
+       "uz": "buzilmoq, achimoq, hafa bölmoq"
       },
       {
        "tr": "fethetmek",
@@ -5110,7 +5058,7 @@
       },
       {
        "tr": "fışkırmak",
-       "uz": "fishqirmoq"
+       "uz": "fishqirmoq (gaz yoki suyuqlikning bosimda otilib chiqishi)"
       },
       {
        "tr": "incitmek",
@@ -5122,7 +5070,7 @@
       },
       {
        "tr": "şaşırmak",
-       "uz": "hayron qolmoq, özini"
+       "uz": "hayron qolmoq, özini yöqotmoq"
       },
       {
        "tr": "şımartmak",
@@ -5191,7 +5139,7 @@
       },
       {
        "tr": "cisim",
-       "uz": "jism, ob’ekat"
+       "uz": "jism, ob’ekt"
       },
       {
        "tr": "çığ",
@@ -5235,7 +5183,7 @@
       },
       {
        "tr": "dolu",
-       "uz": "töla, band (burası müsait mi?"
+       "uz": "töla, band"
       },
       {
        "tr": "dünya",
@@ -5251,11 +5199,11 @@
       },
       {
        "tr": "fay",
-       "uz": "releflarning siljishidan sodir"
+       "uz": "releflarning siljishidan sodir bölgan tuproq köchish holati"
       },
       {
        "tr": "fırın",
-       "uz": "pech (duxopka), qandolat yoki"
+       "uz": "pech (duxopka), qandolat yoki non mahsulotlari pishiladigan pech"
       },
       {
        "tr": "form",
@@ -5266,8 +5214,8 @@
        "uz": "kenglik"
       },
       {
-       "tr": "memuru",
-       "uz": "pullik"
+       "tr": "gişe memuru",
+       "uz": "pullik xizmatlar kassasi rahbari, inkassa"
       },
       {
        "tr": "gökkuşağı",
@@ -5295,7 +5243,7 @@
       },
       {
        "tr": "hokkabaz",
-       "uz": "akrabat, iluzyonist"
+       "uz": "akrobat, iluzyonist"
       },
       {
        "tr": "hortum",
@@ -5315,7 +5263,7 @@
       },
       {
        "tr": "iskele",
-       "uz": "yölovchi yoki yuk tashuvchi"
+       "uz": "yölovchi yoki yuk tashuvchi kemalar töxtash joyi, bandargoh"
       },
       {
        "tr": "karanlık",
@@ -5367,7 +5315,7 @@
       },
       {
        "tr": "manav",
-       "uz": "sabzavot"
+       "uz": "sabzavot, meva va yashilliklar sotiladigan joy, odam, market bölimi"
       },
       {
        "tr": "manzara",
@@ -5395,7 +5343,7 @@
       },
       {
        "tr": "özet",
-       "uz": "voqea, yozuv, kitob… qisqacha"
+       "uz": "voqea, yozuv, kitob qisqacha talqini"
       },
       {
        "tr": "polisiye",
@@ -5447,7 +5395,7 @@
       },
       {
        "tr": "toz fırtınası",
-       "uz": "chang tözoni, chang"
+       "uz": "chang böroni"
       },
       {
        "tr": "tropik yağmur",
@@ -5455,7 +5403,7 @@
       },
       {
        "tr": "tsunami",
-       "uz": "sunami"
+       "uz": "sunami, kuchli suv toshqini"
       },
       {
        "tr": "tür",
@@ -5475,7 +5423,7 @@
       },
       {
        "tr": "yatay",
-       "uz": "gorizantal"
+       "uz": "gorizontal"
       },
       {
        "tr": "yatılı okul",
@@ -5515,7 +5463,7 @@
       },
       {
        "tr": "çarpmak",
-       "uz": "urilmoq"
+       "uz": "urilmoq, turtilmoq, köpaytirmoq"
       },
       {
        "tr": "dağıtmak",
@@ -5523,7 +5471,7 @@
       },
       {
        "tr": "dizilmek",
-       "uz": "qatorga turish, tartib bilan"
+       "uz": "qatorga turish, tartib bilan safga tizilish"
       },
       {
        "tr": "donmak",
@@ -5531,7 +5479,7 @@
       },
       {
        "tr": "fırçalamak",
-       "uz": "chötkalamoq"
+       "uz": "chötkalamoq, chötka bilan yuvmoq"
       },
       {
        "tr": "horlamak",
@@ -5547,7 +5495,7 @@
       },
       {
        "tr": "karşılaşmak",
-       "uz": "qarshilashmoq, duch"
+       "uz": "qarshilashmoq, duch kelib qolmoq, uchrashmoq"
       },
       {
        "tr": "kaynamak",
@@ -5571,15 +5519,15 @@
       },
       {
        "tr": "söndürmek",
-       "uz": "öchiqmoq, söndirmoq"
+       "uz": "öchirmoq, söndirmoq"
       },
       {
        "tr": "sürtünmek",
-       "uz": "suykalmoq"
+       "uz": "suykalmoq, ishqalanmoq"
       },
       {
        "tr": "şaşırmak",
-       "uz": "hayron bölmoq, shokka"
+       "uz": "hayron bölmoq, shokka tushmoq"
       },
       {
        "tr": "tartmak",
@@ -5587,7 +5535,7 @@
       },
       {
        "tr": "taşımak",
-       "uz": "toshimoq, kötarib ketmoq"
+       "uz": "toshimoq, kötarib ketmoq, kötarib yurmoq"
       },
       {
        "tr": "taşmak",
@@ -5616,7 +5564,7 @@
       },
       {
        "tr": "Alkollü",
-       "uz": "alkagol qabul qilgan odam"
+       "uz": "alkagol qabul qilgan odam, spirtli"
       },
       {
        "tr": "Anlam",
@@ -5636,19 +5584,19 @@
       },
       {
        "tr": "Bakıcı",
-       "uz": "boquvchi, (bola yoki yoshi"
+       "uz": "boquvchi (bola yoki keksa odamga qaraydigan odam)"
       },
       {
        "tr": "Bedesten",
-       "uz": "ichida qurol, marvarid"
+       "uz": "ichida qurol, marvarid, mato sotiladigan yopiq bozor"
       },
       {
        "tr": "Briç",
-       "uz": "olimpiadaga kiritilgan karta"
+       "uz": "olimpiadaga kiritilgan karta o‘yini (pokker)"
       },
       {
        "tr": "Çamaşır",
-       "uz": "yuvilishga tashlangan yoki"
+       "uz": "yuvilishga tashlangan yoki yangi yuvilgan kir kiyimlar"
       },
       {
        "tr": "çatal (yiyecek)",
@@ -5672,7 +5620,7 @@
       },
       {
        "tr": "döviz",
-       "uz": "chet el valyutasi (chet el"
+       "uz": "chet el valyutasi"
       },
       {
        "tr": "düğün",
@@ -5692,7 +5640,7 @@
       },
       {
        "tr": "gözleme",
-       "uz": "kuzatuv"
+       "uz": "milliy ovqatlardan bir turi"
       },
       {
        "tr": "gürültü",
@@ -5704,15 +5652,11 @@
       },
       {
        "tr": "han",
-       "uz": "xon (Turkiy hukumdor va"
+       "uz": "xon (turkiy hukmdorlar nomi oxiriga qo‘shiladi)"
       },
       {
        "tr": "hat",
-       "uz": "xat, yönalish, chegara chizziq"
-      },
-      {
-       "tr": "(dış hatlar",
-       "uz": "davlat chegarasidan"
+       "uz": "xat, yo‘nalish, chegara chizig‘i"
       },
       {
        "tr": "hazır",
@@ -5736,7 +5680,7 @@
       },
       {
        "tr": "Karar",
-       "uz": "qaroq"
+       "uz": "qaror"
       },
       {
        "tr": "Katmer",
@@ -5748,7 +5692,7 @@
       },
       {
        "tr": "Kokoreç",
-       "uz": "sixga"
+       "uz": "sixga tizilgan ichak taomi"
       },
       {
        "tr": "Konu",
@@ -5772,7 +5716,7 @@
       },
       {
        "tr": "Martı",
-       "uz": "chağalay"
+       "uz": "chag‘alay"
       },
       {
        "tr": "Mutlaka",
@@ -5780,15 +5724,15 @@
       },
       {
        "tr": "Nakit",
-       "uz": "naqt pul"
+       "uz": "naqd pul"
       },
       {
        "tr": "Öncelik",
-       "uz": "barcha narsadan oldin"
+       "uz": "ustuvorlik"
       },
       {
        "tr": "Öneri",
-       "uz": "tafsiya"
+       "uz": "tavsiya"
       },
       {
        "tr": "Pide",
@@ -5812,7 +5756,7 @@
       },
       {
        "tr": "Sanatçı",
-       "uz": "san’tkor."
+       "uz": "san’atkor"
       },
       {
        "tr": "Sandal",
@@ -5824,11 +5768,11 @@
       },
       {
        "tr": "Sıkışık",
-       "uz": "tor"
+       "uz": "tor, qiyin vaziyat"
       },
       {
        "tr": "Sınır",
-       "uz": "asab, ğazab"
+       "uz": "asab, g‘azab"
       },
       {
        "tr": "Simit",
@@ -5848,15 +5792,15 @@
       },
       {
        "tr": "Şekerleme",
-       "uz": "shakarlamoq"
+       "uz": "shakarlamoq, qiyomlamoq"
       },
       {
        "tr": "Şiddet",
-       "uz": "zöravonlik"
+       "uz": "zo‘ravonlik"
       },
       {
        "tr": "Şirket",
-       "uz": "şirkat, kompaniya"
+       "uz": "shirkat, kompaniya"
       },
       {
        "tr": "Tavla",
@@ -5880,7 +5824,7 @@
       },
       {
        "tr": "Ud",
-       "uz": "ud cholği asbobi"
+       "uz": "ud cholg‘u asbobi"
       },
       {
        "tr": "Ünlü",
@@ -5896,11 +5840,11 @@
       },
       {
        "tr": "Vezne",
-       "uz": "ğazna"
+       "uz": "g‘azna"
       },
       {
        "tr": "Yalan",
-       "uz": "yolğon"
+       "uz": "yolg‘on"
       },
       {
        "tr": "Yaygın",
@@ -5908,7 +5852,7 @@
       },
       {
        "tr": "Yoğun",
-       "uz": "qöli qöliga tegmay ishlash"
+       "uz": "qo‘li qo‘liga tegmay ishlash, ishi boshidan oshgan"
       },
       {
        "tr": "ara vermek",
@@ -5919,8 +5863,8 @@
        "uz": "botmoq, chökmoq"
       },
       {
-       "tr": "vermek",
-       "uz": "xabar"
+       "tr": "bilgi vermek",
+       "uz": "xabar bermoq, ma’lumot bermoq"
       },
       {
        "tr": "bitirmek",
@@ -5932,7 +5876,7 @@
       },
       {
        "tr": "burs vermek",
-       "uz": "stipendiya bermoq"
+       "uz": "stipendiya bermoq, grant bermoq"
       },
       {
        "tr": "çekinmek",
@@ -5948,11 +5892,11 @@
       },
       {
        "tr": "denemek",
-       "uz": "harakat qilib körmoq"
+       "uz": "harakat qilib ko‘rmoq"
       },
       {
        "tr": "destek vermek",
-       "uz": "qöllab quvvatlash"
+       "uz": "qo‘llab quvvatlamoq"
       },
       {
        "tr": "devam et",
@@ -5960,19 +5904,19 @@
       },
       {
        "tr": "dikiş dikmek",
-       "uz": "tikuvchilik qilish"
+       "uz": "tikuvchilik qilmoq"
       },
       {
-       "tr": "etmek",
-       "uz": "e’tiborli"
+       "tr": "dikkat etmek",
+       "uz": "e’tiborli, diqqatli bo‘lmoq"
       },
       {
        "tr": "doymak",
-       "uz": "töymoq"
+       "uz": "to‘ymoq"
       },
       {
        "tr": "farkında olmak",
-       "uz": "xabardor bölmoq"
+       "uz": "xabardor bo‘lmoq"
       },
       {
        "tr": "gecikmek",
@@ -5988,7 +5932,7 @@
       },
       {
        "tr": "göz kırpmak",
-       "uz": "közni ochib yopish"
+       "uz": "ko‘zni ochib yumish, miltiramoq"
       },
       {
        "tr": "güvenmek",
@@ -5996,7 +5940,7 @@
       },
       {
        "tr": "hoş görmek",
-       "uz": "hush körmoq"
+       "uz": "hush ko‘rmoq"
       },
       {
        "tr": "hüküm vermek",
@@ -6008,7 +5952,7 @@
       },
       {
        "tr": "ilgilenmek",
-       "uz": "qiziqmoq"
+       "uz": "qiziqmoq, qayg‘urmoq, e’tibor qaratmoq"
       },
       {
        "tr": "inanç",
@@ -6016,11 +5960,11 @@
       },
       {
        "tr": "izlemek",
-       "uz": "körmoq"
+       "uz": "ko‘rmoq"
       },
       {
        "tr": "kaybolmak",
-       "uz": "yöqolmoq"
+       "uz": "yo‘qolmoq"
       },
       {
        "tr": "kaymak",
@@ -6032,7 +5976,7 @@
       },
       {
        "tr": "közlemek",
-       "uz": "chöğda pishirmoq"
+       "uz": "cho‘g‘da pishirmoq"
       },
       {
        "tr": "kredi almak",
@@ -6044,27 +5988,27 @@
       },
       {
        "tr": "mola vermek",
-       "uz": "bir necha daiqalik"
+       "uz": "bir necha daqiqalik tanaffus qilish"
       },
       {
        "tr": "neden olmak",
-       "uz": "sababchi bölmoq"
+       "uz": "sababchi bo‘lmoq"
       },
       {
        "tr": "para bozdurmak",
-       "uz": "pul ayrboshlash"
+       "uz": "pul ayirboshlash"
       },
       {
-       "tr": "çıkarmak",
-       "uz": "muammo"
+       "tr": "problem çıkarmak",
+       "uz": "muammo yaratmoq, chiqarmoq"
       },
       {
        "tr": "sığmak",
-       "uz": "siğmoq"
+       "uz": "sig‘moq"
       },
       {
        "tr": "sıkıntı çekmek",
-       "uz": "qayğuda tortmoq"
+       "uz": "qayg‘u tortmoq, muammoda bo‘lmoq"
       },
       {
        "tr": "soluklanmak",
@@ -6075,24 +6019,24 @@
        "uz": "shishirmoq"
       },
       {
-       "tr": "etmek",
-       "uz": "kuzatmoq"
+       "tr": "takip etmek",
+       "uz": "kuzatmoq, taqib qilmoq, amal qilmoq"
       },
       {
        "tr": "uzatmak",
-       "uz": "uzaytirmoq, chözmoq"
+       "uz": "uzaytirmoq, cho‘zmoq"
       },
       {
        "tr": "ütülemek",
-       "uz": "dazmoq qilish"
+       "uz": "dazmollamoq"
       },
       {
        "tr": "vedalaşmak",
-       "uz": "xarylashmoq"
+       "uz": "xayrlashmoq, vidolashmoq"
       },
       {
        "tr": "yatıştırmak",
-       "uz": "tinchlantirmoq, bosti"
+       "uz": "tinchlantirmoq, bosti qilmoq"
       },
       {
        "tr": "yenmek",
@@ -6100,11 +6044,11 @@
       },
       {
        "tr": "yetişmek",
-       "uz": "yetib"
+       "uz": "yetib kelmoq, yetib bormoq, ulgurmoq"
       },
       {
        "tr": "zannetmek",
-       "uz": "tahmin qilmoq, …deb"
+       "uz": "tahmin qilmoq, …deb hisoblamoq"
       }
      ]
     }

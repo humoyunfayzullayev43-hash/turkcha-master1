@@ -1,9 +1,11 @@
-UMUMIY LUG'AT QO'SHISH (ADMIN UCHUN)
+ADMIN UCHUN
 
-1. Ilovada yangi lug'atlarni yarating va o'rganing (admin hisobi = sizning telefoningiz/kompyuteringiz).
-2. Zaxira bo'limidan "Eksport (JSON)" ni bosing. Fayl yuklanadi.
-3. Yuklangan faylni shared.json deb nomlang.
-4. GitHub repozitoriyda shared.json ni yangilang (eski faylning ustiga yuklang, Commit).
-5. Foydalanuvchilar ilovani oxirgi marta ochganda "Umumiy lug'atlar" bo'limida yangi lug'atlarni ko'radi.
+Lug'atlarni PDF faylda yuboring. Har bir unit sarlavhasi darajasi bilan yozilgan bo'lsin, masalan:
+A2 Unit 3
+Keyin so'zlar turkcha va o'zbekcha juftligida bo'lsin.
 
-Eslatma: foydalanuvchi lug'atni "Qo'shish" orqali olgandan keyin, keyingi o'zgarishlar unga avtomatik tushmaydi. Yangi nusxa olish uchun u o'zi qo'shishi kerak.
+Men PDF dan shared.json ni tayyorlab beraman. Fayl GitHub'da eski fayl ustiga yuklanadi.
+Foydalanuvchi lug'atni ochib, uni necha qismga bo'lib yodlashni o'zi belgilaydi.
+
+Eslatma: qayta bo'lingan unit eski qismlarini o'chiradi va ularning natijasi yo'qoladi.
+Shared.json ochiq fayl, unga shaxsiy ma'lumot yozilmasin.

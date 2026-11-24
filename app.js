@@ -47,31 +47,82 @@ async function setSound(v) { soundOn = v; updSound(); await DB.setMeta({ id: 'so
 const sb = $('#sound');
 if (sb) sb.onclick = async () => { await setSound(!soundOn); toast(soundOn ? 'Avto ovoz yoqildi' : 'Avto ovoz o‘chirildi'); };
 
-async function loadShared(decks) {
+let sharedCache = null;
+async function getShared() {
+  if (sharedCache) return sharedCache;
+  const r = await fetch('shared.json', { cache: 'no-store' });
+  if (!r.ok) throw new Error('HTTP ' + r.status);
+  const d = await r.json();
+  sharedCache = (d.levels || []).map(l => ({
+    name: String(l.name),
+    units: (l.units || []).map(u => ({
+      name: String(u.name),
+      words: (u.words || []).map(w => ({ tr: String(w.tr).trim(), uz: String(w.uz).trim() })).filter(w => w.tr && w.uz)
+    })).filter(u => u.words.length)
+  })).filter(l => l.units.length);
+  window._levels = sharedCache;
+  return sharedCache;
+}
+
+async function loadShared() {
   const box = document.createElement('section');
   box.className = 'shared panel';
-  box.innerHTML = '<h2>Umumiy lug‘atlar</h2><p class="muted">Yuklanmoqda...</p>';
+  box.innerHTML = '<h2>Darajalar</h2><p class="muted">Yuklanmoqda...</p>';
   app.appendChild(box);
-  let data;
-  try {
-    const r = await fetch('shared.json', { cache: 'no-store' });
-    if (!r.ok) throw new Error(r.status);
-    data = await r.json();
-  } catch {
-    box.innerHTML = '<h2>Umumiy lug‘atlar</h2><p class="muted">Hozircha mavjud emas yoki internet yo‘q.</p>';
-    return;
-  }
-  const list = (data.decks || []).filter(d => d.words && d.words.length);
-  if (!list.length) { box.remove(); return; }
-  window._shared = list;
-  box.innerHTML = `<h2>Umumiy lug‘atlar</h2>
-    <p class="muted">Admin tayyorlagan lug‘atlar. “Qo‘shish” bosilsa, nusxa o‘z ro‘yxatingizga tushadi va o‘rganish natijalaringiz faqat sizda saqlanadi.</p>
-    <div class="grid">${list.map(d => {
-      const key = String(d.key || d.id || d.name);
-      const have = decks.some(x => x.sharedKey === key);
-      return `<article class="deck"><h3>${esc(d.name)}</h3><p>So‘zlar: <b>${d.words.length}</b></p>
-        <div class="row">${have ? '<span class="muted">✓ Qo‘shilgan</span>' : `<button data-act="add-shared" data-key="${esc(key)}">Qo‘shish</button>`}</div></article>`;
+  let levels;
+  try { levels = await getShared(); }
+  catch { box.innerHTML = '<h2>Darajalar</h2><p class="muted">Hozircha mavjud emas yoki internet yo‘q.</p>'; return; }
+  if (!levels.length) { box.remove(); return; }
+  box.innerHTML = `<h2>Darajalar</h2>
+    <p class="muted">Darajani tanlang, unitni oching va uni necha qismga bo‘lib yodlashni o‘zingiz belgilang.</p>
+    <div class="grid">${levels.map(l => {
+      const n = l.units.reduce((s, u) => s + u.words.length, 0);
+      return `<a class="deck level" href="#/level/${encodeURIComponent(l.name)}"><h3>${esc(l.name)}</h3>
+        <p>Unitlar: <b>${l.units.length}</b> · So‘zlar: <b>${n}</b></p><span class="btn">Ochish →</span></a>`;
     }).join('')}</div>`;
+}
+
+async function renderLevel(name) {
+  let levels;
+  try { levels = await getShared(); }
+  catch { return app.innerHTML = '<section class="panel"><p>Internet kerak.</p><a class="btn ghost" href="#/">Orqaga</a></section>'; }
+  const L = levels.find(l => l.name === name);
+  if (!L) return location.hash = '#/';
+  const decks = await DB.decks();
+  app.innerHTML = `<section class="panel"><h2>${esc(name)} — unitlar</h2>
+    <div class="units">${L.units.map((u, i) => {
+      const key = `${name}|${u.name}`;
+      const mine = decks.filter(d => d.sharedKey && d.sharedKey.startsWith(key + '|'));
+      const ok = mine.reduce((s, d) => s + d.words.filter(w => w.ok).length, 0);
+      return `<article class="deck unit"><h3>${esc(u.name)}</h3>
+        <p>So‘zlar: <b>${u.words.length}</b>${mine.length ? ` · Qismlar: <b>${mine.length}</b> · O‘zlashtirilgan: <b>${ok}</b>` : ''}</p>
+        <div class="row"><button data-act="split-open" data-level="${esc(name)}" data-unit="${i}">Bo‘lib yodlash</button></div></article>`;
+    }).join('')}</div>
+    <div class="row"><a class="btn ghost" href="#/">Orqaga</a></div></section>`;
+}
+
+function splitSizes(n, k) {
+  const base = Math.floor(n / k), rem = n % k;
+  return Array.from({ length: k }, (_, i) => base + (i < rem ? 1 : 0));
+}
+
+function openSplit(levelName, unitIdx) {
+  const U = window._levels.find(l => l.name === levelName).units[unitIdx];
+  const n = U.words.length;
+  const wrap = document.createElement('div');
+  wrap.className = 'modal';
+  wrap.innerHTML = `<div class="modalbox"><h2>${esc(levelName)} · ${esc(U.name)}</h2>
+    <p class="muted">Jami so‘zlar: <b>${n}</b></p>
+    <label>Necha qismga bo‘lamiz?<input id="parts" type="number" min="1" max="${n}" value="1"></label>
+    <div id="sprev" class="muted small"></div>
+    <div class="row"><button data-act="split-ok">Tasdiqlash</button><button class="ghost" data-act="split-cancel">Bekor qilish</button></div></div>`;
+  document.body.appendChild(wrap);
+  const upd = () => {
+    const k = Math.max(1, Math.min(n, parseInt($('#parts').value) || 1));
+    $('#sprev').textContent = `Natija: ${splitSizes(n, k).join(', ')} so‘z (${k} qism)`;
+  };
+  $('#parts').oninput = upd; upd();
+  window._split = { levelName, unitIdx, close: () => wrap.remove() };
 }
 
 // ---------- Parsing ----------
@@ -115,6 +166,7 @@ async function route() {
   if (page === 'new') return renderNew();
   if (page === 'study') return renderStudy(id);
   if (page === 'edit') return renderEdit(id);
+  if (page === 'level') return renderLevel(decodeURIComponent(id));
   if (page === 'stats') return renderStats();
   if (page === 'backup') return renderBackup();
   return renderHome();
@@ -406,13 +458,24 @@ app.addEventListener('click', async e => {
       await DB.remove(el.dataset.id); toast('O‘chirildi'); return route();
     }
     if (a === 'import') return importNew();
-    if (a === 'add-shared') {
-      const d = (window._shared || []).find(x => String(x.key || x.id || x.name) === el.dataset.key);
-      if (!d) return toast('Lug‘at topilmadi');
-      const words = d.words.map(w => ({ id: uid(), tr: String(w.tr).trim(), uz: String(w.uz).trim(), right: 0, wrong: 0, ok: false, last: 0 }))
-        .filter(w => w.tr && w.uz);
-      await DB.save({ id: uid(), name: d.name, sharedKey: el.dataset.key, words, session: null, created: Date.now() });
-      toast(`“${d.name}” qo‘shildi`); return route();
+    if (a === 'split-open') return openSplit(el.dataset.level, +el.dataset.unit);
+    if (a === 'split-cancel') return window._split?.close();
+    if (a === 'split-ok') {
+      const { levelName, unitIdx, close } = window._split;
+      const U = window._levels.find(l => l.name === levelName).units[unitIdx];
+      const n = U.words.length;
+      const k = Math.max(1, Math.min(n, parseInt($('#parts').value) || 1));
+      const key = `${levelName}|${U.name}`;
+      const decks = await DB.decks();
+      const old = decks.filter(d => d.sharedKey && d.sharedKey.startsWith(key + '|'));
+      if (old.length && !confirm(`Bu unit oldin ${old.length} qismga bo‘lingan. Qayta bo‘linsa, eski qismlar va ularning natijasi o‘chadi. Davom etilsinmi?`)) return;
+      for (const d of old) await DB.remove(d.id);
+      const sizes = splitSizes(n, k); let pos = 0;
+      for (let i = 0; i < k; i++) {
+        const chunk = U.words.slice(pos, pos + sizes[i]); pos += sizes[i];
+        await DB.save({ id: uid(), name: `${levelName} · ${U.name} · ${i + 1}/${k}`, sharedKey: `${key}|${i + 1}/${k}`, words: chunk.map(toWord), session: null, created: Date.now() });
+      }
+      close(); toast(`${k} qism yaratildi`); return route();
     }
     if (a === 'copy') { const d = await DB.deck(el.dataset.id); await DB.save({ ...d, id: uid(), name: d.name + ' (nusxa)', words: d.words.map(w => ({ ...w, id: uid() })), session: null }); toast('Nusxa yaratildi'); return route(); }
     if (a === 'merge-go') {

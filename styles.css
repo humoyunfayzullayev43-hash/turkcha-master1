@@ -69,3 +69,10 @@ tr.err td{color:var(--bad)}tr.warn td{color:#d97706}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 .hbtns{display:flex;gap:8px}
 .hbtns button{padding:8px 12px}
+
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:20;padding:16px}
+.modalbox{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:22px;max-width:420px;width:100%;box-shadow:var(--shadow)}
+.units{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.unit h3{margin-top:0}
+.level{text-decoration:none;color:var(--text);display:block}
+.level .btn{margin-top:10px}
