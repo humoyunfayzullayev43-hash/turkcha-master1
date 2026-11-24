@@ -1,0 +1,14 @@
+{
+  "decks": [
+    {
+      "key": "namuna-1",
+      "name": "Namuna lug‘at",
+      "words": [
+        { "tr": "Öğrenmek", "uz": "O‘rganmoq" },
+        { "tr": "Yazmak", "uz": "Yozmoq" },
+        { "tr": "Okumak", "uz": "O‘qimoq" },
+        { "tr": "Ay", "uz": "Oy" }
+      ]
+    }
+  ]
+}

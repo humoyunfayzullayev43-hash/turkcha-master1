@@ -44,7 +44,35 @@ function updSound() {
   });
 }
 async function setSound(v) { soundOn = v; updSound(); await DB.setMeta({ id: 'sound', v }); }
-$('#sound').onclick = async () => { await setSound(!soundOn); toast(soundOn ? 'Avto ovoz yoqildi' : 'Avto ovoz o‘chirildi'); };
+const sb = $('#sound');
+if (sb) sb.onclick = async () => { await setSound(!soundOn); toast(soundOn ? 'Avto ovoz yoqildi' : 'Avto ovoz o‘chirildi'); };
+
+async function loadShared(decks) {
+  const box = document.createElement('section');
+  box.className = 'shared panel';
+  box.innerHTML = '<h2>Umumiy lug‘atlar</h2><p class="muted">Yuklanmoqda...</p>';
+  app.appendChild(box);
+  let data;
+  try {
+    const r = await fetch('shared.json', { cache: 'no-store' });
+    if (!r.ok) throw new Error(r.status);
+    data = await r.json();
+  } catch {
+    box.innerHTML = '<h2>Umumiy lug‘atlar</h2><p class="muted">Hozircha mavjud emas yoki internet yo‘q.</p>';
+    return;
+  }
+  const list = (data.decks || []).filter(d => d.words && d.words.length);
+  if (!list.length) { box.remove(); return; }
+  window._shared = list;
+  box.innerHTML = `<h2>Umumiy lug‘atlar</h2>
+    <p class="muted">Admin tayyorlagan lug‘atlar. “Qo‘shish” bosilsa, nusxa o‘z ro‘yxatingizga tushadi va o‘rganish natijalaringiz faqat sizda saqlanadi.</p>
+    <div class="grid">${list.map(d => {
+      const key = String(d.key || d.id || d.name);
+      const have = decks.some(x => x.sharedKey === key);
+      return `<article class="deck"><h3>${esc(d.name)}</h3><p>So‘zlar: <b>${d.words.length}</b></p>
+        <div class="row">${have ? '<span class="muted">✓ Qo‘shilgan</span>' : `<button data-act="add-shared" data-key="${esc(key)}">Qo‘shish</button>`}</div></article>`;
+    }).join('')}</div>`;
+}
 
 // ---------- Parsing ----------
 const SEP = [/\s+[—–-]\s+/, /\s*:\s*/, /\s*;\s*/, /\s*\|\s*/, /\t/, /\s*,\s*/];
@@ -119,6 +147,7 @@ async function renderHome() {
       <button class="ghost" id="mergeBtn" data-act="merge-go" hidden>Tanlanganlarni birlashtirish</button>
       <a class="btn ghost" href="#/stats">Statistika</a><a class="btn ghost" href="#/backup">Zaxira</a></div>
     <div class="grid">${decks.map(deckCard).join('') || '<div class="empty">Hali lug‘at yo‘q. “+ Yangi lug‘at” tugmasi bilan boshlang.</div>'}</div>`;
+  loadShared(decks);
   $('#q').oninput = e => { const v = e.target.value.toLowerCase(); document.querySelectorAll('.deck').forEach(c => c.hidden = !c.dataset.name.includes(v)); };
   document.querySelectorAll('.pk').forEach(c => c.onchange = () => { $('#mergeBtn').hidden = document.querySelectorAll('.pk:checked').length < 2; });
 }
@@ -377,6 +406,14 @@ app.addEventListener('click', async e => {
       await DB.remove(el.dataset.id); toast('O‘chirildi'); return route();
     }
     if (a === 'import') return importNew();
+    if (a === 'add-shared') {
+      const d = (window._shared || []).find(x => String(x.key || x.id || x.name) === el.dataset.key);
+      if (!d) return toast('Lug‘at topilmadi');
+      const words = d.words.map(w => ({ id: uid(), tr: String(w.tr).trim(), uz: String(w.uz).trim(), right: 0, wrong: 0, ok: false, last: 0 }))
+        .filter(w => w.tr && w.uz);
+      await DB.save({ id: uid(), name: d.name, sharedKey: el.dataset.key, words, session: null, created: Date.now() });
+      toast(`“${d.name}” qo‘shildi`); return route();
+    }
     if (a === 'copy') { const d = await DB.deck(el.dataset.id); await DB.save({ ...d, id: uid(), name: d.name + ' (nusxa)', words: d.words.map(w => ({ ...w, id: uid() })), session: null }); toast('Nusxa yaratildi'); return route(); }
     if (a === 'merge-go') {
       const ids = [...document.querySelectorAll('.pk:checked')].map(c => c.value);
